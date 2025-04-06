@@ -3,11 +3,13 @@
 }
 
 body {
-    width: 75%;
-    padding: 24px 100px 100px 100px;
     font-family: 'Instrument Sans', Helvetica, sans-serif;
-    font-weight: 100;
-    line-height: 166%;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.6;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hgroup {
@@ -40,13 +42,15 @@ ul {
 }
 
 img {
-    width: 400px;
-}
+    max-width: 100%;
+    height: auto;
+    display: block;}
 
 figcaption a {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-style: italic;
+    max-width: 100%;
 }
 
 a:hover {
@@ -58,7 +62,6 @@ a:hover {
 }
 
 figcaption {
-    width: 50%;
     color: gray;
 }
 
@@ -72,18 +75,19 @@ mark {
 }
 
 .big {
-    font-size: 24px;
+    font-size: 1.2rem;   
     text-indent: 0px;
-    line-height: 166%;
+    line-height: 1.6rem;
     font-weight: 100;
 }
 
 .framed {
     background-color: #e6f2f2;
     border-radius: 16px;
-    padding: 24px 12px 32px 24px;
     text-indent: 0px;
     color: #333;
+    padding: 1rem 2rem 2rem 2rem;
+
 
 }
 
@@ -98,20 +102,22 @@ mark {
     width:fit-content;
 }
 
+/* Tags layout */
 .word-tag {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-  }
-  
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
   .tag {
     background-color: #e6f2f2;
     color: #333;
-    padding: 6px 12px;
+    padding: 0.4rem 0.8rem;
     border-radius: 20px;
     white-space: nowrap;
     transition: background-color 0.2s;
-    font-size: 20px;
+    font-size: 1rem;
   }
 
   .tag:hover {
