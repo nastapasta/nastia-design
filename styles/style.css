@@ -52,6 +52,10 @@ figcaption a {
     max-width: 100%;
 }
 
+a {
+    transition: background-color 0.2s;
+}
+
 a:hover {
     color: black;
     background-color: #e6f2f2;
