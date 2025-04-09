@@ -1,0 +1,32 @@
+---
+layout: layout.html
+---
+
+<!-- Про письмо -->
+
+<ul class="breadcrumb">
+  <li><a href="/index/">Home</a></li>
+  <li>The Garden 🌿</li>
+</ul> 
+
+<h2>Notes</h2>
+    <p>Unopinionated and raw searches around a topic. Feel free to reach out and ask me to finish them</p>
+        
+    <div class="notes-grid">
+          {% for note in collections.note %}
+            <hgroup class="note-card">
+              <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
+              <small>{{ note.date | date: "%B %d, %Y" }}</small>
+            </hgroup>
+          {% endfor %}
+    </div>
+        
+<h2>Essays</h2>
+    <p>Opinionated thoughts around a topic interesting for me.</p>
+          {% for essay in collections.essay %}
+          <hgroup class="essay-card">
+          <h2><a href="{{ essay.url }}">{{ essay.data.title }}</a></h2>
+          <p>{{ essay.data.excerpt }}</p>
+          <small>Published on {{ essay.date | date: "%B %d, %Y" }}</small>
+          </hgroup>
+          {% endfor %}
