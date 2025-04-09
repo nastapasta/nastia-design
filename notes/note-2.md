@@ -1,7 +1,7 @@
 ---
 title: 🌿 About beauty
 tags: note
-date: 2024-04-08
+date: 2025-03-05
 excerpt: Here's something important about this post
 layout: note-layout.html
 ---

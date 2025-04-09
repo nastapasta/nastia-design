@@ -1,7 +1,7 @@
 ---
 title: 🌱 Reading Habits
 tags: note
-date: 2024-04-09
+date: 2025-04-09
 excerpt: Here's something important about this post
 layout: note-layout.html
 ---

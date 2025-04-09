@@ -1,9 +1,9 @@
 ---
 title: 🌿 Unwiring my brain
-tags: essay
-date: 2024-04-09
+tags: note
+date: 2025-04-09
 excerpt: Here's something important about this essay
-layout: layout.html
+layout: note-layout.html
 ---
 Вчера начала читать книжку The Shallows о том, как современные медиа и интернет изменили наше мышление. Книга 2011 года, и стало все только хуже и изощреннее.
 
