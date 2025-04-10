@@ -14,21 +14,23 @@ layout: layout.html
         
     <div class="notes-grid">
           {% for note in collections.note %}
-            <hgroup class="note-card">
+            <div class="note-card">
               <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
               <small>{{ note.date | date: "%B %d, %Y" }}</small>
-            </hgroup>
+            </div>
           {% endfor %}
     </div>
         
 <h2>Essays</h2>
     <p>Opinionated thoughts around a topic interesting for me.</p>
+    <div class="essays-grid">
           {% for essay in collections.essay %}
-          <hgroup class="essay-card">
+          <div class="essay-card">
           <h2><a href="{{ essay.url }}">{{ essay.data.title }}</a></h2>
           <p>{{ essay.data.excerpt }}</p>
           <small>Published on {{ essay.date | date: "%B %d, %Y" }}</small>
-          </hgroup>
+          </div>
           {% endfor %}
+    </div>
 
 <p class="big framed">Want to share your thoughts? Feel free to <a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">say Hi 👋</a> to me.</p>

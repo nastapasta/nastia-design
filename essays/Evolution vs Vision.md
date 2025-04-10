@@ -3,7 +3,7 @@ title: 🌱 Metric-driven evolution vs. aesthetical intention
 tags: essay
 date: 2024-04-09
 excerpt: Exploration on how metrics culture iis affecting the discource community of designers
-layout: layout.html
+layout: note-layout.html
 ---
 *Introduction. Beauty vs Metrics - Historical Context: Designer and artist. Evolving of design culture. - Shift from CS to designers in interface design. - Bright examples. - Impact: Consequences for designers, users, and design culture. - Future implications: The potential "two-tier" design ecosystem*
 

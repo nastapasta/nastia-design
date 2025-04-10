@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-/* General */
+/* Text styles */
 
 body {
     font-family: 'Instrument Sans', Helvetica, sans-serif;
-    line-height: 2rem;
+    line-height: 1.6;
     max-width: 960px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -14,7 +14,7 @@ body {
 }
 
 hgroup {
-    margin: 20px 0px 40px 0px;
+    margin: 1rem 0rem 2.5rem 0rem;
 }
 
 h1 {
@@ -23,18 +23,23 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 28px;
+    font-weight: 200;
+    font-size: 1.8rem;
 
 }
 
 h3 {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 p {
     font-size: 20px;
+}
+
+.large-p {
+    font-size: 24px;
+    line-height: 1.2;
 }
 
 ul {
@@ -61,17 +66,13 @@ a {
     transition: background-color 0.2s;
     font-weight: 300;
     text-decoration: none;
-    color: rgb(34, 34, 119);
+    color: rgb(47, 47, 172);
   }
   
   a:hover {
     color: black;
     background-color: #e6f2f2;
   }  
-
-.promo-paragraph {
-    background-color: yellow;
-}
 
 figcaption {
     color: gray;
@@ -86,9 +87,10 @@ mark {
     background-color:rgb(255, 248, 191);
 }
 
+/* If you want to make parts of text stand out or add a note */
+
 .big {
     font-size: 1.2rem;   
-    text-indent: 0px;
     line-height: 1.6rem;
     font-weight: 100;
 }
@@ -96,9 +98,28 @@ mark {
 .framed {
     background-color: #f5f5f5;
     border-radius: 16px;
-    text-indent: 0px;
     color: #1c1c1c;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.post-note{
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  border: 1px solid #efefef;
+  color: #1c1c1c;
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  background: rgb(249, 249, 249);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+}
+
+@media (max-width: 820px) {
+  .in-progress {
+    width: 100%;
+  }
 }
 
 /* Alert */
@@ -115,6 +136,7 @@ mark {
 }
 
 /* Tags layout */
+
 .word-tag {
     display: flex;
     flex-wrap: wrap;
@@ -132,9 +154,9 @@ mark {
     font-size: 1rem;
   }
 
-  .tag:hover {
+  /* .tag:hover {
     background-color: #d0dcdc;
-  }
+  } */
 
   /* Notes Grid */
 
@@ -178,7 +200,6 @@ mark {
 }
 
 .note-card a {
-  color: rgb(34, 34, 119);
   text-decoration: none;
 }
 
@@ -186,6 +207,27 @@ mark {
   text-decoration: underline;
 }
 
+/* Essays Grid */
+
+.essays-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Adjust grid for smaller screens */
+@media (max-width: 1024px) {
+  .essays-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .essays-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Essay Card */
 .essay-card {
@@ -211,7 +253,6 @@ mark {
   }
   
   .essay-card a {
-    color: rgb(34, 34, 119);
     font-weight: 400;
     text-decoration: none;
   }
@@ -228,11 +269,29 @@ ul.breadcrumb {
   /* Display list items side by side */
   ul.breadcrumb li {
     display: inline;
-    font-size: 20px;
+    font-size: 0.9rem;
   }
   
   /* Add a slash symbol (/) before/behind each list item */
   ul.breadcrumb li+li:before {
     padding: 0.5rem;
     content: "/\00a0";
+  }
+
+  /* Case studies */
+
+  .case-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+    
+  /* Adjust case header for smaller screens */
+
+  @media (max-width: 820px) {
+    .case-header {
+      grid-template-columns: 1fr;
+    }
   }

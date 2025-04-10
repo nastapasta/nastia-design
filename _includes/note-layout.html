@@ -7,13 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">        
-    <title>{{ title | default: "Nastia Tuleyeva" }}</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <title>{{ title | default: "Nastia Tulayeva" }}</title>
 </head>
 
 <body>
+    <!-- <nav class="breadcrumbs">
+        <a href="/">Home</a>
+        {% for crumb in page.url | breadcrumbs %}
+          &nbsp;>&nbsp;<a href="{{ crumb.url }}">{{ crumb.name }}</a>
+        {% endfor %}
+    </nav> -->
+
     <header>
-        <h1>{{ title | default: "Blog" }}</h1>
+        <h1>{{ title | default: "none" }}</h1>
         <small>Planted on: {{ date | date: "%B %d, %Y" }}</small>
     </header>
     <main>
