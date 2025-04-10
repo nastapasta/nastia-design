@@ -1,6 +1,6 @@
 ---
 title: Spokn AI Speech Analytics
-year: 2023
+year: 2023–2024
 tags: case
 excerpt: On how I stopped worrying and embraced generative AI
 layout: case-layout.html
@@ -19,7 +19,7 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
 
 <div class="post-note">
     <h2>The case study is in progress</h2> 
-    <p>I'm reviewing the narrative and the copy to make it not too long but informative. 🌿 Go back to <a href="/index/">Homepage</a></p>
+    <p>I'm reviewing the narrative and the copy to make it not too long but informative. 🌿</p>
 </div>
 
 <p>I was involved in the project as a product designer having expertise with data structures and visualisation.</p>

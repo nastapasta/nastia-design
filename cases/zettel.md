@@ -2,7 +2,7 @@
 title: Zettel, AI-powered fast note-taking
 year: 2023
 tags: case
-excerpt: Some important text about the case study
+excerpt: Little LLM helper to systematise your messy soradic notes 
 layout: case-layout.html
 image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
 ---
@@ -19,6 +19,6 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
 
 <div class="post-note">
     <h2>The case study is in progress</h2> 
-    <p>I'm reviewing the narrative and the copy to make it not too long but informative. 🌿 Go back to <a href="/index/">Homepage</a></p>
+    <p>I'm reviewing the narrative and the copy to make it not too long but informative. 🌿</p>
 </div>
 

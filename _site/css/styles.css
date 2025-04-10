@@ -3,6 +3,11 @@
 }
 
 /* Dividers */
+
+.medium-divider {
+  height: 1.75rem;
+}
+
 .large-divider {
   height: 2.5rem;
 }
@@ -58,6 +63,10 @@
   cursor: pointer;
 }
 
+.nav-toggle:checked {
+  display: none;
+}
+
 /* Mobile styles */
 @media (max-width: 600px) {
   .nav-toggle {
@@ -80,27 +89,44 @@
   }
 
   .nav-links li {
-    text-align: left;
+    text-align: center;
   }
 }
 
+/* Desktop styles */
+@media (min-width: 601px) {
+  .nav-toggle {
+    display: none;  /* Hide the checkbox on desktop */
+  }
+
+  .nav-links {
+    display: flex;  /* Ensure links are displayed in a row on desktop */
+    flex-direction: row;
+  }
+}
+
+
 /* Floating Contact Button */
 .floating-contact-button {
-    background-color: #e6f2f2;
-    color: inherit;
+    background-color:#ddd;
     font-size: 1.2rem;
+    font-weight: 300;
     position: fixed;
-    bottom: 20px;  /* Adjust this value to move it up or down */
-    right: 20px;   /* Adjust this value to move it left or right */
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    border-radius: 1rem;
+    bottom: 1.5rem;  /* Adjust this value to move it up or down */
+    right: 1.5rem;   /* Adjust this value to move it left or right */
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
     border: none;
     transition: background-color 0.2s;
-    box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+    box-shadow: 0 4px 12px rgba(51, 51, 51, 0.05);
+}
+
+a .floating-contact-button {
+  color: black;
 }
 
 .floating-contact-button.hover {
-    background-color: #d0dcdc;
+    background-color: rgb(59, 59, 161);
 }
 
   /* Remove from mobile screen */
@@ -118,7 +144,7 @@ body {
     line-height: 1.6;
     max-width: 960px;
     margin: auto;
-    padding: 0 1rem;
+    padding: 1rem;
     color: #333;
 }
 
@@ -148,12 +174,12 @@ p {
 }
 
 .large-p {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.2;
 }
 
 ul {
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 /* Images */
@@ -200,8 +226,8 @@ mark {
 /* If you want to make parts of text stand out or add a note */
 
 .big {
-    font-size: 1.2rem;   
-    line-height: 1.6rem;
+    font-size: 1.6rem;   
+    line-height: 1.6;
     font-weight: 100;
 }
 
@@ -244,6 +270,16 @@ mark {
     background-color: rgb(255, 236, 225);
     width:fit-content;
 }
+
+/* Footer */
+footer {  
+  background: #fff;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+  top: 0;
+  color: #333;
+}
+
 
 /* Tags layout */
 
