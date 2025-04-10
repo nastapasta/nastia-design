@@ -10,7 +10,7 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
     <div>
         <h1>On how I stopped worrying and embraced generative AI</h1>
         <div class="word-tag">
-            <div class="tag">Web Application</div> <div class="tag">AI</div>
+            <span class="tag">Web Application</span> <span class="tag">AI</span>
         </div>
         <p class="large-p">Spokn AI is a speech analytics tool that simplifies call centre managers work.<p>
     </div>

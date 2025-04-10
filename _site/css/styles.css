@@ -2,13 +2,122 @@
     box-sizing: border-box;
 }
 
+/* Dividers */
+.large-divider {
+  height: 2.5rem;
+}
+
+/* Navigation */
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+.nav-links li a:hover {
+  background: #f0f0f0;
+}
+
+.nav-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .nav-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: left;
+  }
+}
+
+/* Floating Contact Button */
+.floating-contact-button {
+    background-color: #e6f2f2;
+    color: inherit;
+    font-size: 1.2rem;
+    position: fixed;
+    bottom: 20px;  /* Adjust this value to move it up or down */
+    right: 20px;   /* Adjust this value to move it left or right */
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+}
+
+.floating-contact-button.hover {
+    background-color: #d0dcdc;
+}
+
+  /* Remove from mobile screen */
+
+  @media (max-width: 600px) {
+    .floating-contact-button {
+      display: none;
+    }
+  }
+
 /* Text styles */
 
 body {
     font-family: 'Instrument Sans', Helvetica, sans-serif;
     line-height: 1.6;
     max-width: 960px;
-    margin: 2rem auto;
+    margin: auto;
     padding: 0 1rem;
     color: #333;
 }
@@ -20,6 +129,7 @@ hgroup {
 h1 {
     font-weight: 100;
     line-height: 1.6;
+    font-size: 2rem;
 }
 
 h2 {
@@ -30,11 +140,11 @@ h2 {
 
 h3 {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .large-p {

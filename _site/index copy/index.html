@@ -1,7 +1,33 @@
----
-layout: layout.html
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">        
+    <title>Nastya Tulayeva</title>
+</head>
 
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+          <div class="nav-logo"><a href="/">Nastya Tulayeva</a></div>
+          <label for="nav-toggle" class="nav-icon">&#9776;</label>
+          <ul class="nav-links">
+            <li><a href="/garden/">The Garden 🌿</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+      </header>      
+    
+      <button class="floating-contact-button"><a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">Say Hi to me 👋</a></li>
+    </button>
+    
+    <main>
+        
 <hgroup>
     <p class="info-text-alert">This site is work in progress</p>
     <h1>My name is <mark>Nastia&nbsp;Tulayeva</mark>. I'm a&nbsp;<em>designer</em> and design engineering dummy. </h1>
@@ -15,14 +41,21 @@ layout: layout.html
     <h2>Work</h2>
     <p>Here are case studies I've managed to write after so much work.</p>
     <div class="essays-grid">
-        {% for case in collections.case %}
+        
         <hgroup class="essay-card">
-        <img src="{{ case.image }}" alt="{{ case.title }}">
-        <p>{{ case.data.year }}</p]>
-        <h2><a href="{{ case.url }}">{{ case.data.title }}</a></h2>
-        <p>{{ case.data.excerpt }}</p>
+        <img src="" alt="">
+        <p>2023</p]>
+        <h2><a href="/cases/zettel/">Zettel, AI-powered fast note-taking</a></h2>
+        <p>Some important text about the case study</p>
         </hgroup>
-        {% endfor %}
+        
+        <hgroup class="essay-card">
+        <img src="" alt="">
+        <p>2023</p]>
+        <h2><a href="/cases/spokn-ai-speech-analytics/">Spokn AI Speech Analytics</a></h2>
+        <p>On how I stopped worrying and embraced generative AI</p>
+        </hgroup>
+        
     </div>
 
         <h2>Here will be a&nbsp;nice grid with the case studies:</h2>
@@ -116,3 +149,7 @@ layout: layout.html
 
     <p class="big framed">Feel free to <a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">say Hi to me</a> 👋</p>
 
+
+    </main>
+</body>
+</html>

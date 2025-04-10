@@ -10,7 +10,7 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
     <div>
         <h1>Zettel, AI-powered fast note-taking</h1>
         <div class="word-tag">
-            <div class="tag">Mobile Application</div> <div class="tag">AI</div> <div class="tag">Concept</div>
+            <span class="tag">Mobile Application</span> <span class="tag">AI</span> <span class="tag">Concept</span>
         </div>
         <p class="large-p">Zettel is a note-taking solution empowering you with natural language processing · 🏆 <em>Innovation Sandbox 2023 winner</em><p>
     </div>

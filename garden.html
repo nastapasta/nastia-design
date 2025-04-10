@@ -1,16 +1,16 @@
 ---
 layout: layout.html
+title: The Garden
 ---
 
 <!-- Про письмо -->
+<h1>{{ title }}</h1>
+<h3>Digital garden is a way of learning in public by publishing your notes, changing them over time and evolving your ideas.</h3>
 
-<ul class="breadcrumb">
-  <li><a href="/index/">Home</a></li>
-  <li>The Garden 🌿</li>
-</ul> 
+<div class="large-divider"></div>
 
 <h2>Notes</h2>
-    <p>Unopinionated and raw searches around a topic. Feel free to reach out and ask me to finish them</p>
+<p>Unopinionated and raw searches around a topic. Feel free to reach out and ask me to finish them</p>
         
     <div class="notes-grid">
           {% for note in collections.note %}
@@ -22,7 +22,7 @@ layout: layout.html
     </div>
         
 <h2>Essays</h2>
-    <p>Opinionated thoughts around a topic interesting for me.</p>
+<p>Opinionated thoughts around a topic interesting for me.</p>
     <div class="essays-grid">
           {% for essay in collections.essay %}
           <div class="essay-card">
@@ -32,5 +32,12 @@ layout: layout.html
           </div>
           {% endfor %}
     </div>
+
+<p>I find ability to share the worldview and ideas in delepoment helpful and potentially . For my digital garden, I was inspired by and shamelessly copied <a href="https://maggieappleton.com/">Maggie Apleton's</a> metaphor:
+  <ul>
+    <li>🌱 Seedling: Early explorations, raw thoughts</li>
+    <li>🌿 Budding: Somewhat developed, might have major iterations to come</li>
+    <li>🌱 Evergreen: Mostly finished, at most minor iterations to come</li>
+  </ul>
 
 <p class="big framed">Want to share your thoughts? Feel free to <a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">say Hi 👋</a> to me.</p>
