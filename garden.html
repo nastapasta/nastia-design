@@ -1,0 +1,55 @@
+---
+layout: layout.html
+title: The Garden
+---
+
+<!-- Страница про письмо -->
+
+<hgroup>
+<h1>{{ title }}</h1>
+<h3>Digital garden is a way of learning in public by publishing your notes, changing them over time and evolving your ideas.</h3>
+</hgroup>
+
+<div class="middle-divider"></div>
+
+<div>
+<h2>Essays</h2>
+<p>Opinionated thoughts and narratives.</p>
+    <div class="essays-grid">
+          {% for essay in collections.essay %}
+          <div class="essay-card">
+          <h2><a href="{{ essay.url }}">{{ essay.data.title }}</a></h2>
+          <p>{{ essay.data.excerpt }}</p>
+          <small>Published on {{ essay.date | date: "%B %d, %Y" }}</small>
+          </div>
+          {% endfor %}
+    </div>
+</div>
+
+<div>
+<h2>Notes</h2>
+<p>Raw searches and braindump around any topic.</p>
+        
+<div class="notes-grid">
+        {% for note in collections.note %}
+          <div class="note-card">
+            <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
+            <small>{{ note.date | date: "%B %d, %Y" }}</small>
+          </div>
+        {% endfor %}
+</div>
+</div>
+
+<div class="middle-divider"></div>
+
+
+<p>I find ability to share the worldview and ideas in delepoment helpful and potentially . For my digital garden, I was inspired by and shamelessly copied <a href="https://maggieappleton.com/">Maggie Apleton's</a> metaphor:
+  <ul>
+    <li>🌱 Seedling: Early explorations, raw thoughts</li>
+    <li>🌿 Budding: Somewhat developed, might have major iterations to come</li>
+    <li>🌱 Evergreen: Mostly finished, at most minor iterations to come</li>
+  </ul>
+
+<div class="medium-divider"></div>
+
+<p class="big framed">Want to share your thoughts? Feel free to <a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">say Hi 👋</a></p>
