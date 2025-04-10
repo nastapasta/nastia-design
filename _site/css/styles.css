@@ -33,7 +33,6 @@
 }
 
 .nav-logo a {
-  text-decoration: none;
   font-weight: 400;
   font-size: 1.2rem;
   color: inherit;
@@ -144,7 +143,7 @@ body {
     line-height: 1.6;
     max-width: 960px;
     margin: auto;
-    padding: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     color: #333;
 }
 
@@ -153,24 +152,41 @@ hgroup {
 }
 
 h1 {
-    font-weight: 100;
-    line-height: 1.6;
-    font-size: 2rem;
+    font-family: "Source Serif 4", serif;  
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-weight: 200;
-    font-size: 1.8rem;
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 
+.home {
+  font-family: "Source Serif 4", serif;
+  font-weight: 350;
 }
 
 h3 {
     font-weight: 400;
     font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 1.3rem;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-size: 1.3rem;
+  font-weight: 370;
+  margin-top: 0;
 }
 
 .large-p {
@@ -179,7 +195,9 @@ p {
 }
 
 ul {
+    font-family: "Source Serif 4", serif;
     font-size: 1.3rem;
+    font-weight: 370;
 }
 
 /* Images */
@@ -200,7 +218,7 @@ figcaption a {
 
 a {
     transition: background-color 0.2s;
-    font-weight: 300;
+    font-weight: 380;
     text-decoration: none;
     color: rgb(47, 47, 172);
   }
@@ -228,7 +246,12 @@ mark {
 .big {
     font-size: 1.6rem;   
     line-height: 1.6;
-    font-weight: 100;
+    font-weight: 350;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 370;
 }
 
 .framed {
@@ -265,6 +288,7 @@ mark {
     text-indent: 0px;
     border-radius: 16px;
     padding: 0.6rem 1rem 0.6rem 1rem;
+    margin-top: 1rem;
     margin-bottom: 40px;
     color: rgb(193, 83, 19);
     background-color: rgb(255, 236, 225);

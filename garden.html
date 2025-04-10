@@ -10,22 +10,11 @@ title: The Garden
 <h3>Digital garden is a way of learning in public by publishing your notes, changing them over time and evolving your ideas.</h3>
 </hgroup>
 
-<div class="large-divider"></div>
+<div class="middle-divider"></div>
 
-<h2>Notes</h2>
-<p>Unopinionated and raw searches around a topic. Feel free to reach out and ask me to finish them</p>
-        
-<div class="notes-grid">
-        {% for note in collections.note %}
-          <div class="note-card">
-            <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
-            <small>{{ note.date | date: "%B %d, %Y" }}</small>
-          </div>
-        {% endfor %}
-</div>
-        
+<div>
 <h2>Essays</h2>
-<p>Opinionated thoughts around a topic interesting for me.</p>
+<p>Opinionated thoughts and narratives.</p>
     <div class="essays-grid">
           {% for essay in collections.essay %}
           <div class="essay-card">
@@ -35,6 +24,24 @@ title: The Garden
           </div>
           {% endfor %}
     </div>
+</div>
+
+<div>
+<h2>Notes</h2>
+<p>Raw searches and braindump around any topic.</p>
+        
+<div class="notes-grid">
+        {% for note in collections.note %}
+          <div class="note-card">
+            <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
+            <small>{{ note.date | date: "%B %d, %Y" }}</small>
+          </div>
+        {% endfor %}
+</div>
+</div>
+
+<div class="middle-divider"></div>
+
 
 <p>I find ability to share the worldview and ideas in delepoment helpful and potentially . For my digital garden, I was inspired by and shamelessly copied <a href="https://maggieappleton.com/">Maggie Apleton's</a> metaphor:
   <ul>
