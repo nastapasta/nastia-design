@@ -242,10 +242,12 @@ a:hover {
 
 figcaption {
   color: gray;
+  margin: auto;
 }
 
 figure {
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 40px;
 }
 
