@@ -2,7 +2,7 @@
 title: 🌿 Unwiring my brain
 tags: note
 date: 2024-08-01
-excerpt: Here's something important about this essay
+excerpt: On how to unplug oneself from the networks and not becoming isolated.
 layout: note-layout.html
 ---
 Recently started reading Nicholas Carr's The Shallows (haven't finished it yet) about how modern media and the internet have changed the way we think. The book is from 2011, and things have only gotten worse and more sophisticated.
