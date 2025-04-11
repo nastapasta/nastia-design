@@ -8,11 +8,11 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
 ---
 <hgroup class="case-header">
     <div>
-        <h1>On how I stopped worrying and embraced generative AI</h1>
+        <h1>Spokn AI Speech Analytics</h1>
         <div class="word-tag">
             <span class="tag">Web Application</span> <span class="tag">AI</span>
         </div>
-        <p class="large-p">Spokn AI is a speech analytics tool that simplifies call centre managers work.<p>
+        <p class="large-p">On how I stopped worrying and embraced generative AI.<p>
     </div>
     <img class="case-main-image" src="/images/case-studies/spokn-ai-speech-analytics-main-picture.png" alt="Laptop with a dashboard interface on the screen">
 </hgroup>
