@@ -121,6 +121,7 @@ display: none;
   border: none;
   transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;    
   box-shadow: 0 4px 12px rgba(51, 51, 51, 0.05);
+  z-index: 1000;
 }
 
 a .floating-contact-button {
