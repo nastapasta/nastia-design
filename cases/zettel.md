@@ -4,7 +4,7 @@ year: 2023
 tags: case
 excerpt: Little LLM helper to systematise your messy soradic notes 
 layout: case-layout.html
-image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
+image: "/images/case-studies/zettel-main-picture.png"
 ---
 <hgroup class="case-header">
     <div>
@@ -17,8 +17,6 @@ image: "/images/case-studies/spokn-ai-speech-analytics-main-picture.png"
     <img class="case-main-image" src="/images/case-studies/zettel-main-picture.png" alt="Laptop with a dashboard interface on the screen">
 </hgroup>
 
-<div class="post-note">
-    <h2>The case study is in progress</h2> 
-    <p>I'm reviewing the narrative and the copy to make it not too long but informative. 🌿</p>
-</div>
+{% include "in-progress.html" %}
+
 

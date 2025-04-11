@@ -1,11 +1,10 @@
 ---
 layout: layout.html
 ---
-<p class="info-text-alert">Note! This site is work in progress</p>
 
 <hgroup>
-    <h1>My name is <mark>Nastia&nbsp;Tulayeva</mark>. I'm a&nbsp;<em>designer</em> and design&nbsp;engineering dummy. </h1>
-    <h2 class="home"> Raised in Belarus, based in Belgrade, Serbia. I have experience of being an&nbsp;architect, urbanist, event manager, editor and Tableau dashboard engineer.</h2>
+    <h1>My name is <em>Nastia&nbsp;Tulayeva</em>. I'm a&nbsp;designer and design&nbsp;engineering dummy. </h1>
+    <h2 class="home"> I have experience of being an&nbsp;architect, urbanist, event manager, editor and Tableau engineer. Raised in Belarus, currently based in&nbsp;Belgrade, Serbia.</h2>
 </hgroup>
 
 <div class="medium-divider"></div>
@@ -14,17 +13,21 @@ layout: layout.html
 
 <div>
     <h2>Work</h2>
-    <p>Here are some product design case studies I've managed to write:</p>
-    <div class="essays-grid">
+    <p>Product design case studies I've managed to write after finishing this website:</p>
+    <div class="case-grid">
         {% for case in collections.case %}
-        <hgroup class="essay-card">
-        <img src="{{ case.image }}" alt="{{ case.title }}">
-        <small>{{ case.data.year }}</small>
-        <h2><a href="{{ case.url }}">{{ case.data.title }}</a></h2>
-        <p>{{ case.data.excerpt }}</p>
-        </hgroup>
+        <a href="{{ case.url }}" class="case-card-link">
+            <div class="case-card case-card-link">
+                <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
+                <small>{{ case.data.year }}</small>
+                <h2>{{ case.data.title }}</h2>
+                <p>{{ case.data.excerpt }}</p>
+            </div>
+        </a>
         {% endfor %}
+    </div>
 </div>
+
 
 <div>
     <h2>Also I...</h2>
@@ -34,7 +37,7 @@ layout: layout.html
         <li>Coded this website.</li>
         <li>Designed <a href="https://www.coherentsolutions.com/" >Coherent Solutions website.</a></li>
         <li>Illustrated Coherent Solutions <a href="https://dribbble.com/coherentsolutions">Dribbble page</a> header.</li>
-        <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find and choose local events to attend. Helped to get prizes on hackathons and secured places in incubators.</li>
+        <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find and choose unobvious local events to attend.</li>
         <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
         <li>Illustrated <a href="https://www.mienskurban.space/chasopis">Minsk Urban Magazine</a> articles in 2023—2024.</li>
         <li>Mentor designers at&nbsp;Women&nbsp;in&nbsp;Tech organization.</li>
@@ -58,6 +61,8 @@ layout: layout.html
             <span class="tag">Product management</span>
             <span class="tag">Data visualisation</span>
             <span class="tag">Dashboard design</span>
-        </div>              
-    <p>I design with Figma or with code. Illustrations are drawn by hand, in ProCreate, or Illustrator. I'm familiar with Jira and Confluence, and can work with Microsoft Azure DevOps. I worked mostly in cross-functional teams, and as a&nbsp;part of design teams of 10+ people too. <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
+        </div>
+               
+    <p>I design with Figma, and am currently learning to do it with code.Illustrations are drawn by hand, in ProCreate, or Illustrator. I'm familiar with Jira and Confluence, and can work with Microsoft Azure DevOps. I worked mostly in ,cross-functional teams, and as a&nbsp;part of design teams of 10+ people too.</p> 
+    <p><a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
 </div>
