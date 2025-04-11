@@ -11,6 +11,16 @@ title: Now
 <p class="framed">You can make your own "Now" page — this pattern in inspired by <a href="https://sive.rs/">Derek Sivers</a>. Read more about it: <a href="https://nownownow.com/about">nownownow.com</a>.</p>
 <div class="large-divider"></div>
 
-<p>TBD.</p>
+<div class="now-list">
+    {% for entry in collections.now %}
+      <article class="now-entry">
+        <h2>{{ entry.data.title }}</h2>
+        <div class="now-content">
+          {{ entry.templateContent }}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  
 
 <!-- Добавить рендеринг отдельных файлов "сейчас" здесь и на отдельныз страницах через note-layout -->

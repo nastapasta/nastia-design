@@ -1,7 +1,7 @@
 ---
 title: 🌱 Metric-driven evolution vs. aesthetical intention
-tags: essay
-date: 2024-04-09
+tags: note
+date: 2025-04-09
 excerpt: Exploration on how metrics culture iis affecting the discource community of designers
 layout: note-layout.html
 ---
@@ -29,3 +29,5 @@ So, the scale now is not being "ugly or beautiful", but "bringing revenue or not
 Designers have become engineers, marketers, product managers. They don't answer the question "Is it beautiful", they answer "Is it impacting the metric".
 
 Functionality becomes not the measure of how fast and successful the user performs their task but how beneficial it is for the business. Does revenue growth and monetary business success equal good user experience and good design?
+
+{% include "in-progress.html" %}

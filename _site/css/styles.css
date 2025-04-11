@@ -110,7 +110,7 @@
 /* Floating Contact Button */
 
 .floating-contact-button {
-    background-color:#ddd;
+    background-color:#efefef;
     font-size: 1.2rem;
     font-weight: 300;
     position: fixed;
@@ -119,7 +119,7 @@
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 2rem;
     border: none;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;    
     box-shadow: 0 4px 12px rgba(51, 51, 51, 0.05);
 }
 
@@ -127,8 +127,10 @@ a .floating-contact-button {
   color: black;
 }
 
-.floating-contact-button.hover {
-    background-color: rgb(59, 59, 161);
+.floating-contact-button:hover {
+  background-color: #e0e0e0; /* slightly darker shade */
+  box-shadow: 0 6px 16px rgba(51, 51, 51, 0.1); /* soft shadow bump */
+  cursor: pointer;
 }
 
   /* Remove from mobile screen */
@@ -217,6 +219,12 @@ figcaption a {
     max-width: 100%;
 }
 
+.post-image {
+    border: 1px solid #efefef;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+  }
+
 /* Links */
 
 a {
@@ -227,7 +235,7 @@ a {
   }
   
   a:hover {
-    color: black;
+    color: #333;
     background-color: #e6f2f2;
   }  
 
@@ -269,7 +277,7 @@ mark {
   border-radius: 12px;
   border: 1px solid #efefef;
   color: #1c1c1c;
-  margin: 20px auto;
+  margin: 40px auto;
   width: 60%;
   text-align: center;
   background: rgb(249, 249, 249);
@@ -300,11 +308,15 @@ mark {
 
 /* Footer */
 footer {  
+  display: flex;
+  justify-content: space-between;
   background: #fff;
   border-top: 1px solid #ddd;
   margin-top: 4rem;
+  padding-top: 1rem;
   top: 0;
   color: #333;
+  position: sticky;
 }
 
 
@@ -355,7 +367,7 @@ footer {
 
   /* Note Entry */
 
-.note-card hgroup {
+.note-card div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -415,14 +427,14 @@ footer {
     justify-content: space-between;
     align-items: top;
   }
-  
-  
+
   .essay-card:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   }
   
   .essay-card h2 {
     margin-top: 0;
+    color:#333;
   }
   
   .essay-card a {
@@ -430,8 +442,58 @@ footer {
     text-decoration: none;
   }
 
-/* Breadcrumbs */
 
+/* Case Grid */
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Adjust grid for smaller screens */
+@media (max-width: 1024px) {
+  .case-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .case-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Case Card */
+.case-card {
+    margin-bottom: 1rem;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: top;
+    transition: transform 0.2s ease;
+  }
+
+.case-card-link {
+    text-decoration: none;
+    display: block;
+}
+
+.case-card-link:hover,
+.case-card-link:focus,
+.case-card-link:visited,
+.case-card-link:active {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+}
+
+.case-card:hover {
+    transform: translateY(-1px);
+}
+
+
+/* Breadcrumbs */
 /* Style the list */
 ul.breadcrumb {
     list-style: none;
