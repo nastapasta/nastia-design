@@ -472,6 +472,7 @@ margin-bottom: 3rem;
   justify-content: space-between;
   align-items: top;
   transition: transform 0.2s ease;
+  color: #333;
 }
 
 .case-card-link {
