@@ -87,7 +87,7 @@ I bought Eugene Arutyunov's course <a href="https://intuition.team/how-to-design
 
 After that, nothing could stop me, I made a fork and started a new branch using Eleventy. After a few days and a few gray hairs, I got the site you are reading now – or rather, <a href="https://github.com/nastapasta/nastia-design">its first version</a>.
 
-I've coded this site by myself, using plain HTML and CSS with help of tutorials and ChatGPT to hunt the layout bugs. Code is stored in a public GitHub repository and deployed via Vercel. I'm using a simple open-source static site generator, Eleventy. For typography, I use Instrument Sans and Source Serif 4 (serifs are better for readability, they say), both available on Google Fonts. 
+I've coded this site by myself, using plain HTML and CSS with help of tutorials and ChatGPT to hunt the layout bugs. Code is stored in a public GitHub repository. Deployment is handled by Vercel. I'm using a simple open-source static site generator, Eleventy. For typography, I use Instrument Sans and Source Serif 4 (serifs are better for readability, they say), both available on Google Fonts. 
 
 The site is still a work in progress: 
 - Case studies are unfinished — they require their own, special layout;
