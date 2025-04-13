@@ -2,7 +2,7 @@
 title: 🌿 On creating this site
 tags: note
 date: 2025-04-11
-excerpt: Freezing in mid-April in Belgrade — unthinkable for spring in the Balkans — bored in a forced, temporary <em>dolce far niente</em>, I built this site in about a week. There's a long backstory, of course.
+excerpt: Freezing in mid-April in Belgrade — unthinkable for spring in the Balkans — and bored in a temporary <em>dolce far niente</em>, I built this site in about a week. There's a long backstory, of course.
 layout: note-layout.html
 ---
 
