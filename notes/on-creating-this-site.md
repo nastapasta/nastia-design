@@ -1,8 +1,9 @@
 ---
-title: 🌿 On creating this site
+title: On creating this site
 tags: note
 date: 2025-04-11
 excerpt: Freezing in mid-April in Belgrade — unthinkable for spring in the Balkans — and bored in a temporary <em>dolce far niente</em>, I built this site in about a week. There's a long backstory, of course.
+phase:  ❇️ Evergreen
 layout: note-layout.html
 ---
 
@@ -87,7 +88,17 @@ I bought Eugene Arutyunov's course <a href="https://intuition.team/how-to-design
 
 After that, nothing could stop me, I made a fork and started a new branch using Eleventy. After a few days and a few gray hairs, I got the site you are reading now – or rather, <a href="https://github.com/nastapasta/nastia-design">its first version</a>.
 
-I've coded this site by myself, using plain HTML and CSS with help of tutorials and ChatGPT to hunt the layout bugs. Code is stored in a public GitHub repository. Deployment is handled by Vercel. I'm using a simple open-source static site generator, Eleventy. For typography, I use Instrument Sans and Source Serif 4 (serifs are better for readability, they say), both available on Google Fonts. 
+In the very beginning, I found <a href="https://www.youtube.com/watch?v=kzf9A9tkkl4">this short tutorial</a> very helpful to set up the file structure. It has flaws: the guy moves too fast and ommits some things, that are elemetary, if you know what it means, and completely unclear, if you don't. To solve them, I didn't hesitate and went to ChatGPT to ask, what I did wrong if I'm literally following the tutorial. 
+
+The greatest thing in LLMs now is that they let you get to the bottom of something, avoiding going through the documentation with no idea what you have to look for. I still encourage you to try to actually understand the structure and purpose of code, that Chat advices you to use. LLMs are a HUGE advancement for beginners and <a href="https://maggieappleton.com/home-cooked-software/">barefoot developers</a>.
+
+<figure>
+<img src="/images/notes/chatgpt-11ty-help.png" alt="Website containing olain text layout"></img>
+<figcaption>My typical conversation with GPT
+</figcaption>
+</figure>
+
+So, eventually, I've coded this site by myself, using plain HTML and CSS with help of tutorials and ChatGPT to hunt out the bugs. Code is stored in a public GitHub repository. Deployment is handled by Vercel. I'm using a simple open-source static site generator, Eleventy. For typography, I use Instrument Sans and Source Serif 4 (serifs are better for readability, they say), both available on Google Fonts. 
 
 The site is still a work in progress: 
 - Case studies are unfinished — they require their own, special layout;
@@ -100,5 +111,3 @@ The site is still a work in progress:
 - Buy a domain name.
 
 And more and more things to do. But I hope this will be my cozy piece of internet for a long while.
-
-{% include "in-progress.html" %}

@@ -21,7 +21,10 @@
   <hgroup>
         <h1>{{ title | default: "none" }}</h1>
         <h3 style="color:dimgray;">{{ excerpt | default: "none" }}</h3>
-        <small>Planted on: {{ date | date: "%B %d, %Y" }}</small>
+        <div class="entry-subheader">
+            <small> {{ phase }}</small>
+            <small>Planted on {{ date | date: "%B %d, %Y" }}</small> 
+            </div>
   </hgroup>
   <div class="medium-divider"></div>
   <main>

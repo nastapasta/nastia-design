@@ -36,7 +36,7 @@ layout: layout.html
         {% for note in recentNotes %}
           <div class="note-card">
               <h2><a href="{{ note.url }}" class="note-card">{{ note.data.title }}</a></h2>
-              <small>{{ note.date | date: "%B %d, %Y" }}</small>
+              <small>{{ note.data.phase }} | {{ note.date | date: "%B %d, %Y" }}</small>
           </div>
         {% endfor %}
 </div>
