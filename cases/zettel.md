@@ -28,16 +28,16 @@ Gloria Mark, a professor of information science at the University of California,
 
 As our attention fragments, the amount of information we consume keeps growing. In response, we’ve come up with personal knowledge management systems to manage the overflow: sticky notes, voice memos, messages to ourselves, Roam graphs, oldschool  Zettelkastens, or Tiago Forte’s PARA method.
 
-But tools alone don’t make meaning.
-We may capture thoughts and excerpts as they come — scattered, half-formed — but the real challenge is in connecting them. How do we return to these fragments and surface insights that matter?
-
 <figure>
 <img src="/images/case-studies/zettel/all-tools.png" alt="Books, notebooks, files and computers flying in the air" style="margin-bottom: 1rem;"></img>
 <figcaption>Sometimes it feels like this.
 </figcaption>
 </figure>
 
-But most note-taking tools focus on capturing — not connecting — ideas. Even power users find themselves manually copying and pasting their notes into external systems, hoping to make sense of it all later.
+But tools alone don’t make meaning.
+We may capture thoughts and excerpts as they come — scattered, half-formed — but the real challenge is in connecting them. How do we return to these fragments and surface insights that matter?
+
+Most note-taking tools focus on capturing — not connecting — ideas. Even power users find themselves manually copying and pasting their notes into external systems, hoping to make sense of it all later.
 
 <div class="framed italic">
 <p class="big centered">“But what if I can’t predict the structure of my notes from scratch?”
