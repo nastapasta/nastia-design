@@ -40,7 +40,7 @@ We may capture thoughts and excerpts as they come — scattered, half-formed —
 Most note-taking tools focus on capturing — not connecting — ideas. Even power users find themselves manually copying and pasting their notes into external systems, hoping to make sense of it all later.
 
 <div class="framed italic">
-<p class="big centered">“But what if I can’t predict the structure of my notes from scratch?”
+<p class="big centered">“I have notes everywhere, but no idea where to start making sense of them.”
 </p>
 </div> 
 
@@ -48,7 +48,7 @@ Most note-taking tools focus on capturing — not connecting — ideas. Even pow
 
 ## Research
 
-To understand how people manage their sporadic notes, I conducted a survey and five semi-structured interviews with deep readers, researchers, and note hoarders.
+To understand how people manage their note taking processes, especially during reading or receiving information in similar ways (videos, articles, podcasts), I conducted a survey and five semi-structured interviews with deep readers, researchers, and note hoarders.
 
 During the interviews, *three main user types* emerged in my sight:
 
