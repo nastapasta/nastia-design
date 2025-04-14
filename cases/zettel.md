@@ -74,8 +74,8 @@ What they all shared:
 - Difficulty remembering where they read or heard something.
 - A patchwork of tools, rituals, and frustration.
 
-<div class="framed italic">
-<p class="big centered">“I sit down every other Saturday to paste all my notes into my kumu graph. It’s calming… but overwhelming.”
+<div class="framed">
+<p class="big centered italic">“I sit down every other Saturday to paste all my notes into my kumu graph. It’s calming… but overwhelming.”
 </p>
 <p>– One of the interview participants</p>
 </div> 
@@ -242,8 +242,8 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
 <img src="/images/case-studies/zettel/presentation-slides.png" alt="Several slides from the pitch deck" style="margin-bottom: 1rem; width: 100%"></img>
 
-<div class="framed italic">
-<p class="big centered">“I wish I had this during my PhD.”
+<div class="framed">
+<p class="big centered italic">“I wish I had this during my PhD.”
 </p>
 <p>– Max Sandu, Head of Jury”
 </div> 
