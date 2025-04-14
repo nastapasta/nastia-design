@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+.content-wrapper {
+  max-width: 920px;
+  margin: auto;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.note-wrapper {
+  max-width: 760px;
+  margin: auto;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
 /* Dividers */
 
 .medium-divider {
@@ -15,8 +27,10 @@ height: 2.5rem;
 /* Navigation */
 
 .navbar {
+width: 100%;
 background: #fff;
 border-bottom: 1px solid #ddd;
+padding: 0rem 1rem 0rem 1rem;
 position: sticky;
 top: 0;
 z-index: 3;
@@ -71,6 +85,11 @@ display: none;
 }
 
 @media (max-width: 600px) {
+
+.navbar {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+
 /* Show burger icon on mobile */
 .nav-icon {
   display: block;
@@ -147,9 +166,7 @@ cursor: pointer;
 body {
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   line-height: 1.6;
-  max-width: 920px;
   margin: auto;
-  padding: 0rem 1rem 1rem 1rem;
   color: #333;
 }
 
@@ -322,10 +339,27 @@ justify-content: space-between;
 background: #fff;
 border-top: 1px solid #ddd;
 margin-top: 4rem;
-padding-top: 1rem;
+padding: 1rem;
 top: 0;
 color: #333;
 position: sticky;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer > * {
+    margin-bottom: 1rem; /* Adds space between footer items */
+  }
+  
+  footer > *:last-child {
+    margin-bottom: 0; /* Removes margin from the last item */
+  }
+
 }
 
 /* Tags layout */
