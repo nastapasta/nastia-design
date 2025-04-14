@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">    
     <link rel="icon" type="image/png" href="/images/favicon.png">
-    <title>Spokn AI Speech Analytics</title>
+    <title>Spokn AI – speech analytics for contact centers</title>
 </head>
 
 <body>
@@ -27,27 +27,189 @@
     </nav>
   </header>   
 
-
 <a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site"><div class="floating-contact-button">Say Hi to me  💌</div></a>
+<div class="medium-divider"></div>
 
-    <main class="content-wrapper">
+<main class="content-wrapper">
         <hgroup class="case-header">
+            <div>
+                <small>2023</small>
+                <h1>Spokn AI – speech analytics for contact centers</h1>
+                <div class="word-tag">
+                    <span class="tag"> Web Application </span>
+                </div>
+                <h3 style="color:dimgray;">On how I stopped worrying and embraced generative AI</h3>
+            </div>
+            <img class="case-main-image" src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-analytics-main-picture.png" alt="">
+        </hgroup>
+        <div class="note-wrapper">
+        <!-- <hgroup class="case-header">
     <div>
+        <smapll>2023</small>
         <h1>Spokn AI Speech Analytics</h1>
         <div class="word-tag">
             <span class="tag">Web Application</span> <span class="tag">AI</span>
         </div>
         <p class="large-p">On how I stopped worrying and embraced generative AI.<p>
     </div>
-    <img class="case-main-image" src="/images/case-studies/spokn-ai-speech-analytics-main-picture.png" alt="Laptop with a dashboard interface on the screen">
-</hgroup>
-<p>I was involved in the project as a product designer having expertise with data structures and visualisation.</p>
-<p class="framed"><a href="https://www.maxcontact.com/">MaxContact</a> is a contact centre software company serving businesses with dozens and hundreds of workers. The company has been ranked one of the <a href="https://www.maxcontact.com/resources/blog-insights/maxcontact-named-as-one-of-the-top-50-companies-at-the-northern-tech-awards-2023/">top 50</a> fastest growing technology companies in the North, consecutively from 2021-2023, and in 2022 received the IT Vendor of the Year Award.</p> 
-<div class="post-note">
-    <h2>This entry is work in progress</h2> 
-    <p>Feel free to reach out and ask me to finally finish it. 🌿</p>
-</div>
+    <img class="case-main-image" src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-analytics-main-picture.png" alt="Laptop with a dashboard interface on the screen">
+</hgroup> -->
+<div class="framed">
+<h2>Project Brief</h2>
+<p><b>Client:</b> <a href="https://www.maxcontact.com/">MaxContact</a> is a contact centre software company serving businesses with dozens and hundreds of workers. The company has been ranked one of the <a href="https://www.maxcontact.com/resources/blog-insights/maxcontact-named-as-one-of-the-top-50-companies-at-the-northern-tech-awards-2023/">top 50</a> fastest growing technology companies in the North, consecutively from 2021-2023, and in 2022 received the IT Vendor of the Year Award.</p>
+<p><b>My role:</b> Product Designer</p>
+<p><b>Team:</b> Product Designer (mysefl), Business Analyst, 5+ developers, 2 QA, PM, Solution Architect. Client’s side: VP of Engineering, Product Owner, CEO.</p>
+<p><b>Timeline:</b> 7 months</p>
+<p><b>Results</b> – <a href="#solution">Jump to the solution</a> 
+<br> 
+<ul>
+    <li>simplified Quality Assessment manager’s performance
+</li>
+    <li>MVP of AI-powered solution from scratch in 7 months
+</li>
+    <li>secured in a new customer with 200+ seats
+</li>
+    </ul>
+</p>
+<p>I worked closely with the team to explore needs, define MVP scope, and design a usable system from early concepts to developer handoff.
+</p>
+</div> 
+<div class="large-divider"></div>
+<h2>The Challenge</h2>
+<p>Call center managers are usually overwhelmed by the volume of calls they need to review manually. Feedback loops are slow, and coaching agents effectively is difficult without clear conversation insights.</p>
+<p>The goal was to create a tool that could help managers:</p>
+<ul>
+<li>Quickly find calls worth reviewing.</li>
+<li>Understand what happened in those calls.</li>
+<li>Give relevant, timely feedback to agents.</li>
+</ul>
+<p>First two tasks became the main focus of the solution for the time being. We had to balance AI-powered analysis with clarity and trust, while working within a fast-moving startup environment and many technical constraints.</p>
+<div class="large-divider"></div>
+<h2>The Approach (Double Diamond, of course)</h2>
+<p>Let’s pretend that Double Diamond narrative exists in the real world, though in reality I was jumping from part to part, aligning new findings, new constraints, and new requests.</p>
+<h3>Discover</h3>
+<p>To understand the needs of quality managers, I focused on Hanna — our key user persona. With over 10 years in customer service and a QA managerial role, Hanna spends her day reviewing interactions across calls, emails, and chats. She conducts audits, shares feedback, and helps agents grow by pairing those with complementary strengths.</p>
+<p>What stood out:</p>
+<ul>
+<li>Managing large volumes of conversations is overwhelming.</li>
+<li>Feedback is often delayed or resisted.</li>
+<li>Tools are fragmented, and tech limitations slow her down.</li>
+<li>She cares deeply about quality, improvement, and team development.</li>
+</ul>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-persona.png" alt="User persona layout" class="post-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Our persona - Hanna
+</figcaption>
+</figure>
+<p>This helped us frame the product around speed, clarity, and trust in feedback.</p>
+<h3>Define</h3>
+<p>Based on the insights from Hanna, we identified the main user problems:</p>
+<ul>
+<li>No way to know which calls to prioritize, except blindly filtering them out.</li>
+<li>Random call selections may not be representative.</li>
+<li>Tendency to focus on successful calls, missing critical issues.</li>
+<li>Struggling to fill out assessment forms while listening.</li>
+<li>Time-consuming review process that takes away from coaching agents.</li>
+</ul>
+<p>These challenges guided us in designing a solution that simplifies decision-making, speeds up the review process, and ensures more relevant feedback.</p>
+<div class="large-divider"></div>
+<h3>Develop</h3>
+<h4>Balancing user needs, data, and technical constraints</h4>
+<p>We needed to:</p>
+<ul>
+<li>Help users quickly find key interactions via the dashboard.</li>
+<li>Show essential call info without opening each call.</li>
+</ul>
+<h4>Exploration &amp; Prototyping</h4>
+<p>Using story maps and prioritization sessions, I sketched early flows to explore how high-level KPIs and detailed visualizations could guide call selection. This led to a lo-fi prototype focused on clarity and scanability.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-storymap.png" alt="Storymap screenshot" class="post-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Story map
+</figcaption>
+</figure>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-screenflows.png" alt="UI screens initial sketches" class="post-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Screenflow Searches
+</figcaption>
+</figure>
+<h3>Constraints</h3>
+<p>I faced the unavoidable problems:</p>
+<ul>
+<li>A small team with tight deadlines.</li>
+<li>SLimited technical flexibility.</li>
+<li>No direct access to end users.</li>
+</ul>
+<h4>Iteration Outcomes</h4>
+<p>After stakeholder reviews, we made changes:</p>
+<ul>
+<li>Renamed “Keywords” to “Topics” for clarity of what is happening in the back end.</li>
+<li>Moved interaction lists to the playback page for familiarity.</li>
+<li>Cut coaching and agent profile features from MVP due to time limits.</li>
+</ul>
+<h3>Deliver</h3>
+<p>We tested early versions of the product with QA managers and internal reviewers to see if the tool saved time and supported better decision-making.</p>
+<p>We tested:</p>
+<ul>
+<li>Relevance of surfaced calls in the dashboard.</li>
+<li>Usability of the player + transcript combo</li>
+</ul>
+<p>We learned:</p>
+<ul>
+<li>Filters made reviews feel more focused</li>
+<li>Transcripts with sentiment highlights reduced listening time</li>
+<li>Managers appreciated having everything in one place</li>
+</ul>
+<div class="large-divider"></div>
+<h2 id="solution">The Solution</h2>
+<p>We focused on the core tasks: finding the right calls and listening efficiently.</p>
+<h3>Dashboard: Prioritized Review</h3>
+<p>The dashboard helps managers start with the most relevant calls — surfaced by AI, filtered by agent, team, length and sentiment. No more random sampling.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-dashboard.png" alt="UI screens initial sketches" class="no-bg-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Dashboard
+</figcaption>
+</figure>
+<h3>Redesigned playback: See all on one place</h3>
+<p>Playback is a collection of individual interactions. It inherits the working process in Manager Portal, containing all the calls analysed by Spokn AI.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-playback.png" alt="Playback page with a table of interaction recordings" class="no-bg-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Screenflow Searches
+</figcaption>
+</figure>
+<h3>Player: Review with Context</h3>
+<p>We paired transcripts with sentiment markers and playback controls. This allowed managers to scan for moments worth hearing, not listen start to finish.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-player.png" alt="Player page, showing the recording visualisation and conversation transcript" class="no-bg-image" style="margin-bottom: 1rem;"></img>
+<figcaption>Interaction Player
+</figcaption>
+</figure>
+<div class="large-divider"></div>
+<h2>The Impact</h2>
+<ul>
+<li>The MVP was shipped and used in real QA workflows</li>
+<li>Managers reported faster reviews and clearer feedback</li>
+<li>The team received strong interest from BPOs and customer service leads</li>
+</ul>
+<h3>Unexpected Use Cases</h3>
+<p>While the beta version had limited functionality, some of the users used the transcript feature to gather sets of sample conversations, download the transcript documents and review them with ChatGPT, getting even more actionable insights.</p>
+<div class="framed italic">
+<p>“Spokn's speech transcription and call summary features are helpful, especially for reducing the need for manual sales documentation”.
+</p>
+</div> 
+<div class="small-divider"></div>
+<div class="framed italic">
+<p>“These insights would allow us to address issues without extensive manual review, thereby saving time and improving efficiency.”
+</p>
+</div> 
+<div class="small-divider"></div>
+<p><em>— Quotes from the pilot launch users.</em></p>
+<p>The tool laid the foundation for future AI-assisted coaching and continuous QA improvements.</p>
+<div class="large-divider"></div>
+<h2>Reflection</h2>
+<p>This project came with all the usual startup messiness — shifting requirements, parallel development, and tight deadlines. I learned to defend the scope while staying adaptable, and to make decisions even when I wasn’t 100% sure. When I needed extra eyes, quick hallway tests and input from the client’s UX lead helped move things forward. Years later, I see that the solution could be much better. I also saw how even a simple-looking UI can create complex development challenges — our line chart alone took weeks of testing with huge amounts of data.</p>
+<p>The key lessons? Involve devs early and always expect the unexpected. And make friends with the testers.</p>
 
+        </div>
     </main>
 
 <footer>
@@ -55,6 +217,5 @@
     <p><a href="mailto:nasta.tulayeva@gmail.com?subject=Hi!%20It's%20from%20your%20portfolio%20site">nasta.tulayeva@gmail.com</a></p>
 </footer>
 
-    
 </body>
 </html>
