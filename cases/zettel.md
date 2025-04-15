@@ -1,6 +1,6 @@
 ---
 title: Zettel, AI-powered fast note-taking
-year: 2023
+date: 2023-12-21
 tags: case
 excerpt: Little LLM helper to systematise your messy sporadic notes. 🏆 Winner of Innovation Sandbox 2023 
 layout: case-layout.html

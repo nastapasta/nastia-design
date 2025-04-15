@@ -1,6 +1,6 @@
 ---
 title: Navigating Sales Success with Generative AI
-year: 2024
+date: 2024-10-01
 tags: case
 excerpt: Spokn AI Success Intelligence service helps call centers improve objection handling
 layout: case-layout.html

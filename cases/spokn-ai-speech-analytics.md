@@ -1,6 +1,6 @@
 ---
 title: Spokn AI – speech analytics for contact centers
-year: 2023
+date: 2023-11-30
 tags: case
 excerpt: On how I stopped worrying and embraced generative AI
 layout: case-layout.html

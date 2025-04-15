@@ -22,7 +22,7 @@ layout: layout.html
         <a href="{{ case.url }}" class="case-card-link">
             <div class="case-card case-card-link">
                 <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
-                <small>{{ case.data.year }}</small>
+                <small>{{ case.date | date: "%Y" }}</small>                
                 <h2>{{ case.data.title }}</h2>
                 <p>{{ case.data.excerpt }}</p>
             </div>
