@@ -270,7 +270,16 @@ ul {
 img {
   max-width: 100%;
   height: auto;
-  display: block;}
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  color: gray;
+  margin: auto;
+  text-align: center;
+}
 
 figcaption a {
   text-transform: uppercase;
@@ -287,13 +296,12 @@ figcaption a {
 }
 
 .no-bg-image {
-  max-width: 760px;
+  max-width: 100%;
 }
 
 .small-grid-image {
   height: 200px;
   width: auto;
-  margin-bottom: 1rem;
 }
 
 /* Links */
@@ -309,11 +317,6 @@ a:hover {
   color: #333;
   background-color: #e6f2f2;
 }  
-
-figcaption {
-  color: gray;
-  margin: auto;
-}
 
 figure {
   display: flex;
@@ -605,6 +608,16 @@ margin-bottom: 3rem;
 .case-card-link {
   text-decoration: none;
   display: block;
+}
+
+.case-card-hor {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+  color: #333;
 }
 
 .case-card-link:hover,

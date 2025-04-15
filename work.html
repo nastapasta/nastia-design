@@ -1,0 +1,31 @@
+---
+layout: layout.html
+title: Work
+---
+
+<!-- Страница про письмо -->
+
+<hgroup>
+<h1>{{ title }}</h1>
+<h3>All visible and ephemeral results of my activity.</h3>
+</hgroup>
+
+<div class="middle-divider"></div>
+
+<div>
+    <h2>Product design</h2>
+    <div class="case-grid">
+        {% for case in collections.case %}
+        <a href="{{ case.url }}" class="case-card-link">
+            <div class="case-card case-card-link">
+                <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
+                <small>{{ case.data.year }}</small>
+                <h2>{{ case.data.title }}</h2>
+                <p>{{ case.data.excerpt }}</p>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+{% include "contact-card.html" %}

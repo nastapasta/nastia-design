@@ -15,9 +15,10 @@ layout: layout.html
 
 <div>
     <h2>Work</h2>
-    <p>Product design case studies I'm currently rewriting:</p>
+    <p>Recent case studies. <a href="/work/">All projects are here</a>.</p>
     <div class="case-grid">
-        {% for case in collections.case %}
+        {% assign recentCases = collections.case | slice: 0, 2 %}
+        {% for case in recentCases %}
         <a href="{{ case.url }}" class="case-card-link">
             <div class="case-card case-card-link">
                 <img src="{{ case.data.image }}" alt="{{ case.data.title }}">

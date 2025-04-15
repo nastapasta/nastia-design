@@ -15,6 +15,10 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTag("note").sort((a, b) => b.date - a.date);
   });
 
+  eleventyConfig.addCollection("case", function (collectionApi) {
+    return collectionApi.getFilteredByTag("case").sort((a, b) => b.date - a.date);
+  });
+
   return {
     dir: {
       includes: "_includes",
