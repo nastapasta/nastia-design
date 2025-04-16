@@ -86,7 +86,7 @@ I bought Eugene Arutyunov's course <a href="https://intuition.team/how-to-design
 </figcaption>
 </figure>
 
-After that, nothing could stop me, I made a fork and started a new branch using Eleventy. After a few days and a few gray hairs, I got the site you are reading now – or rather, <a href="https://github.com/nastapasta/nastia-design">its first version</a>.
+After that, nothing could stop me, I made started a new branch and attached Eleventy to the folder. After a few days and a few gray hairs, I got the site you are reading now – or rather, <a href="https://github.com/nastapasta/nastia-design">its first version</a>.
 
 In the very beginning, I found <a href="https://www.youtube.com/watch?v=kzf9A9tkkl4">this short tutorial</a> very helpful to set up the file structure. It has flaws: the guy moves too fast and ommits some things, that are elemetary, if you know what it means, and completely unclear, if you don't. To solve them, I didn't hesitate and went to ChatGPT to ask, what I did wrong if I'm literally following the tutorial. 
 
