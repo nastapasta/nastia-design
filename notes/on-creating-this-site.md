@@ -44,7 +44,7 @@ Then I gave a couple of tries to a Figma prototype. Such solutions looked too st
 
 ### Women in Tech. – Framer portfolio.
 
-In 2024, I passed a competition and got into the Women in Tech program as a mentee, and my main request to my mentor was <em>"Please help me finally build the portfolio so I don't have to think about it anymore"</em>. We spent two months on it. This is the plan we followed – and I often use in mentoring – which someone can fing helpful:
+In 2024, I passed a competition and got into the Women in Tech program as a mentee, and my main request to my mentor was <em>"Please help me finally build the portfolio so I don't have to think about it anymore"</em>. We spent two months on it. This is the plan we followed – and I often use in mentoring – which someone can find helpful:
 - I defined my goal and target audience. Everything like in product design.
 - I looked at references, analysed their information architecture and user flows.
 (Everything a young designer sees in search of references and examples is perfectly shown on <a href="https://honest-ux-design-portfolio.webflow.io/">this site</a> - thank you, beautiful person.)
