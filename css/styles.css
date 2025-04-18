@@ -451,6 +451,23 @@ position: sticky;
 
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  }
+
+.icon-link {  
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.icon-link:hover {  
+  color: rgb(68, 121, 121);
+}
+
+
 /* Tags layout */
 
 .word-tag {

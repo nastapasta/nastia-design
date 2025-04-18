@@ -7,12 +7,10 @@ excerpt: Exploration on how metrics culture is affecting the discource community
 phase: 🌱 Seedling
 layout: note-layout.html
 ---
-*Disclaimer. – Introduction. - Historical context: Artisan, visionary, team player. - Impact: Consequences for designers, users, and design culture. - Future implications: "Two-tier" design*
-
-<div class="medium-divider"></div>
 
 ## Disclaimer
-I’m speaking primarily from a product design perspective — a discipline that blends visual design, interaction, tech, psychology, and more. This is for designers, product folks, and anyone curious about where design is headed.
+*I’m speaking primarily from a product design perspective — a discipline that blends visual design, interaction, tech, psychology, and more. This is for designers, product folks, and anyone curious about where design is headed.*
+
 <div class="medium-divider"></div>
 
 ## Introduction
