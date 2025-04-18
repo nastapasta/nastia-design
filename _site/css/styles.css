@@ -47,9 +47,7 @@ height: 2.5rem;
 .navbar {
 width: 100%;
 background: #fff;
-border-bottom: 1px solid #ddd;
 padding: 0rem 1rem 0rem 1rem;
-position: sticky;
 top: 0;
 z-index: 3;
 }
@@ -266,6 +264,23 @@ small {
   font-size: 0.9rem;
   font-weight: 400;
   color: #888;
+}
+
+.subheader {  
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  }  
+
+.note-subheader {
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: dimgray;
 }
 
 ul {
