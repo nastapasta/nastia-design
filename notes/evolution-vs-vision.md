@@ -31,19 +31,15 @@ In recent years of my practice I meet more and more strong opinions regarding ri
 
 ## Historical context: artisan, visionary and team player
 
-How does designers role change? How do we measure design success and impact?
+How does designers role change? 
 
-<div class="medium-divider"></div>
-
-## How we work now
+How do we measure design success and impact?
 
 In *Toward An Anthropological Theory of Value*, David Graeber points out that there are three ways of talking about value:
 
 1. “values” in the sociological sense: conceptions of what is ultimately good, proper, or desirable in human life
 2. “value” in the economic sense: the degree to which objects are desired, particularly, as measured by how much others are willing to give up to get them
 3. “value” in the linguistic sense, which goes back to the structural linguistics of Ferdinand de Saussure (1966), and might be most simply glossed as “meaningful difference"
-
-<div class="medium-divider"></div>
 
 First two of them correspond two major ways of expectations of design work as well:
 
@@ -65,6 +61,14 @@ Hence, functionality becomes not just the measure of how fast and successful the
 So, the design solution is good enough if it  shows the highest performance in manipulating a metric.
 
 *Value equals to revenue*: venture capicalist culture, IPO culture – is bringing monetary value to shareholders by any price the main goal of the designer? Can we consider value as cultural, aesthetical, something that just brings joy of seeing, holding, touching?
+
+(comparison table here)
+
+<div class="medium-divider"></div>
+
+## How we work now
+
+Like in the Way 2.
 
 <div class="medium-divider"></div>
 
