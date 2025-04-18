@@ -2,33 +2,90 @@
 title: Metric-driven evolution vs. aesthetical intention
 tags: note
 date: 2025-04-09
-excerpt: Exploration on how metrics culture iis affecting the discource community of designers
+tended: 2025-04-18
+excerpt: Exploration on how metrics culture is affecting the discource community of designers
 phase: 🌱 Seedling
 layout: note-layout.html
 ---
-*Introduction. Beauty vs Metrics - Historical Context: Designer and artist. Evolving of design culture. - Shift from CS to designers in interface design. - Bright examples. - Impact: Consequences for designers, users, and design culture. - Future implications: The potential "two-tier" design ecosystem*
+*Disclaimer. – Introduction. - Historical context: Artisan, visionary, team player. - Impact: Consequences for designers, users, and design culture. - Future implications: "Two-tier" design*
 
-Some things I observe during recent years of my practice:
+<div class="medium-divider"></div>
 
-- Is metrics culture jeopardising aesthetical aspects of product design? Is current product design culture inflating beauty? 
-- Tension between aesthetic value and business utility in product design. 
-- Iterative metrics-driven evolution vs. design/ artistic vision and intention. 
-- Utilitarian vs. aesthetical value
-- How is it affecting the millieu/discource community of designers?
+## Disclaimer
+I’m speaking primarily from a product design perspective — a discipline that blends visual design, interaction, tech, psychology, and more. This is for designers, product folks, and anyone curious about where design is headed.
+<div class="medium-divider"></div>
 
-Opinion: modern product design jeopardises ‘design culture’ (where designers criticise each other on not only the solution of a problem, but also the aesthetic side of the result) by turning design solely into a way of achieving business goals, in particular the manipulation of business metrics.
+## Introduction
+### Questioning the status quo
+Formula "Form follows function", declared by an American architect Louis Sullivan, has been the main principle of modernist and *modern* design for over a century. But is aesthetics of this form yet the part of it?
 
-Terms:
-- By **Design culture** I mean organisational culture in the team of designers, as well as the conventions and ideas of what good designer should do and how. For example, typography designers have their culture and ideas of what is good (9-12 words in the line, paragraph indent instead of skipping the line, book page proportions, font aesthetics) and will defend those arguments.
-- By **aesthetics** here I mean not just (wiki:) branch of [philosophy](https://en.wikipedia.org/wiki/Philosophy "Philosophy") concerned with the nature of [beauty](https://en.wikipedia.org/wiki/Beauty "Beauty") and [taste](https://en.wikipedia.org/wiki/Taste_\(sociology\) "Taste (sociology)"), which in a broad sense incorporates the **philosophy of art**.[](https://en.wikipedia.org/wiki/Aesthetics#cite_note-slater-1) But the conventions in the designers minds and opinions regarding what is beauty and taste in design practice and products of this practice.
+In recent years of my practice I meet more and more strong opinions regarding rising role of numbers numbers metrics analytics researches numbers in design process. For some, metrics culture is jeopardising aesthetical aspects of product design. Is current product design culture really inflating beauty? And how is it affecting the designers' millieu in general?
 
-Formula "Form follows function", formed by an american architect Louis Sullivan, has been the main principle of practice in any design field since the beginning of 20th century. But is aesthetics of this form the part of the equation anymore?
+<div class="medium-divider"></div>
 
-Some designers raise concerns and even share their rage. Current product design paradigm says, that if it's working – it is enough. If the UI solution shows the highest performance in manipulating metric – it is the best one.
+## Historical context: artisan, visionary and team player
 
-So, the scale now is not being "ugly or beautiful", but "bringing revenue or not".
-Designers have become engineers, marketers, product managers. They don't answer the question "Is it beautiful", they answer "Is it impacting the metric".
+How does designers role change? How do we measure design success and impact?
 
-Functionality becomes not the measure of how fast and successful the user performs their task but how beneficial it is for the business. Does revenue growth and monetary business success equal good user experience and good design?
+<div class="medium-divider"></div>
+
+## How we work now
+
+In *Toward An Anthropological Theory of Value*, David Graeber points out that there are three ways of talking about value:
+
+1. “values” in the sociological sense: conceptions of what is ultimately good, proper, or desirable in human life
+2. “value” in the economic sense: the degree to which objects are desired, particularly, as measured by how much others are willing to give up to get them
+3. “value” in the linguistic sense, which goes back to the structural linguistics of Ferdinand de Saussure (1966), and might be most simply glossed as “meaningful difference"
+
+First two of them correspond two major ways of expectations of design work as well:
+
+### Way 1. Design must add aesthetical value.
+
+Metrics: Emotional resonance, cultural relevance, aesthetic delight\
+Tools: Craft, research, storytelling\
+Risk: Less scalable, less defensible in corporate settings
+
+___
+
+### Way 2: Design must solve the problem.
+**Maximising value, minimising effort**
+
+Most of the modern designers work in this paradigm. They rarer answer the question "Is it beautiful?". First of all they answer "Is it impacting the *metric*?" 
+
+Hence, functionality becomes not just the measure of how fast and successful the user performs their task, but how beneficial it is for the business. *Function follows metrics*. Does revenue growth and monetary business success equal good user experience and good design?
+
+So, the design solution is good enough if it  shows the highest performance in manipulating a metric.
+
+*Value equals to revenue*: venture capicalist culture, IPO culture – is bringing monetary value to shareholders by any price the main goal of the designer? Can we consider value as cultural, aesthetical, something that just brings joy of seeing, holding, touching?
+
+<div class="medium-divider"></div>
+
+## Future implications
+
+Here are my pure speculations, but I'll allow myself make a parallel with the production of consumer goods – in the end, I'm not academic researcher and you don't have to believe me. 
+
+With the development of AI, in the field of digital experiences can arise differentiation between 
+
+1. AI-powered (where the AI is a tool, not just a product) mass production
+
+*Era of evolutionary product machines.*
+
+Interfaces and products for millions of people, running dozens of experiments simultaneously and monitoring hundreds and thousands of metrics, generating hypotheses from them, creating new queues of experiments, drawing conclusions from them and changing interfaces automatically based on all this data.
+
+And maybe even changing interfaces for each cohort of users depending on what color button converts better for them and increasing conversion rates to almost 100% (in theory)
+
+2. Artisanal creation
+
+*Products for small groups of users, who are willing to pay a lot for doing what is expected of those apps without experimenting and changing the interfaces and functions of the product.*
+
+Probably for groups of users, who can afford not to have LinkedIn, Airbnb, Facebook or other apps, or can outsource the tasks intended for these tools.
+
+<div class="medium-divider"></div>
+
+## And so what?
+Welcome to the neoliberalism!
+
+Value of design work cannot be measured only in monetary value. But we got caught in the economic situation (neoliberalism), where only revenue is something that can be quantified. This is not an allowance to turn into metrics and retention oriented designer.
+
 
 {% include "in-progress.html" %}

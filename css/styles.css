@@ -194,8 +194,8 @@ hgroup {
 
 h1 {
   font-family: "Source Serif 4", serif;  
-  font-weight: 500;
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 3rem;
   line-height: 1.4;
   padding-bottom: 5px;
   margin-top: 0;
@@ -210,6 +210,15 @@ margin-top: 0;
 margin-bottom: 0.7rem;
 }
 
+.note-wrapper h2 {
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(68, 121, 121);
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  }
 
 h3 {
   font-weight: 400;
@@ -260,6 +269,12 @@ small {
 }
 
 ul {
+  font-family: "Source Serif 4", serif;
+  font-size: 1.3rem;
+  font-weight: 370;
+}
+
+li {
   font-family: "Source Serif 4", serif;
   font-size: 1.3rem;
   font-weight: 370;
@@ -537,9 +552,8 @@ margin-bottom: 3rem;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
-  height: 3rem;
   padding-top: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   top: 0;
   color: #333;
   }  

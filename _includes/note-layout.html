@@ -31,14 +31,19 @@
 <div class="medium-divider"></div>
 
 <main class="note-wrapper">
-    <hgroup>
-          <h1>{{ title | default: "none" }}</h1>
-          <h3 style="color:dimgray;">{{ excerpt | default: "none" }}</h3>
-          <div class="entry-subheader">
-              <small> {{ phase }}</small>
-              <small>Planted on {{ date | date: "%B %d, %Y" }}</small> 
-              </div>
-    </hgroup>
+  <hgroup>
+    <h1>{{ title | default: "Untitled" }}</h1>
+    <h3 style="color:dimgray;">{{ excerpt | default: "none" }}</h3>
+    <div class="entry-subheader">
+      <small>{{ phase }}</small>
+      <div style="display: flex; flex-direction: column;">
+        <small>Planted on {{ date | date: "%B %d, %Y" }}.</small>
+        {% if tended %}
+          <small>Last tended on {{ tended | date: "%B %d, %Y" }}</small>
+        {% endif %}
+      </div>
+    </div>
+  </hgroup>
   {{ content }} 
 </main>
 
