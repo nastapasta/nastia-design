@@ -297,10 +297,9 @@ figcaption {
 }
 
 figcaption a {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-style: italic;
+  font-weight: 500;
   max-width: 100%;
+  color: inherit;
 }
 
 .post-image {

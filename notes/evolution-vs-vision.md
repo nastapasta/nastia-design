@@ -19,6 +19,12 @@ I’m speaking primarily from a product design perspective — a discipline that
 ### Questioning the status quo
 Formula "Form follows function", declared by an American architect Louis Sullivan, has been the main principle of modernist and *modern* design for over a century. But is aesthetics of this form yet the part of it?
 
+<figure>
+<img src="/images/notes/barcelona-chair.jpg" alt="Mies van der Rohe Barselona Chair" class="post-image"></img>
+<figcaption>Fun fact: I san on such a chair in Neue Nationalgalerie in Berlin. Looked iconic, felt not so. If the chair's function is to let you rest just long enough to start hurting your back, it worked. Source: <a href="https://www.knoll-int.com/design-deconstructed-barcelona-chair">Knoll archive</a>
+</figcaption>
+</figure>
+
 In recent years of my practice I meet more and more strong opinions regarding rising role of numbers numbers metrics analytics researches numbers in design process. For some, metrics culture is jeopardising aesthetical aspects of product design. Is current product design culture really inflating beauty? And how is it affecting the designers' millieu in general?
 
 <div class="medium-divider"></div>
@@ -64,7 +70,7 @@ So, the design solution is good enough if it  shows the highest performance in m
 
 ## Impact: Consequences for designers, users, and design culture.
 
-
+Probabaly I'll add here something for introduction.
 
 ### Visual skill decay
 
