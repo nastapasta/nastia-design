@@ -553,9 +553,9 @@ color: var(--color-text-subtle);
 text-decoration: none;
 }
 
-.note-card a:hover {
+/* .note-card a:hover {
 text-decoration: underline;
-}
+} */
 
 /* Essays Grid */
 
