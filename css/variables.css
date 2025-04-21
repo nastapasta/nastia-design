@@ -1,0 +1,45 @@
+/* Colors */
+
+:root {
+    --white: #ffffff;
+    --black: #333333;
+    --black-alpha: rgba(51, 51, 51, 0.05);
+    --thin-grey: #f7f7f7;
+    --light-grey: #f3f3f3;
+    --grey: #888888;
+    --dimgray: #696969;
+    --mauve: #447979;
+    --mauve-light: #e6f2f2;
+    --darkred: #8b0000; 
+    --blue: #2f2fac;
+    --blue-dark: #38237d;
+    --yellow: rgb(255, 248, 191);
+
+
+    /* Text colors */
+    --color-text: var(--black);
+    --color-text-heading: var(--black);
+    --color-text-subtle: var(--gray);
+    --color-text-subheading: var(--dimgray);
+    --color-text-accent: var(--mauve);
+    --color-text-negative: var(--darkred);
+    --color-link: var(--blue);
+    --color-link-visited: var(--blue-dark);
+    --color-link-hover: var(--mauve-light);
+    --color-blockquote-background: var(--gray-2);
+
+    /* Background colors */
+    --color-background: var(--white);
+    --color-background-framed: var(--light-grey);
+    --color-background-subtle: var(--mauve-light);
+    --color-background-accent: var(--yellow);
+
+    /* Border colors */
+    --color-border-subtle: var(--light-grey);
+    --color-border-thin: var(--thin-grey);
+
+    /* Shadow colors */
+    --color-shadow: var(--black-alpha);
+
+
+  }

@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 * {
   box-sizing: border-box;
 }
@@ -51,7 +53,7 @@ padding: 0rem 1rem 0rem 1rem;
 top: 0;
 z-index: 3;
 position: sticky;
-border-bottom: 1px solid #ddd;
+border-bottom: 1px solid var(--color-border-thin);
 }
 
 .nav-container {
@@ -85,7 +87,8 @@ color: inherit;
 }
 
 .nav-links li a:hover {
-background: #f0f0f0;
+background: var(--color-background-subtle);
+border-radius: 12px;
 }
 
 .nav-icon {
@@ -185,7 +188,7 @@ body {
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   line-height: 1.6;
   margin: auto;
-  color: #333;
+  color: var(--color-text);
 }
 
 hgroup {
@@ -215,7 +218,7 @@ margin-bottom: 0.7rem;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.2rem;
-  color: rgb(68, 121, 121);
+  color: var(--color-text-accent);
   margin-top: 0;
   margin-bottom: 0.7rem;
   }
@@ -265,7 +268,7 @@ font-weight: 370;
 small {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #888;
+  color: var(--color-text-subtle);
 }
 
 .subheader {  
@@ -282,7 +285,7 @@ small {
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: dimgray;
+  color: var(--color-text-subheading);
 }
 
 ul {
@@ -308,7 +311,7 @@ img {
 }
 
 figcaption {
-  color: gray;
+  color: var(--color-text-subtle);
   margin: auto;
   text-align: center;
 }
@@ -320,9 +323,9 @@ figcaption a {
 }
 
 .post-image {
-  border: 1px solid #efefef;
+  border: 1px solid var(--color-border-subtle);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+  box-shadow: 0 2px 8px var(--color-shadow);
   max-width: 760px;
 }
 
@@ -341,12 +344,13 @@ a {
   transition: background-color 0.2s;
   font-weight: 380;
   text-decoration: none;
-  color: rgb(47, 47, 172);
+  color: var(--color-link);
 }
 
 a:hover {
-  color: #333;
-  background-color: #e6f2f2;
+  color: var(--color-text);
+  background-color: var(--color-background-subtle);
+  border-radius: 4px;
 }  
 
 figure {
@@ -356,7 +360,7 @@ figure {
 }
 
 mark {
-  background-color:rgb(255, 248, 191);
+  background-color:var(--color-background-accent);
 }
 
 /* If you want to make parts of text stand out or add a note */
@@ -377,7 +381,7 @@ font-weight: 370;
 }
 
 .framed {
-  background-color: #f5f5f5;
+  background-color: var(--color-background-framed);
   border-radius: 16px;
   color: #1c1c1c;
   padding: 1rem 1.5rem 1rem 1.5rem;
@@ -385,10 +389,10 @@ font-weight: 370;
 }
 
 .post-note{
-background-color: white;
+background-color: var(--color-background);
 border-radius: 12px;
-border: 1px solid #efefef;
-color: #1c1c1c;
+border: 1px solid var(--color-border-subtle);
+color: var(--color-text);
 margin: 40px auto;
 width: 75%;
 text-align: center;
@@ -397,19 +401,19 @@ box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
 }
 
 .disclaimer{
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-background);
   border-radius: 12px;
-  border: 1px solid #efefef;
+  border: 1px solid var(--color-border-subtle);
   color: #1c1c1c;
   margin: 40px auto;
   width: 75%;
   text-align: center;
   padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(89, 46, 46, 0.05);
+  box-shadow: 0 2px 8px var(--color-shadow);
   }
 
 .disclaimer h2 {
-  color:darkred;
+  color: var(--color-text-negative);
 }
 
 @media (max-width: 820px) {
@@ -434,7 +438,7 @@ box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
   margin-top: 1rem;
   margin-bottom: 40px;
   color: rgb(193, 83, 19);
-  background-color: rgb(255, 236, 225);
+  background-color: var(--color-background);
   width:fit-content;
 }
 
@@ -442,8 +446,8 @@ box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
 footer {  
 display: flex;
 justify-content: space-between;
-background: #fff;
-border-top: 1px solid #ddd;
+background: var(--color-background);
+border-top: 1px solid var(--color-border-thin);
 margin-top: 4rem;
 padding: 1rem;
 top: 0;
@@ -480,10 +484,6 @@ position: sticky;
   padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
-.icon-link:hover {  
-  color: rgb(68, 121, 121);
-}
-
 
 /* Tags layout */
 
@@ -495,8 +495,8 @@ position: sticky;
 }
 
 .tag {
-  background-color: #e6f2f2;
-  color: #333;
+  background-color: var(--color-background-subtle);
+  color: var(--color-text);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   white-space: nowrap;
@@ -546,7 +546,7 @@ margin-bottom: 0.5rem;
 
 .note-card small {
 font-size: 1rem;
-color: #888;
+color: var(--color-text-subtle);
 }
 
 .note-card a {
@@ -584,7 +584,7 @@ margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-border-thin);
   padding-top: 1rem;
   padding-bottom: 1rem;
   top: 0;
@@ -598,7 +598,7 @@ margin-bottom: 3rem;
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 8px rgba(51, 51, 51, 0.05);
+  box-shadow: 0 2px 8px var(--color-shadow);
   transition: box-shadow 0.3s ease;
   display: flexbox;
   justify-content: space-between;
@@ -606,12 +606,12 @@ margin-bottom: 3rem;
 }
 
 .essay-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 20px var(--color-shadow);
 }
 
 .essay-card h2 {
   margin-top: 0;
-  color:#333;
+  color: var(--color-text);
 }
 
 .essay-card a {
@@ -649,7 +649,7 @@ margin-bottom: 3rem;
   justify-content: space-between;
   align-items: top;
   transition: transform 0.2s ease;
-  color: #333;
+  color: var(--color-text);
 }
 
 .case-card-link {
@@ -664,8 +664,7 @@ margin-bottom: 3rem;
   justify-content: space-between;
   align-items: center;
   transition: transform 0.2s ease;
-  color: #333;
-}
+  color: var(--color-text);}
 
 .case-card-link:hover,
 .case-card-link:focus,
