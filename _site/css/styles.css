@@ -84,11 +84,11 @@ padding: 0.5rem;
 font-weight: 400;
 font-size: 1.2rem;
 color: inherit;
+border-radius: 12px;
 }
 
 .nav-links li a:hover {
 background: var(--color-background-subtle);
-border-radius: 12px;
 }
 
 .nav-icon {
@@ -345,12 +345,12 @@ a {
   font-weight: 380;
   text-decoration: none;
   color: var(--color-link);
+  border-radius: 4px;
 }
 
 a:hover {
   color: var(--color-text);
   background-color: var(--color-background-subtle);
-  border-radius: 4px;
 }  
 
 figure {
