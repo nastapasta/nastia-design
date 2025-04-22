@@ -13,19 +13,21 @@ title: Work
 <div class="middle-divider"></div>
 
 <div>
-    <h2>Product design</h2>
-    <div class="case-grid">
-        {% for case in collections.case %}
+    <div class="case-grid-horizontal">
+        {% assign recentCases = collections.case | %}
+        {% for case in recentCases %}
         <a href="{{ case.url }}" class="case-card-link">
-            <div class="case-card case-card-link">
-                <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
-                <small>{{ case.date | date: "%Y" }}</small>
-                <h3>{{ case.data.title }}</h3>
-                <p>{{ case.data.excerpt }}</p>
+          <div class="case-card-horizontal">
+            <div class="case-card-image">
+              <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
             </div>
+            <div class="case-card-content">
+              <small>{{ case.date | date: "%Y" }} | {{ case.data.type }}</small>
+              <h2>{{ case.data.title }}</h2>
+              <p>{{ case.data.excerpt }}</p>
+            </div>
+          </div>
         </a>
         {% endfor %}
-    </div>
+      </div>      
 </div>
-
-{% include "contact-card.html" %}
