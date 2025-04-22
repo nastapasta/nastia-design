@@ -163,17 +163,14 @@ We paired transcripts with sentiment markers and playback controls. This allowed
 ### Unexpected Use Cases
 While the beta version had limited functionality, some of the users used the transcript feature to gather sets of sample conversations, download the transcript documents and review them with ChatGPT, getting even more actionable insights.
 
-<div class="framed italic">
-<p>“Spokn's speech transcription and call summary features are helpful, especially for reducing the need for manual sales documentation”.
-</p>
-</div> 
 
-<div class="framed italic">
-<p>“These insights would allow us to address issues without extensive manual review, thereby saving time and improving efficiency.”
-</p>
-</div> 
+<blockquote>“Spokn's speech transcription and call summary features are helpful, especially for reducing the need for manual sales documentation.”</blockquote>
 
-*— Quotes from the pilot launch users.*
+<blockquote>“These insights would allow us to address issues without extensive manual review, thereby saving time and improving efficiency.”
+
+<em>— Quotes from the pilot launch users.</em>
+</blockquote>
+
 
 The tool laid the foundation for future AI-assisted coaching and continuous QA improvements.
 

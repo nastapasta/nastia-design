@@ -166,12 +166,11 @@ This is what we wanted to look like in the end: general insights combined with o
 ## The Impact
 We shipped the pilot version in 3 months and rolled out the full release in 5. Over 100 licenses were signed early on, and the customers reported immediate value from the transcription and summarization features—even before full-scale rollout of the Success Intelligence modules.
 
-<div class="framed italic">
-<p class="big centered">“As a business, we are very committed to Al and the value it brings. We've found a lot of use in Spokn Al, the speech transcription and summarisation feature has been a massive help.”
-</p>
-</div> 
 
-*— Call centre manager of one of the customers*
+<blockquote>“As a business, we are very committed to Al and the value it brings. We've found a lot of use in Spokn Al, the speech transcription and summarisation feature has been a massive help.”
+
+<em>— Call centre manager of one of the customers</em>
+</blockquote>
 
 <div class="medium-divider"></div>
 
@@ -189,12 +188,10 @@ Though I didn’t see the full rollout due to team cuts, I’m proud of what we 
 
 And look, what my product manager said!
 
-<div class="framed italic">
-<p class="big centered">“Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.”
-</p>
-</div> 
+<blockquote>“Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.”
 
-*— Drew Naylor, Product Manager at MaxContact*
+<em>— Drew Naylor, Product Manager at MaxContact</em>
+</blockquote>
 
 <div class="medium-divider"></div>
 

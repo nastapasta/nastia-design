@@ -233,6 +233,12 @@ I focused on mobile-first interactions, imagining real-life use: walking, listen
 ## Outcome
 Time to pitch! The finale of the sandbox was the public presentation and pitching, demonstrating the whole work: target auditory research, market research, business model (all of them I omitted in this publication) and a prototype.
 
+<blockquote>“I wish I had this during my PhD.”
+
+<em>– Max Sandu, Head of Jury</em>
+</blockquote>
+
+
 The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
 <figure>
@@ -242,13 +248,6 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 </figure>
 
 <img src="/images/case-studies/zettel/presentation-slides.png" alt="Several slides from the pitch deck" style="margin-bottom: 1rem; width: 100%"></img>
-
-<div class="framed">
-<p class="big centered italic">“I wish I had this during my PhD.”
-</p>
-<p>– Max Sandu, Head of Jury”
-</div> 
-
 
 <div class="large-divider"></div>
 
