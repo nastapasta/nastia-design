@@ -27,7 +27,7 @@ type: Web Application
 </p>
 </div> 
 
-<div class="large-divider"></div>
+<section class="note-section">
 
 ## The Challenge and the Pivot
 At first, the goal was to build out speech analytics features with *automatic quality scoring* of the calls. We explored call scoring frameworks, researched industry scorecards, and even began early prototyping. But as we moved deeper, the client reassessed the effort-value ratio – and pivoted.
@@ -39,7 +39,8 @@ The solution addresses the need for advanced tools to:
 - Measure sales agent performance, 
 - Improve training, support, and job satisfaction in contact centres.
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 ## The Approach
 The design process was even more chaotic this time, but still - Double Diamond narrative is useful not to lose track of the events and their purpose even when the scope shifts.
@@ -68,7 +69,8 @@ Based on the insights, we identified the main user problems:
 
 As we were developing this iteration in parallel with rolling out <a href="/cases/spokn-ai-speech-analytics.md">Speech&nbsp;Analytics</a>, we had not much opportunity to see how managers' routines shifted, so we had to work with assumptions. Since transcript search wasn’t yet implemented, we imagined how managers might navigate sentiment and conversation flow — without being able to quickly jump to specific content.
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 ### Develop
 To balance usability, data complexity, and tech constraints, we broke the product down into three clear increments:
@@ -93,7 +95,8 @@ The problems we faced:
 We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components: **Dashboard** switching focus from agents to objections, **Interaction** details highlighting the objections there, and **Spokn AI Spotlight** – providing AI insights based on the data.
 
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 <h2 id="solution">The Solution</h2>
 
@@ -130,7 +133,8 @@ Objection details overlay provides a view on its frequency and the efforts in ha
 </figcaption>
 </figure>
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 ### Interaction details
 Objections are highlighted in the interaction analysis: the user can jump right to them, find them in the transcript and examine its details.
@@ -141,7 +145,8 @@ Objections are highlighted in the interaction analysis: the user can jump right 
 </figcaption>
 </figure>
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 ### AI insights — Spokn AI Spotlight
 
@@ -161,7 +166,9 @@ This is what we wanted to look like in the end: general insights combined with o
 </figcaption>
 </figure>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## The Impact
 We shipped the pilot version in 3 months and rolled out the full release in 5. Over 100 licenses were signed early on, and the customers reported immediate value from the transcription and summarization features—even before full-scale rollout of the Success Intelligence modules.
@@ -172,12 +179,15 @@ We shipped the pilot version in 3 months and rolled out the full release in 5. O
 <em>— Call centre manager of one of the customers</em>
 </blockquote>
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 While I didn’t stay to see the full evolution of the product, I’m proud of the foundation we built. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.
 When the company had to reduce costs, my role was among those phased out in favor of engineering capacity. It was disappointing, but understandable.
 
-<div class="large-divider"></div>
+</section>
+<section class="note-section">
 
 ## Reflection
 This project pushed me to adapt quickly, navigate ambiguity, and align technical possibilities with real user needs. One of my biggest challenges was accepting a major pivot—letting go of early work and regrouping around a new direction.
@@ -193,6 +203,6 @@ And look, what my product manager said!
 <em>— Drew Naylor, Product Manager at MaxContact</em>
 </blockquote>
 
-<div class="medium-divider"></div>
+</section>
 
 {% include "in-progress.html" %}

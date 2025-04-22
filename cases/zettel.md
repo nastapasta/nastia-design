@@ -20,7 +20,7 @@ type: Mobile Application
 <p>This was a personal solo project from 0→1: research, UX, UI, illustration, pitching — all done by me.</p>
 </div> 
 
-<div class="large-divider"></div>
+<section class="note-section">
 
 ## The Problem
 ### Attention spans are shrinking, information keeps growing, and everything is falling apart
@@ -42,7 +42,9 @@ Most note-taking tools focus on capturing — not connecting — ideas. Even pow
 <blockquote>“I have notes everywhere, but no idea where to start making sense of them.”
 </blockquote>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Research
 
@@ -73,7 +75,9 @@ What they all shared:
 - Difficulty remembering where they read or heard something.
 - A patchwork of tools, rituals, and frustration.
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Defining the Needs
 
@@ -115,9 +119,11 @@ How might we…
 - Make structuring optional and gentle?
 - Let users capture quickly, connect gradually?
 
-<div class="large-divider"></div>
+</section>
 
-### Zettel introduces a more intuitive, assisted way of connecting thoughts:
+<section class="note-section">
+
+### Zettel offers a more intuitive, assisted way of connecting thoughts:
 
 <div class=two-grid>
     <div>
@@ -142,7 +148,9 @@ How might we…
     </div>
 </div>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Design Process
 As a sole member of the team, I had to use my subtle abilities to create a prototype. I had no technical ability, only Figma. Fortunately, design thinking is not something I had to be taught of.
@@ -177,8 +185,11 @@ Piles of sketches and wireframes slowly turned into prototypes:
 ## The Solution
 I focused on mobile-first interactions, imagining real-life use: walking, listening to a podcast, or quickly capturing a thought in a café. So, the journey resulted in a Figma prototype of a solution as simple as your "Saved messages" inbox in messenger, with some twists.
 
+</section>
+
 <!-- GIFs with UI -->
-<div class="medium-divider"></div>
+<section class="note-section">
+
 <div>
     <div class=case-ui-video-frame>
         <div class="case-ui-video-box">
@@ -227,7 +238,9 @@ I focused on mobile-first interactions, imagining real-life use: walking, listen
     </div>
 </div>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Outcome
 Time to pitch! The finale of the sandbox was the public presentation and pitching, demonstrating the whole work: target auditory research, market research, business model (all of them I omitted in this publication) and a prototype.
@@ -248,7 +261,9 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
 <img src="/images/case-studies/zettel/presentation-slides.png" alt="Several slides from the pitch deck" style="margin-bottom: 1rem; width: 100%"></img>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Reflection
 
@@ -260,3 +275,5 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 ### What's next
 I’m continuing to explore how people manage personal knowledge — either by developing this idea further or studying it from a more anthropological perspective.
 If this resonates with you or you want to collaborate — drop me a message. I'd love to chat.
+
+</section>

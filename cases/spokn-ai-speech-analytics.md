@@ -29,7 +29,7 @@ type: Web Application
 </p>
 </div> 
 
-<div class="large-divider"></div>
+<section class="note-section">
 
 ## The Challenge
 Call center managers are usually overwhelmed by the volume of calls they need to review manually. Feedback loops are slow, and coaching agents effectively is difficult without clear conversation insights.
@@ -42,7 +42,9 @@ The goal was to create a tool that could help managers:
 
 First two tasks became the main focus of the solution for the time being. We had to balance AI-powered analysis with clarity and trust, while working within a fast-moving startup environment and many technical constraints.
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## The Approach (Double Diamond, of course)
 Let’s pretend that Double Diamond narrative exists in the real world, though in reality I was jumping from part to part, aligning new findings, new constraints, and new requests.
@@ -74,15 +76,15 @@ Based on the insights from Hanna, we identified the main user problems:
 
 These challenges guided us in designing a solution that simplifies decision-making, speeds up the review process, and ensures more relevant feedback.
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ### Develop
-#### Balancing user needs, data, and technical constraints
-We needed to:
+To balance user needs, data, and technical constraints, we needed to:
 - Help users quickly find key interactions via the dashboard.
 - Show essential call info without opening each call.
 
-#### Exploration & Prototyping
 Using story maps and prioritization sessions, I sketched early flows to explore how high-level KPIs and detailed visualizations could guide call selection. This led to a lo-fi prototype focused on clarity and scanability.
 
 <figure>
@@ -97,14 +99,12 @@ Using story maps and prioritization sessions, I sketched early flows to explore 
 </figcaption>
 </figure>
 
-### Constraints
-I faced the unavoidable problems:
+During development, we faced unavoidable problems:
 - A small team with tight deadlines.
-- SLimited technical flexibility.
+- Limited technical flexibility.
 - No direct access to end users.
 
-#### Iteration Outcomes
-After stakeholder reviews, we made changes:
+After stakeholder reviews, we made some changes:
 - Renamed “Keywords” to “Topics” for clarity of what is happening in the back end.
 - Moved interaction lists to the playback page for familiarity.
 - Cut coaching and agent profile features from MVP due to time limits.
@@ -121,7 +121,9 @@ We learned:
 - Transcripts with sentiment highlights reduced listening time
 - Managers appreciated having everything in one place
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 
 <h2 id="solution">The Solution</h2>
@@ -153,7 +155,9 @@ We paired transcripts with sentiment markers and playback controls. This allowed
 </figcaption>
 </figure>
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## The Impact
 - The MVP was shipped and used in real QA workflows
@@ -174,7 +178,9 @@ While the beta version had limited functionality, some of the users used the tra
 
 The tool laid the foundation for future AI-assisted coaching and continuous QA improvements.
 
-<div class="large-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Reflection
 This project came with all the usual startup messiness — shifting requirements, parallel development, and tight deadlines. I learned to defend the scope while staying adaptable, and to make decisions even when I wasn’t 100% sure. When I needed extra eyes, quick hallway tests and input from the client’s UX lead helped move things forward. 
@@ -182,3 +188,5 @@ This project came with all the usual startup messiness — shifting requirements
 I also saw how even a simple-looking UI can create complex development challenges — our line chart alone took weeks of testing with huge amounts of data. Years later, I see that the solution could be much better – but it worked great in given circumstances.
 
 The key lessons? Involve devs early and always expect the unexpected. And make friends with the testers.
+
+</section>
