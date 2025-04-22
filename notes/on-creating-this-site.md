@@ -9,7 +9,9 @@ layout: note-layout.html
 
 In a search through my Obsidian vault, I counted 33 mentions of “portfolio” in two years. Every designer must have a portfolio. Every designer says “Yeah, I must finally get back to this issue”, and even if it gets done, no designer is ultimately happy with the result.
 
-### All designers need this. – First tries.
+<div class="medium-divider"></div>
+
+## All designers need this. – First tries.
 The task of putting together a portfolio has been following with me for almost a decade. At first architectural (architectural portfolios are a separate and very complex issue, I won't dive into it). After moving to UX — product design portfolio. Like for anyone else, it was very difficult to even put together a PDF of my work, let alone describe the cases themselves (if we manage to do this and don't quit, it's a leap beyond the edge of possibility). Why must there be a portfolio? Well, it just must be.
 
 There are many tools on the internet for creating and hosting design portfolios, from dedicated sites to very non-trivial “quick-and-dirty” methods:
@@ -42,7 +44,10 @@ Then I gave a couple of tries to a Figma prototype. Such solutions looked too st
 </figcaption>
 </figure>
 
-### Women in Tech. – Framer portfolio.
+<div class="medium-divider"></div>
+
+## Women in Tech. – Framer portfolio.
+
 
 In 2024, I passed a competition and got into the Women in Tech program as a mentee, and my main request to my mentor was <em>"Please help me finally build the portfolio so I don't have to think about it anymore"</em>. We spent two months on it. This is the plan we followed – and I often use in mentoring – which someone can find helpful:
 - I defined my goal and target audience. Everything like in product design.
@@ -72,7 +77,9 @@ In 2024, I passed a competition and got into the Women in Tech program as a ment
 
 Looking back, there were issues: unclear gray tone, naïve illustration (actually, this site's logo and favicon are from here – this is my cat's face), jumpy layout, verbose stories with too much copy.
 
-### Digital gardens. – Hardcore layout. – Here we are.
+<div class="medium-divider"></div>
+
+## Digital gardens. – Hardcore layout. – Here we are.
 
 Eventually I understood that * just * a portfolio is not interesting. When a friend sent me a link to <a href="https://maggieappleton.com/ai-dark-forest/">Maggie Appleton's essay The Dark Forest and Generative AI</a> a few years ago, I was impressed that one can have not just a portfolio, but an entire website dedicated to the self: a system of self-publishing, created for those who are actually interested in what you do. And one can also add some projects there, along with other things like notes, essays, experiments, pictures, etc. I'm subscribed to a few such digital gardens and enjoy peeking at who's doing what.
 

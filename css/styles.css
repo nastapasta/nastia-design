@@ -44,6 +44,10 @@ height: 1.75rem;
 height: 2.5rem;
 }
 
+hr.solid {
+  border-top: 1px solid var(--color-border-subtle);
+}
+
 /* Navigation */
 
 .navbar {
@@ -210,7 +214,7 @@ font-family: 'Instrument Sans', Helvetica, sans-serif;
 font-weight: 400;
 font-size: 1.8rem;
 margin-top: 0;
-margin-bottom: 0.7rem;
+margin-bottom: 0.5rem;
 }
 
 .note-wrapper h2 {
@@ -220,26 +224,19 @@ margin-bottom: 0.7rem;
   font-size: 1.2rem;
   color: var(--color-text-accent);
   margin-top: 0;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
   }
 
 h3 {
   font-weight: 400;
   font-size: 1.5rem;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 h4 {
   font-weight: 600;
   font-size: 1.2rem;
-  margin-top: 0;
-  margin-bottom: 0.2rem;
-}
-
-h5 {
-  font-weight: 600;
-  font-size: 1rem;
   margin-top: 0;
   margin-bottom: 0.2rem;
 }
@@ -258,6 +255,7 @@ font-family: "Source Serif 4", serif;
 font-optical-sizing: auto;
 font-size: 1.3rem;
 font-weight: 370;
+margin-block-start: 0.5rem;
 }
 
 .large-p {
@@ -266,9 +264,10 @@ font-weight: 370;
 }
 
 small {
+  color: var(--color-text-subtle);
   font-size: 0.9rem;
   font-weight: 400;
-  color: var(--color-text-subtle);
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
 }
 
 .subheader {  
@@ -277,6 +276,7 @@ small {
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: var(--color-text-subheading);
   }  
 
 .note-subheader {
@@ -287,6 +287,14 @@ small {
   margin-bottom: 0.5rem;
   color: var(--color-text-subheading);
 }
+
+.subheader-small {  
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-subheading);
+  }  
 
 ul {
   font-family: "Source Serif 4", serif;
@@ -538,7 +546,7 @@ justify-content: space-between;
 align-items: center;
 }
 
-.note-card h2 {
+.note-card h3 {
 font-size: 1.2rem;
 line-height: 150%;
 margin-bottom: 0.5rem;

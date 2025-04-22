@@ -15,7 +15,7 @@ layout: layout.html
 
 <div>
     <h2>Work</h2>
-    <p>Recent case studies. <a href="/work/">All projects are here</a>.</p>
+    <p class="subheader-small">Recent case studies. All projects are <a href="/work/">here</a>.</p>
     <div class="case-grid">
         {% assign recentCases = collections.case | slice: 0, 2 %}
         {% for case in recentCases %}
@@ -23,7 +23,7 @@ layout: layout.html
             <div class="case-card case-card-link">
                 <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
                 <small>{{ case.date | date: "%Y" }}</small>                
-                <h2>{{ case.data.title }}</h2>
+                <h3>{{ case.data.title }}</h3>
                 <p>{{ case.data.excerpt }}</p>
             </div>
         </a>
@@ -33,12 +33,12 @@ layout: layout.html
 
 <div>
     <h2>The Garden</h2>
-    <p>Most recent digital garden entries:</p>
+    <p class="subheader-small">Most recent digital garden entries:</p>
     <div class="notes-grid">
         {% assign recentNotes = collections.note | slice: 0, 3 %}
         {% for note in recentNotes %}
           <div class="note-card">
-              <h2><a href="{{ note.url }}" class="note-card">{{ note.data.title }}</a></h2>
+              <h3><a href="{{ note.url }}" class="note-card">{{ note.data.title }}</a></h3>
               <small>{{ note.data.phase }} | {{ note.date | date: "%B %d, %Y" }}</small>
           </div>
         {% endfor %}
@@ -88,6 +88,6 @@ layout: layout.html
 
 <div>
     <h2>Contact me</h2>
-    <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a></p>
-    <p><a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a></p>
+    <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a> 
+        | <a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a></p>
 </div>

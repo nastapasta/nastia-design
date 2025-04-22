@@ -7,7 +7,7 @@ title: Work
 
 <hgroup>
 <h1>{{ title }}</h1>
-<h3>All visible and ephemeral results of my activity.</h3>
+<p class="subheader">All visible and ephemeral results of my activity.</p>
 </hgroup>
 
 <div class="middle-divider"></div>
@@ -20,7 +20,7 @@ title: Work
             <div class="case-card case-card-link">
                 <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
                 <small>{{ case.date | date: "%Y" }}</small>
-                <h2>{{ case.data.title }}</h2>
+                <h3>{{ case.data.title }}</h3>
                 <p>{{ case.data.excerpt }}</p>
             </div>
         </a>

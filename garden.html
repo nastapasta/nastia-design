@@ -18,7 +18,7 @@ title: The Garden
     <div class="essays-grid">
           {% for essay in collections.essay %}
           <div class="essay-card">
-          <h2><a href="{{ essay.url }}">{{ essay.data.title }}</a></h2>
+          <h3><a href="{{ essay.url }}">{{ essay.data.title }}</a></h3>
           <p>{{ essay.data.excerpt }}</p>
           <small>Published on {{ essay.date | date: "%B %d, %Y" }}</small>
           </div>
@@ -28,11 +28,11 @@ title: The Garden
 
 <div>
 <h2>Notes</h2>
-<p>Raw searches and braindump around any topic.</p>
+<p class="subheader-small">Raw searches and braindump around any topic.</p>
 <div class="notes-grid">
         {% for note in collections.note %}
         <div class="note-card">
-          <h2 class="note-card"><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
+          <h3 class="note-card"><a href="{{ note.url }}">{{ note.data.title }}</a></h3>
           <small>{{ note.data.phase }} | {{ note.date | date: "%B %d, %Y" }}</small>
       </div>
         {% endfor %}
@@ -41,6 +41,32 @@ title: The Garden
 
 <div class="large-divider"></div>
 
+<div class="two-grid">
+  
+  <div>
+    <h2>Library</h2>
+    <p class="subheader-small">Books I've read and found important.</p>
+      <p>The Shallows <small>Nicholas Carr</small></p>
+      <p>The Form of the Book <small>Jan Tschichold</small></p>
+      <p>Radical Technologies <small>Adam Greenfield</small></p>
+      <p>The Complex Designer <small>Eugene Arutyunov</small></p>
+      <p>Bullshit Jobs: A Theory <small>David Graeber</small></p>
+  </div>
+
+  <div>
+    <h2>Antilibrary</h2>
+    <p class="subheader-small">Books in my to-read list. (In fact, it's much longer)</p>
+      <p>A Philosophy of Walking <small>Frederic Gros</small></p>
+      <p>On Writing Well <small>William Zinsser</small></p>
+      <p>The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century <small>Steven Pinker</small></p>
+  </div>
+</div>
+  
+<div class="medium-divider"></div>
+
+<hr class="solid">
+
+<div class="medium-divider"></div>
 
 <p>I find ability to share the ideas being in development beautiful and empowering. For my digital garden in its current state, I was inspired by and shamelessly copied <a href="https://maggieappleton.com/">Maggie Apleton's</a> metaphor:
   <ul>
