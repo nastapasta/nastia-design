@@ -386,7 +386,7 @@ mark {
 }
 
 .backlink {
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-decoration: none;
   margin-left: 0.3rem;
   color: var(--color-link);
