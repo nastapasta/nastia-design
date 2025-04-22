@@ -151,39 +151,10 @@ display: none;
 }
 }
 
-/* Floating Contact Button */
+/* Section Styles */
 
-.floating-contact-button {
-  background-color:#efefef;
-  font-size: 1.2rem;
-  font-weight: 300;
-  position: fixed;
-  bottom: 4.5rem;  /* Adjust this value to move it up or down */
-  right: 1.5rem;   /* Adjust this value to move it left or right */
-  padding: 1rem 2rem 1rem 2rem;
-  border-radius: 2rem;
-  border: none;
-  transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;    
-  box-shadow: 0 4px 12px rgba(51, 51, 51, 0.05);
-  z-index: 1000;
-}
-
-a .floating-contact-button {
-color: black;
-}
-
-.floating-contact-button:hover {
-background-color: #e0e0e0; /* slightly darker shade */
-box-shadow: 0 6px 16px rgba(51, 51, 51, 0.1); /* soft shadow bump */
-cursor: pointer;
-}
-
-/* Remove from mobile screen */
-
-@media (max-width: 600px) {
-  .floating-contact-button {
-    display: none;
-  }
+.note-section {
+  margin-bottom: 3rem;
 }
 
 /* Text styles */

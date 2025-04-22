@@ -7,11 +7,14 @@ excerpt: Exploration on how metrics culture is affecting the discource community
 phase: 🌱 Seedling
 layout: note-layout.html
 ---
+<section class="note-section">
 
 ## Disclaimer
 *I’m speaking primarily from a product design perspective — a discipline that blends visual design, interaction, tech, psychology, and more. This is for designers, product folks, and anyone curious about where design is headed.*
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Introduction
 ### Questioning the status quo
@@ -25,7 +28,9 @@ Formula "Form follows function", declared by an American architect Louis Sulliva
 
 In recent years of my practice I meet more and more strong opinions regarding rising role of numbers numbers metrics analytics researches numbers in design process. For some, metrics culture is jeopardising aesthetical aspects of product design. Is current product design culture really inflating beauty? And how is it affecting the designers' millieu in general?
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Historical context: artisan, visionary and team player
 
@@ -62,7 +67,9 @@ So, the design solution is good enough if it  shows the highest performance in m
 
 (comparison table here)
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## How we work now
 
@@ -82,11 +89,15 @@ As design tools become more automated and templated — from design systems to g
 
 The rise of AI user simulators and research surrogates — like Synthetic Users (https://www.syntheticusers.com) — could make research faster, but also more abstract. Without face-to-face interviews, contextual visits, or emotional resonance, designers risk losing the very intuition and care that qualitative methods build.
 
-## Loss of experimentation
+### Loss of experimentation
 
 In the pursuit of metric wins, experimentation shifts from conceptual or visual risks to button color tweaks. The room for surprise — for making something truly weird or new — keeps shrinking.
 Design patterns as we know them appeared as a result of deep work based on theory of metaphors (Lakoff) and explorations of our experiences (Pattern Language by Christopher Alexander). 
 Patterns of collective presence (Google Docs, Figma),  LLM's are machines based on reciprocity and prediction: they cannot generate something new just because they are made to repeat and synthesise what is already done.
+
+</section >
+
+<section class="note-section">
 
 ## Future implications
 
@@ -108,12 +119,16 @@ And maybe even changing interfaces for each cohort of users depending on what co
 
 Probably for groups of users, who can afford not to have LinkedIn, Airbnb, Facebook or other apps, or can outsource the tasks intended for these tools.
 
-<div class="medium-divider"></div>
+</section >
+
+<section class="note-section">
 
 ## And so what?
 Welcome to the neoliberalism!
 
 Value of design work cannot be measured only in monetary value. But we got caught in the economic situation (neoliberalism), where only revenue is something that can be quantified. This is not an allowance to turn into metrics and retention oriented designer.
+
+</section >
 
 
 {% include "in-progress.html" %}

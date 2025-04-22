@@ -6,10 +6,13 @@ excerpt: Freezing in mid-April in Belgrade — unthinkable for spring in the Bal
 phase:  ❇️ Evergreen
 layout: note-layout.html
 ---
+<section class="note-section">
 
 In a search through my Obsidian vault, I counted 33 mentions of “portfolio” in two years. Every designer must have a portfolio. Every designer says “Yeah, I must finally get back to this issue”, and even if it gets done, no designer is ultimately happy with the result.
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## All designers need this. – First tries.
 The task of putting together a portfolio has been following with me for almost a decade. At first architectural (architectural portfolios are a separate and very complex issue, I won't dive into it). After moving to UX — product design portfolio. Like for anyone else, it was very difficult to even put together a PDF of my work, let alone describe the cases themselves (if we manage to do this and don't quit, it's a leap beyond the edge of possibility). Why must there be a portfolio? Well, it just must be.
@@ -44,7 +47,9 @@ Then I gave a couple of tries to a Figma prototype. Such solutions looked too st
 </figcaption>
 </figure>
 
-<div class="medium-divider"></div>
+</section>
+
+<section class="note-section">
 
 ## Women in Tech. – Framer portfolio.
 
@@ -77,7 +82,8 @@ In 2024, I passed a competition and got into the Women in Tech program as a ment
 
 Looking back, there were issues: unclear gray tone, naïve illustration (actually, this site's logo and favicon are from here – this is my cat's face), jumpy layout, verbose stories with too much copy.
 
-<div class="medium-divider"></div>
+</section>
+<section class="note-section">
 
 ## Digital gardens. – Hardcore layout. – Here we are.
 
@@ -118,3 +124,5 @@ The site is still a work in progress:
 - Buy a domain name.
 
 And more and more things to do. But I hope this will be my cozy piece of internet for a long while.
+
+</section>
