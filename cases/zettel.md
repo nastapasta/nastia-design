@@ -39,10 +39,8 @@ We may capture thoughts and excerpts as they come — scattered, half-formed —
 
 Most note-taking tools focus on capturing — not connecting — ideas. Even power users find themselves manually copying and pasting their notes into external systems, hoping to make sense of it all later.
 
-<div class="framed italic">
-<p class="big centered">“I have notes everywhere, but no idea where to start making sense of them.”
-</p>
-</div> 
+<blockquote>“I have notes everywhere, but no idea where to start making sense of them.”
+</blockquote>
 
 <div class="large-divider"></div>
 
@@ -75,15 +73,16 @@ What they all shared:
 - Difficulty remembering where they read or heard something.
 - A patchwork of tools, rituals, and frustration.
 
-<div class="framed">
-<p class="big centered italic">“I sit down every other Saturday to paste all my notes into my kumu graph. It’s calming… but overwhelming.”
-</p>
-<p>– One of the interview participants</p>
-</div> 
-
 <div class="large-divider"></div>
 
 ## Defining the Needs
+
+
+<blockquote>“I sit down every other Saturday to paste all my notes into my kumu graph. It’s calming… but overwhelming.”
+
+<em>– One of the interview participants</em>
+</blockquote>
+
 
 From the interviews, four core problem areas stood out:
 
