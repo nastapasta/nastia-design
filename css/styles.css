@@ -164,6 +164,10 @@ display: none;
 
 /* Section Styles */
 
+section {
+  margin-bottom: 3rem;
+}
+
 .note-section {
   margin-bottom: 3rem;
 }

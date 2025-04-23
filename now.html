@@ -8,9 +8,11 @@ title: Now
 <p class="subheader">A sometimes-updated log of what's happening on my allotted piece of the world.</p>
 </hgroup>
 
+<section>
 <p class="framed">You can make your own "Now" page — this pattern in inspired by <a href="https://sive.rs/">Derek Sivers</a>. Read more about it: <a href="https://nownownow.com/about">nownownow.com</a>.</p>
-<div class="large-divider"></div>
+</section>
 
+<section>
 <div class="now-list">
     {% for entry in collections.now %}
       <article class="now-entry">
@@ -21,6 +23,6 @@ title: Now
       </article>
     {% endfor %}
   </div>
+</section>
   
 
-<!-- Добавить рендеринг отдельных файлов "сейчас" здесь и на отдельныз страницах через note-layout -->
