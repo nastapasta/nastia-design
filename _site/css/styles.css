@@ -338,8 +338,8 @@ figcaption a {
 /* Links */
 
 a {
-  transition: background-color 0.2s;
-  font-weight: 380;
+  transition: text-decoration 0.2s;
+  font-weight: 400;
   text-decoration: none;
   color: var(--color-link);
   border-radius: 4px;
@@ -347,7 +347,7 @@ a {
 
 a:hover {
   color: var(--color-text);
-  background-color: var(--color-background-subtle);
+  text-decoration: underline;
 }  
 
 figure {
@@ -596,9 +596,12 @@ align-items: center;
 }
 
 .note-card h3 {
-font-size: 1.2rem;
-line-height: 150%;
 margin-bottom: 0.5rem;
+}
+
+.note-card h3:hover {
+  color: var(--color-text);
+  text-decoration: underline;
 }
 
 .note-card small {
@@ -708,6 +711,16 @@ margin-bottom: 3rem;
   transition: transform 0.2s ease;
   color: var(--color-text);
 }
+
+.case-card h3 {
+  color: var(--color-link);
+}
+
+.case-card h3:hover {
+  color: var(--color-text);
+  text-decoration: underline;  
+}
+
 
 .case-card-link {
   text-decoration: none;

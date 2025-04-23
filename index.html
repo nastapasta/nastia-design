@@ -41,7 +41,7 @@ layout: layout.html
         {% assign recentNotes = collections.note | slice: 0, 3 %}
         {% for note in recentNotes %}
           <div class="note-card">
-              <h3><a href="{{ note.url }}" class="note-card">{{ note.data.title }}</a></h3>
+              <h3><a href="{{ note.url }}">{{ note.data.title }}</a></h3>
               <small>{{ note.data.phase }} | {{ note.date | date: "%B %d, %Y" }}</small>
           </div>
         {% endfor %}

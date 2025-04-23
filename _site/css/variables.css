@@ -8,7 +8,7 @@
     --light-gray: #f3f3f3;
     --gray: #888888;
     --dimgray: #696969;
-    --mauve: #447979;
+    --mauve: #057d7d;
     --mauve-light: #e6f2f2;
     --darkred: #8b0000; 
     --blue: #2f2fac;
@@ -23,7 +23,7 @@
     --color-text-subheading: var(--dimgray);
     --color-text-accent: var(--mauve);
     --color-text-negative: var(--darkred);
-    --color-link: var(--blue);
+    --color-link: var(--color-text-accent);
     --color-link-visited: var(--blue-dark);
     --color-link-hover: var(--mauve-light);
     --color-blockquote-background: var(--gray-2);
