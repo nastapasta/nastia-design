@@ -24,7 +24,7 @@ layout: layout.html
         {% for case in recentCases %}
         <a href="{{ case.url }}" class="case-card-link">
             <div class="case-card case-card-link">
-                <img src="{{ case.data.image }}" alt="{{ case.data.title }}">
+                <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
                 <small>{{ case.date | date: "%Y" }}</small>                
                 <h3>{{ case.data.title }}</h3>
                 <p>{{ case.data.excerpt }}</p>

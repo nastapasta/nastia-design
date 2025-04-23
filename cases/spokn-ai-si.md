@@ -5,6 +5,7 @@ tags: case
 excerpt: Spokn AI Success Intelligence service helps call centers improve objection handling
 layout: case-layout.html
 image: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-image.png"
+image-bg: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-image-bg.png"
 type: Web Application
 ---
 

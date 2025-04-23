@@ -382,7 +382,7 @@ mark {
 }
 
 .footnotes ol {
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
 }
 
 .footnotes li {
@@ -731,14 +731,6 @@ margin-bottom: 3rem;
   display: block;
 }
 
-.case-card-hor {
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  transition: transform 0.2s ease;
-  color: var(--color-text);}
 
 .case-card-link:hover,
 .case-card-link:focus,
@@ -769,7 +761,6 @@ margin-bottom: 3rem;
   gap: 2rem;
   transition: transform 0.2s ease;
   color: var(--color-text);
-  border-bottom: 2px solid var(--color-border-subtle);
 }
 
 .case-card-horizontal:hover {
