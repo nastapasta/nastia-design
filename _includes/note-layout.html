@@ -28,12 +28,11 @@
 
 {% include "header.html" %}
 
-<div class="medium-divider"></div>
-
 <main class="note-wrapper">
   <hgroup>
+    <small><a href="/garden/">← Back to Garden</a></small>
     <h1>{{ title | default: "Untitled" }}</h1>
-    <p class="note-subheader">{{ excerpt | default: "none" }}</h3>
+    <p class="note-subheader">{{ excerpt | default: none }}</p>
     <div class="entry-subheader">
       <small>{{ phase }}</small>
       <div style="display: flex; flex-direction: column;">
