@@ -350,14 +350,14 @@ figcaption a {
 a {
   transition: text-decoration 0.2s;
   font-weight: 400;
-  text-decoration: none;
-  color: var(--color-link);
+  text-decoration: underline;
+  color: var(--color-text);
+  text-decoration-color: var(--color-text-subtle);
   border-radius: 4px;
 }
 
 a:hover {
-  color: var(--color-text);
-  text-decoration: underline;
+  color: var(--color-link);
 }  
 
 figure {
@@ -399,7 +399,7 @@ mark {
   font-size: 1rem;
   text-decoration: none;
   margin-left: 0.3rem;
-  color: var(--color-link);
+  color: var(--color-text);
 }
 
 h1 .footnote-ref,
@@ -441,7 +441,7 @@ font-weight: 370;
 
 .framed {
   background-color: var(--color-background-framed);
-  border-radius: 16px;
+  border-radius: 0.5rem;
   color: #1c1c1c;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -546,6 +546,10 @@ position: sticky;
   margin-block-start: 0.5rem;
   }
 
+.contact-links a {
+  text-decoration: none;
+}
+
 .icon-link {  
   transition: all 0.3s ease; /* Add transition for hover effects */
   padding: 0rem 0.5rem 0rem 0.5rem;
@@ -581,6 +585,7 @@ position: sticky;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
@@ -612,6 +617,7 @@ margin-bottom: 0.5rem;
 .note-card h3:hover {
   color: var(--color-text);
   text-decoration: underline;
+  text-decoration-color: var(--color-text-subtle);
 }
 
 .note-card small {
@@ -722,7 +728,7 @@ margin-bottom: 3rem;
 }
 
 .case-card h3 {
-  color: var(--color-link);
+  color: var(--color-text);
 }
 
 .case-card h3:hover {
