@@ -17,8 +17,8 @@ layout: layout.html
 <!-- Про дизайн -->
 
 <section>
-    <h2>Work</h2>
-    <p class="subheader-small">Recent case studies. All projects are <a href="/work/">here</a>.</p>
+    <h2>Selected <a href="/work/">work ›</a></h2>
+    <!-- <p class="subheader-small">Recent case studies. All projects are <a href="/work/">here</a>.</p> -->
     <div class="case-grid">
         {% assign recentCases = collections.case | slice: 0, 2 %}
         {% for case in recentCases %}
@@ -37,8 +37,8 @@ layout: layout.html
 </section>
 
 <section>
-    <h2>The Garden</h2>
-    <p class="subheader-small">My writing is <a href="/garden/">here</a>. Most recent digital garden entries:</p>
+    <h2>Most recent <a href="/garden/">digital garden ›</a> entries</h2>
+    <!-- <p class="subheader-small">My writing is <a href="/garden/">here</a>. Most recent digital garden entries:</p> -->
     <div class="notes-grid">
         {% assign recentNotes = collections.note | slice: 0, 3 %}
         {% for note in recentNotes %}

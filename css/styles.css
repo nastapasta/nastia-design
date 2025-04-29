@@ -203,11 +203,12 @@ h1 {
 }
 
 h2 {
-font-family: 'Instrument Sans', Helvetica, sans-serif;
+font-family: "Source Serif 4", serif;  
 font-weight: 400;
 font-size: 2rem;
 margin-top: 0;
 margin-bottom: 0.5rem;
+text-decoration-thickness: 50%;
 }
 
 .note-wrapper h2 {
@@ -585,7 +586,7 @@ position: sticky;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -639,6 +640,7 @@ text-decoration: underline;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 1.5rem;
+margin-top: 2rem;
 margin-bottom: 3rem;
 }
 
@@ -702,6 +704,7 @@ margin-bottom: 3rem;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 1.5rem;
+margin-top: 2rem;
 margin-bottom: 3rem;
 }
 
@@ -760,7 +763,7 @@ margin-bottom: 3rem;
 .case-grid-horizontal {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 4rem;
   margin-bottom: 3rem;
 }
 
