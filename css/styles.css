@@ -52,7 +52,7 @@ height: 1.75rem;
 }
 
 .large-divider {
-height: 2.5rem;
+height: 3rem;
 }
 
 hr.solid {
@@ -103,7 +103,7 @@ border-radius: 12px;
 }
 
 .nav-links li a:hover {
-background: var(--color-background-subtle);
+background: var(--color-background-subtle-color);
 }
 
 .nav-icon {
@@ -438,7 +438,7 @@ font-weight: 370;
   background-color: var(--color-background-framed);
   border-radius: 16px;
   color: #1c1c1c;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -537,8 +537,8 @@ position: sticky;
 .contact-links {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
+  margin-block-start: 0.5rem;
   }
 
 .icon-link {  
