@@ -4,25 +4,38 @@ title: Now
 ---
 
 <hgroup>
-<h1>{{ title }}</h1>
-<p class="subheader">A sometimes-updated log of what's happening on my allotted piece of the world.</p>
+  <h1>{{ title }}</h1>
+  <p class="subheader">A sometimes-updated log of what's happening on my allotted piece of the world.</p>
 </hgroup>
 
-<section>
-<p class="framed">You can make your own "Now" page — this pattern in inspired by <a href="https://sive.rs/">Derek Sivers</a>. Read more about it: <a href="https://nownownow.com/about">nownownow.com</a>.</p>
+{% assign nowEntries = collections.now %}
+{% assign latestEntry = nowEntries[0] %}
+{% assign olderEntries = nowEntries | slice: 1, nowEntries.size %}
+
+<section class="now-wrapper">
+  <article class="now-entry">
+    <h2>{{ latestEntry.data.title }}</h2>
+    <div class="now-content" style="margin-top: 1rem;">
+      {{ latestEntry.templateContent }}
+    </div>
+  </article>
 </section>
 
-<section>
-<div class="now-list">
-    {% for entry in collections.now %}
-      <article class="now-entry">
-        <h2>{{ entry.data.title }}</h2>
-        <div class="now-content">
-          {{ entry.templateContent }}
-        </div>
-      </article>
+<!-- {% if olderEntries.size > 0 %}
+<section class="past-now-entries">
+  <h3>Previous entries</h3>
+  <ul>
+    {% for entry in olderEntries %}
+    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
     {% endfor %}
-  </div>
+  </ul>
 </section>
-  
+{% endif %} -->
 
+<section>
+  <p class="framed">
+    You can make your own "Now" page — this pattern is inspired by 
+    <a href="https://sive.rs/">Derek Sivers</a>. Read more about it: 
+    <a href="https://nownownow.com/about">nownownow.com</a>.
+  </p>
+</section>

@@ -31,6 +31,11 @@ html {
   padding: 0rem 1rem 1rem 1rem;
 }
 
+.now-wrapper {
+  max-width: 640px;
+  margin-top: 3rem;
+}
+
 @media (max-width: 600px) {
   .content-wrapper {
     padding: 0rem 0.5rem 0.5rem 0.5rem;
