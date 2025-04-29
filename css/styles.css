@@ -305,8 +305,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  /* margin-top: 0.5rem;
+  margin-bottom: 1rem; */
 }
 
 figcaption {
@@ -710,10 +710,9 @@ margin-bottom: 3rem;
 /* Case Cards */
 .case-card {
   margin-bottom: 1rem;
-  display: flexbox;
+  display: flex;
   justify-content: space-between;
   align-items: top;
-  transition: transform 0.2s ease;
   color: var(--color-text);
 }
 
@@ -742,8 +741,8 @@ margin-bottom: 3rem;
   background: none;
 }
 
-.case-card:hover {
-  transform: translateY(-1px);
+.case-card:hover img {
+  transform:scale(1.03);
 }
 
 /* Horizontal Case Grid */
@@ -760,17 +759,23 @@ margin-bottom: 3rem;
   flex-direction: row;
   align-items: center;
   gap: 2rem;
-  transition: transform 0.2s ease;
   color: var(--color-text);
 }
 
-.case-card-horizontal:hover {
-  transform: translateY(-1px);
-}
-
 .case-card-image {
+  display: block; /* prevents spacing bugs */
+  border-radius: 0.5rem;  /* Optional: adds a soft edge/frame feel */
   flex: 1;
   min-width: 40%;
+  overflow: hidden;       /* Hides the zoom overflow */
+}
+
+.case-card-image img {
+  transition: transform 0.2s ease-in;
+}
+
+.case-card-horizontal:hover .case-card-image img {
+  transform: scale(1.03);
 }
 
 .case-card-content {
