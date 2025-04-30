@@ -68,7 +68,7 @@ padding: 0rem 1rem 0rem 1rem;
 top: 0;
 z-index: 3;
 position: sticky;
-border-bottom: 1px solid var(--color-border-thin);
+border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .nav-container {
@@ -143,10 +143,12 @@ display: none;
   width: 100%;
   text-align: center;
   margin-top: 0.5rem;
+  padding-inline-start: 0px;
 }
 
 .nav-links li {
   text-align: center;
+  padding-inline-start: 0px;
 }
 }
 
@@ -156,6 +158,7 @@ display: none;
   display: flex !important;
   flex-direction: row;
   text-align: center;
+  padding-inline-start: 0px;
 }
 
 .nav-icon {

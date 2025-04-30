@@ -26,7 +26,7 @@
     --color-link: var(--color-text-accent);
     --color-link-visited: var(--blue-dark);
     --color-link-hover: var(--teal-light);
-    --color-blockquote-background: var(--gray-2);
+    --color-blockquote-background: var(--gray);
 
     /* Background colors */
     --color-background: var(--white);
