@@ -1,13 +1,8 @@
 @import url('variables.css');
 
-:root {
-  --spacing-unit: 1.5rem;
-}
-
-
 h1, h2, h3, h4, p, ul, figure {
-  margin-top: var(--spacing-unit);
-  margin-bottom: var(--spacing-unit);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
 }
 
 * {
@@ -21,19 +16,19 @@ html {
 .content-wrapper {
   max-width: 1020px;
   margin: auto;
-  padding: 0rem 1rem 1rem 1rem;
+  padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
 }
 
 .note-wrapper {
   max-width: 760px;
   margin: auto;
-  margin-top: 3rem;
-  padding: 0rem 1rem 1rem 1rem;
+  margin-top: var(--space-lg);
+  padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
 }
 
 .now-wrapper {
   max-width: 640px;
-  margin-top: 3rem;
+  margin-top: var(--space-lg);
 }
 
 @media (max-width: 600px) {
@@ -49,15 +44,15 @@ html {
 /* Dividers */
 
 .small-divider {
-  height: 1.2rem;
-  }  
+  height: var(--space-sm);  
+}  
 
 .medium-divider {
-height: 1.75rem;
+  height: var(--space-md);
 }
 
 .large-divider {
-height: 3rem;
+  height: var(--space-lg);
 }
 
 hr.solid {
@@ -88,7 +83,7 @@ font-family: sans-serif;
 
 .nav-logo a {
 font-weight: 400;
-font-size: 1.2rem;
+font-size: var(--font-size-large-p);
 color: inherit;
 }
 
@@ -102,7 +97,7 @@ gap: 1rem;
 text-decoration: none;
 padding: 0.5rem;
 font-weight: 400;
-font-size: 1.2rem;
+font-size: var(--font-size-p);
 color: inherit;
 border-radius: 12px;
 }
@@ -183,19 +178,19 @@ section {
 body {
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   font-weight: 400;
-  line-height: 1.75;
+  line-height: clamp(1.66, 2vw, 1.75);
   margin: auto;
   color: var(--color-text);
 }
 
 hgroup {
-  margin: 1rem 0rem 2.5rem 0rem;
+  margin: var(--space-sm) 0 var(--space-lg) 0;
 }
 
 h1 {
   font-family: "Source Serif 4", serif;  
   font-weight: 500;
-  font-size: 3rem;
+  font-size: var(--font-size-h1);  
   line-height: 1.4;
   padding-bottom: 5px;
   margin-top: 0;
@@ -205,7 +200,7 @@ h1 {
 h2 {
 font-family: 'Instrument Sans', Helvetica, sans-serif;
 font-weight: 400;
-font-size: 2rem;
+font-size: var(--font-size-h2);
 margin-top: 0;
 margin-bottom: 0.5rem;
 text-decoration-thickness: 50%;
@@ -215,7 +210,7 @@ text-decoration-thickness: 50%;
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 450;
-  font-size: 1.2rem;
+  font-size: var(--font-size-h4);
   color: var(--color-text-subheading);
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -223,14 +218,14 @@ text-decoration-thickness: 50%;
 
 h3 {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: var(--font-size-h3);
   margin-top: 0;
   margin-bottom: 0.3rem;
 }
 
 h4 {
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: var(--font-size-h4);
   margin-top: 0;
   margin-bottom: 0.3rem;
 }
@@ -251,18 +246,18 @@ font-weight: 350;
 p {
 font-family: "Source Serif 4", serif;
 font-optical-sizing: auto;
-font-size: 1.25rem;
+font-size: var(--font-size-p);
 margin-block-start: 0.5rem;
 }
 
 .large-p {
-  font-size: 1.5rem;
+  font-size: var(--font-size-large-p);
   line-height: 1.6;
 }
 
 small {
   color: var(--color-text-subtle);
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   font-weight: 400;
   font-family: 'Instrument Sans', Helvetica, sans-serif;
 }
@@ -270,7 +265,7 @@ small {
 .subheader {  
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: var(--font-size-h3);
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--color-text-subheading);
@@ -279,7 +274,7 @@ small {
 .note-subheader {
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: var(--font-size-h3);
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--color-text-subheading);
@@ -287,7 +282,7 @@ small {
 
 .subheader-small {  
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
   margin-top: 0;
   margin-bottom: 1.5rem;
   color: var(--color-text-subheading);
@@ -295,13 +290,13 @@ small {
 
 ul {
   font-family: "Source Serif 4", serif;
-  font-size: 1.3rem;
+  font-size: var(--font-size-p);
   font-weight: 370;
 }
 
 li {
   font-family: "Source Serif 4", serif;
-  font-size: 1.3rem;
+  font-size: var(--font-size-p);
   font-weight: 370;
 }
 
@@ -319,7 +314,7 @@ figcaption {
   color: var(--color-text-subtle);
   margin: auto;
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   font-style: italic;
   margin-top: 0.5rem;
 }
@@ -332,7 +327,7 @@ figcaption a {
 
 .post-image {
   border: 1px solid var(--color-border-subtle);
-  border-radius: 12px;
+  border-radius: 1rem;
   box-shadow: 0 2px 8px var(--color-shadow);
   max-width: 760px;
 }
@@ -364,7 +359,7 @@ a:hover {
 figure {
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px;
+  padding-bottom: var(--space-lg);
 }
 
 mark {
@@ -383,7 +378,7 @@ mark {
 
 /* Footnotes list area */
 .footnotes {
-  font-size: 1rem;
+  font-size: var(--font-size-p);
   color: var(--color-text-subheading);
   margin-top: 3rem;
 }
@@ -397,7 +392,7 @@ mark {
 }
 
 .backlink {
-  font-size: 1rem;
+  font-size: var(--font-size-p);
   text-decoration: none;
   margin-left: 0.3rem;
   color: var(--color-text);
@@ -426,7 +421,7 @@ h4 .footnote-ref {
 /* If you want to make parts of text stand out or add a note */
 
 .big {
-  font-size: 1.6rem;   
+  font-size: var(--font-size-large-p);   
   line-height: 1.6;
   font-weight: 350;
 }
@@ -462,10 +457,10 @@ box-shadow: 0 2px 8px var(--color-shadow);
 
 .disclaimer{
   background-color: var(--color-background);
-  border-radius: 12px;
+  border-radius: 0.5rem;
   border: 1px solid var(--color-border-subtle);
   color: #1c1c1c;
-  margin: 40px auto;
+  margin: 2.6rem auto;
   width: 75%;
   text-align: center;
   padding: 1.5rem;
@@ -478,8 +473,8 @@ box-shadow: 0 2px 8px var(--color-shadow);
 
 blockquote {
   font-family: "Source Serif 4", serif;
-  font-size: 1.4rem;
-  padding-left: 1rem;
+  font-size: var(--font-size-blockquote);
+  padding-left: var(--space-sm);
   border-left: 3px solid var(--color-border-subtle);
   color: var(--color-text-subheading);
 }
@@ -572,8 +567,8 @@ position: sticky;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   white-space: nowrap;
-  transition: background-color 0.2s;
-  font-size: 1rem;
+  /* transition: background-color 0.2s; */
+  font-size: var(--font-size-small);
 }
 
 /* .tag:hover {
@@ -622,7 +617,7 @@ margin-bottom: 0.5rem;
 }
 
 .note-card small {
-font-size: 1rem;
+font-size: var(--font-size-small);
 color: var(--color-text-subtle);
 }
 
@@ -817,26 +812,6 @@ margin-bottom: 3rem;
   .case-card-content {
     width: 100%;
   }
-}
-
-/* Breadcrumbs */
-/* Style the list */
-ul.breadcrumb {
-  list-style: none;
-  margin: 0rem;
-  padding-inline-start: 0px;
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 0.9rem;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 0.5rem;
-  content: "/\00a0";
 }
 
 /* Case studies */

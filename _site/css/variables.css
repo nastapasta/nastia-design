@@ -44,3 +44,31 @@
 
 
   }
+
+/* Typography */
+
+  :root {
+    --spacing-unit: 1.5rem;
+  
+    /* Typography Sizes */
+    --font-size-h1: clamp(2.2rem, 5vw, 3rem);
+    --font-size-h2: clamp(1.8rem, 4vw, 2rem);
+    --font-size-h3: clamp(1.4rem, 3vw, 1.5rem);
+    --font-size-h4: clamp(1.2rem, 2.5vw, 1.3rem);
+    --font-size-p: clamp(1rem, 2vw, 1.25rem);
+    --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
+    --font-size-large-p: clamp(1.3rem, 3vw, 1.5rem);
+    --font-size-ul: clamp(1.1rem, 2.5vw, 1.3rem);
+    --font-size-blockquote: clamp(1.2rem, 3vw, 1.4rem);
+  }
+  
+  /* Spacing Scale */
+
+  :root {
+    --space-xs: clamp(0.5rem, 1vw, 0.75rem);  /* Extra Small */
+    --space-sm: clamp(0.75rem, 1.5vw, 1rem); /* Small */
+    --space-md: clamp(1rem, 2vw, 1.5rem);    /* Medium */
+    --space-lg: clamp(1.5rem, 3vw, 2rem);    /* Large */
+    --space-xl: clamp(2rem, 5vw, 3rem);      /* Extra Large */
+  }
+  
