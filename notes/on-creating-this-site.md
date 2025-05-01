@@ -27,7 +27,7 @@ There are many tools on the internet for creating and hosting design portfolios,
 - Notion. Quite popular among the Russian-speaking part of the product design milieu. Makes it very easy to build a literal web page, but provides almost no styling opportunities.
 - A Miro board. An unobvious but interesting way to demonstrate your work in a non-linear way, putting it into a narrative you can structure as you wish. Example – <a href="https://miro.com/app/board/uXjVOyHTPXk=/?share_link_id=950155547238">Rita Dunaeva's portfolio</a>.
 - A Telegram channel (weird flex but okay).
-- A custom personal site. Needs some tech knowledge and literaly becomes your pet project.
+- A custom personal site. Needs some tech knowledge and literally becomes your pet project.
 
 Each option has its own loyal users, pros and cons – and it's definitely not a full list.
 
