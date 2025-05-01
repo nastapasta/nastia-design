@@ -220,7 +220,7 @@ text-decoration-thickness: 50%;
   }
 
 h3 {
-  font-weight: 400;
+  font-weight: 380;
   font-size: var(--font-size-h3);
   margin-top: 0;
   margin-bottom: 0.3rem;
@@ -294,13 +294,13 @@ small {
 ul {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
-  font-weight: 370;
+  font-weight: 380;
 }
 
 li {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
-  font-weight: 370;
+  font-weight: 380;
 }
 
 /* Images */
