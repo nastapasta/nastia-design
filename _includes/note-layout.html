@@ -32,8 +32,8 @@
   <hgroup>
     <small><a href="/garden/">← Garden</a></small>
     <h1>{{ title | default: "Untitled" }}</h1>
-    <p class="note-subheader">{{ excerpt | default: none }}</p>
-    <div class="entry-subheader">
+    <p class="subheader">{{ excerpt | default: none }}</p>
+    <div class="entry-data">
       <small>{{ phase }}</small>
       <div style="display: flex; flex-direction: column;">
         <small>Planted on {{ date | date: "%B %d, %Y" }}.</small>

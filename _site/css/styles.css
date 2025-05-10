@@ -233,10 +233,6 @@ h4 {
   margin-bottom: 0.3rem;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-
 h2, h3, h4 {
   scroll-margin-top: 5rem; /* adjust to your header height */
 }
@@ -272,16 +268,8 @@ small {
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--color-text-subheading);
-  }  
-
-.note-subheader {
-  font-family: 'Instrument Sans', Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: var(--font-size-h3);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: var(--color-text-subheading);
-}
+  line-height: 1.66;
+  }
 
 .subheader-small {  
   font-weight: 400;
@@ -656,7 +644,7 @@ margin-bottom: 3rem;
 }
 
 /* Note subheader */
-.entry-subheader {  
+.entry-data {  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
