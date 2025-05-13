@@ -2,7 +2,7 @@
 title: Spokn AI – speech analytics for contact centers
 date: 2023-11-30
 tags: case
-excerpt: On how I stopped worrying and embraced generativeAI
+excerpt: On how I stopped worrying and embraced generative AI
 layout: case-layout.html
 image: "/images/case-studies/spokn-ai-speech-an/spokn-ai-sa-main-picture.png"
 image-bg: "/images/case-studies/spokn-ai-speech-an/spokn-ai-sa-main-picture-bg.png"
