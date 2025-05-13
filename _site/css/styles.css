@@ -169,11 +169,12 @@ display: none;
 /* Section Styles */
 
 section {
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
 .note-section {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 /* Text styles */
@@ -187,7 +188,7 @@ body {
 }
 
 hgroup {
-  margin: var(--space-sm) 0 var(--space-lg) 0;
+  margin: var(--space-lg) 0 var(--space-lg) 0;
 }
 
 h1 {
