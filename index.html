@@ -7,37 +7,71 @@ layout: layout.html
 <hgroup 
 style="padding-top: 4rem;">
     <h1>
-      Hi, I am <em style="color: var(--color-text-accent);">Nastia&nbsp;Tulayeva</em>. I design digital things that people interact with.
+      Hi, I am <em>Nastia&nbsp;Tulayeva</em>.<br> I design digital things that people interact with.
     </h1>
   </hgroup>
 
-<div class="large-divider"></div>
-
-<!-- Про дизайн -->
+<hgroup>
+<h1>{{ title }}</h1>
+<p class="subheader">Product designer with <span style="color: var(--color-text); font-weight: 450;">5 years</span> of experience, I worked on products from concept to launch — both in high-paced startups and stable products. I <span style="color: var(--color-text); font-weight: 450;">think deep</span>, <span style="color: var(--color-text); font-weight: 450;">move fast</span> and prefer <span style="color: var(--color-text); font-weight: 450;">building things that last</span> — not breaking them. <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
+</p>
+</hgroup>
 
 <section>
-    <h2>Selected <a href="/work/">work ›</a></h2>
-    <!-- <p class="subheader-small">Recent case studies. All projects are <a href="/work/">here</a>.</p> -->
-    <div class="case-grid">
-        {% assign recentCases = collections.case | slice: 0, 2 %}
+
+    <div class="case-grid-horizontal">
+        {% assign recentCases = collections.case | %}
         {% for case in recentCases %}
         <a href="{{ case.url }}" class="case-card-link">
-            <div class="case-card case-card-link">
-              <div class="case-card-image">
-                <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
-              </div>
-                <small>{{ case.date | date: "%Y" }}</small>                
-                <h3>{{ case.data.title }}</h3>
-                <p>{{ case.data.excerpt }}</p>
+          <div class="case-card-horizontal">
+            <div class="case-card-image">
+              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
             </div>
+            <div class="case-card-content">
+              <small>{{ case.date | date: "%Y" }} | {{ case.data.type }}</small>
+              <h2 style="margin-top: var(--space-sm);">{{ case.data.title }}</h2>
+              <p class="subheader">{{ case.data.excerpt }}</p>
+            </div>
+          </div>
         </a>
         {% endfor %}
-    </div>
+      </div>      
 </section>
 
-<section>
+    <section>
+      <h2>Also I...</h2>
+      <ul>
+          <li>Coded this website.</li>
+          <li>Designed <a href="https://www.coherentsolutions.com/">Coherent Solutions website.</a></li>
+          <li>Illustrated Coherent Solutions <a href="https://dribbble.com/coherentsolutions">Dribbble page</a> header.</li>
+          <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find local events.</li>
+          <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
+          <li>Mentored designers at&nbsp;Women&nbsp;in&nbsp;Tech.</li>
+      </ul>
+  </section>
+
+    <section>
+      <h2>I know:</h2>
+          <div class="word-tag">
+              <span class="tag">UX/UI and product design</span>
+              <span class="tag">Branding and logos</span>
+              <span class="tag">B2B SaaS and B2C</span>
+              <span class="tag">HTML and CSS</span>
+              <span class="tag">AI-first</span>
+              <span class="tag">Accessibility</span>
+              <span class="tag">Digital illustration</span>
+              <span class="tag">User and market research</span>
+              <span class="tag">UX copy</span>
+              <span class="tag">Product management</span>
+              <span class="tag">Data visualisation</span>
+          </div>
+                 
+      <p>I design with Figma, and am currently learning to do it solely with code. I worked mostly in cross-functional teams, as well as a&nbsp;part of design teams of 10+ people.</p> 
+      <p>Again, <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">here is my CV.</a></p>
+  </section>
+  
+<!-- <section>
     <h2>Most recent <a href="/garden/">digital garden ›</a> entries</h2>
-    <!-- <p class="subheader-small">My writing is <a href="/garden/">here</a>. Most recent digital garden entries:</p> -->
     <div class="notes-grid">
         {% assign recentNotes = collections.note | slice: 0, 3 %}
         {% for note in recentNotes %}
@@ -47,7 +81,7 @@ style="padding-top: 4rem;">
           </div>
         {% endfor %}
 </div>
-</section>
+</section> -->
 
 <section>
     <h2>Contact me</h2>

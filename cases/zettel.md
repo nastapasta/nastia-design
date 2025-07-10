@@ -9,17 +9,45 @@ image-bg: "/images/case-studies/zettel/zettel-main-picture-bg.png"
 type: Mobile Application
 ---
 
+<div class="medium-divider"></div>
+
+<div class="brief">
+  <div class="brief-grid">
+    <div class="brief-col">
+      <h3>Timeline</h3>
+      <p>4 months</p>
+      <h3>My Role</h3>
+      <p>Founder</p>
+    </div>
+    <div class="brief-col">
+      <h3>Team</h3>
+        <ul>
+        <li>Me, me and me</li>
+        <li>Design mentor Roma</li>
+      </ul>
+    </div>
+    <div class="brief-col">
+      <h3>Activities</h3>
+      <ul>
+        <li>• 0→1 startup development</li>
+        <li>• Research</li>
+        <li>• UX, UI, Illustration</li>
+        <li>• Pitching</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <div class="disclaimer">
     <small>Disclaimer:</small>
     <h2>It was long ago, and I was wrong</h2> 
     <p>This concept explores the idea of outsourcing the “connecting the dots” to the machine. While I believe that piles of notes <em>can</em> be sorted and cleaned up, I also believe apophenia — that rare spark of unexpected meaning — is something we should reserve for ourselves.</p>
 </div>
 
-<div class="framed">
-<h2>Project Brief</h2>
-<p>Zettel is a note-taking app that helps people connect their thoughts using natural language processing. Designed for knowledge lovers, thinkers, and researchers, it encourages flow without forcing structure upfront.</p>
-<p>This was a personal solo project from 0→1: research, UX, UI, illustration, pitching — all done by me.</p>
-</div> 
+## About
+Zettel is a note-taking app that helps people connect their thoughts using natural language processing. Designed for knowledge lovers, thinkers, and researchers, it encourages flow without forcing structure upfront.
+
+This was a personal solo project from 0→1: research, UX, UI, illustration, pitching — all done by me.
 
 <section class="note-section">
 

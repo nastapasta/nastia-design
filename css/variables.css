@@ -51,8 +51,8 @@
     --spacing-unit: 1.5rem;
   
     /* Typography Sizes */
-    --font-size-h1: clamp(2.2rem, 5vw, 3rem);
-    --font-size-h2: clamp(1.8rem, 4vw, 2rem);
+    --font-size-h1: clamp(2rem, 4.5vw, 2.5rem);
+    --font-size-h2: clamp(1.6rem, 4vw, 2rem);
     --font-size-h3: clamp(1.4rem, 3vw, 1.5rem);
     --font-size-h4: clamp(1.2rem, 2.5vw, 1.3rem);
     --font-size-p: clamp(1rem, 2vw, 1.25rem);

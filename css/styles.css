@@ -16,7 +16,6 @@ html {
 .content-wrapper {
   max-width: 1020px;
   margin: auto;
-  padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
 }
 
 .note-wrapper {
@@ -170,11 +169,11 @@ display: none;
 
 section {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .note-section {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;  
 }
 
 /* Text styles */
@@ -321,7 +320,6 @@ figcaption a {
   border: 1px solid var(--color-border-subtle);
   border-radius: 1rem;
   box-shadow: 0 2px 8px var(--color-shadow);
-  max-width: 760px;
 }
 
 .no-bg-image {
@@ -848,6 +846,19 @@ margin-bottom: 3rem;
   }
 }
 
+/* Project brief layout*/
+
+.brief {
+
+}
+
+.brief-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
 
 /* Adjust case header for smaller screens */
 
@@ -855,6 +866,15 @@ margin-bottom: 3rem;
   .case-header {
     grid-template-columns: 1fr;
   }
+}
+
+.brief ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brief ul li {
 }
 
 /* Grids */

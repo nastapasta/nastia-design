@@ -9,26 +9,42 @@ image-bg: "/images/case-studies/spokn-ai-speech-an/spokn-ai-sa-main-picture-bg.p
 type: Web Application
 ---
 
-<div class="framed">
-<h2>Project Brief</h2>
+<div class="medium-divider"></div>
+
+<div class="brief">
+  <div class="brief-grid">
+    <div class="brief-col">
+      <h3>Timeline</h3>
+      <p>7 months</p>
+      <h3>My Role</h3>
+      <p>Product designer</p>
+    </div>
+    <div class="brief-col">
+      <h3>Team</h3>
+        <ul>
+        <li>1 designer</li>
+        <li>Product owner</li>
+        <li>Development team</li>
+      </ul>
+    </div>
+    <div class="brief-col">
+      <h3>Results</h3>
+      <ul>
+        <li>• Increased Quality Assessment manager’s performance</li>
+        <li>• MVP of AI-powered solution from scratch in 7 months</li>
+        <li>• Secured in a new customer with 200+ seats</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="note-section">
+
+## About
 <p><b>Client:</b> <a href="https://www.maxcontact.com/">MaxContact</a> is a contact centre software company serving businesses with dozens and hundreds of workers. The company has been ranked one of the <a href="https://www.maxcontact.com/resources/blog-insights/maxcontact-named-as-one-of-the-top-50-companies-at-the-northern-tech-awards-2023/">top 50</a> fastest growing technology companies in the North, consecutively from 2021-2023, and in 2022 received the IT Vendor of the Year Award.</p>
-<p><b>My role:</b> Product Designer</p>
-<p><b>Team:</b> Product Designer (mysefl), Business Analyst, 5+ developers, 2 QA, PM, Solution Architect. Client’s side: VP of Engineering, Product Owner, CEO.</p>
-<p><b>Timeline:</b> 7 months</p>
-<p><b>Results</b> – <a href="#solution">Jump to the solution</a> 
-<br> 
-<ul>
-    <li>simplified Quality Assessment manager’s performance
-</li>
-    <li>MVP of AI-powered solution from scratch in 7 months
-</li>
-    <li>secured in a new customer with 200+ seats
-</li>
-    </ul>
-</p>
-<p>I worked closely with the team to explore needs, define MVP scope, and design a usable system from early concepts to developer handoff.
-</p>
-</div> 
+<p>I worked closely with the team to explore needs, define MVP scope, and design a usable system from early concepts to developer handoff.</p>
+</section>
+
 
 <section class="note-section">
 

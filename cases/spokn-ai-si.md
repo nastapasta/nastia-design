@@ -9,24 +9,41 @@ image-bg: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture-bg.png"
 type: Web Application
 ---
 
-<div class="framed">
-<h2>Project Brief</h2>
+<div class="medium-divider"></div>
+
+<div class="brief">
+  <div class="brief-grid">
+    <div class="brief-col">
+      <h3>Timeline</h3>
+      <p>5 months</p>
+      <h3>My Role</h3>
+      <p>Product designer</p>
+    </div>
+    <div class="brief-col">
+      <h3>Team</h3>
+        <ul>
+        <li>1 designer</li>
+        <li>Product owner</li>
+        <li>Development team</li>
+      </ul>
+    </div>
+    <div class="brief-col">
+      <h3>Results</h3>
+      <ul>
+        <li>• 1st iteration finished in 3 months, released in production in 5 months</li>
+        <li>• 100+ licences signed up</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="note-section">
+
+## About
 <p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href=/cases/spokn-ai-speech-analytics>On how I stopped worrying and emprased generative AI</a>.
-</p>
-<p><b>My role:</b> Product Designer – I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff. I collaborated closely with engineers, analysts, and business stakeholders, and temporarily performed most of the product manager tasks, being the communicator between all the guys above.
-</p>
-<p><b>Timeline:</b> 5 months</p>
-<p><b>Results</b> – <a href="#solution">Jump to the solution</a> 
-<br> 
-<ul>
-    <li>1st iteration finished in 3 months, released in production in 5 months
-</li>
-    <li>100+ licences signed up
-</li>
-</ul>
-<p><b>The Reality:</b> The project launched strong and made significant progress—early pilots, usable insights, and a clear vision. But five months in, the client had to reduce costs, and I was part of the team that wrapped up early. Despite that, the product continued development and saw early traction.
-</p>
-</div> 
+
+<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff. I collaborated closely with engineers, analysts, and business stakeholders, and temporarily performed most of the product manager tasks, being the communicator between all the guys above.<p>
+</section>
 
 <section class="note-section">
 
