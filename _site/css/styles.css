@@ -198,6 +198,7 @@ h1 {
   padding-bottom: 5px;
   margin-top: 0;
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
 h2 {
@@ -205,8 +206,9 @@ font-family: 'Instrument Sans', Helvetica, sans-serif;
 font-weight: 400;
 font-size: var(--font-size-h2);
 margin-top: 0;
-margin-bottom: 0.5rem;
+margin-bottom: 1rem;
 text-decoration-thickness: 50%;
+letter-spacing: -0.02em;
 }
 
 .note-wrapper h2 {
@@ -246,7 +248,8 @@ p {
 font-family: "Source Serif 4", serif;
 font-optical-sizing: auto;
 font-size: var(--font-size-p);
-margin-block-start: 0.5rem;
+margin-block-start: 0.5em;
+letter-spacing: 0.02em;
 }
 
 .large-p {
@@ -259,6 +262,7 @@ small {
   font-size: var(--font-size-small);
   font-weight: 400;
   font-family: 'Instrument Sans', Helvetica, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .subheader {  
@@ -269,6 +273,7 @@ small {
   margin-bottom: 0.5rem;
   color: var(--color-text-subheading);
   line-height: 1.66;
+  letter-spacing: -0.01em;
   }
 
 .subheader-small {  
@@ -283,6 +288,13 @@ ul {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
   font-weight: 380;
+  margin-bottom: 2em;
+}
+
+.nobullet-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
