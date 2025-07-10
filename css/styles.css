@@ -250,6 +250,7 @@ font-optical-sizing: auto;
 font-size: var(--font-size-p);
 margin-block-start: 0.5em;
 letter-spacing: 0.02em;
+line-height: 1.6;
 }
 
 .large-p {
@@ -289,12 +290,14 @@ ul {
   font-size: var(--font-size-p);
   font-weight: 380;
   margin-bottom: 2em;
+  line-height: 1.6;
 }
 
 .nobullet-ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 1.6;
 }
 
 li {
@@ -428,6 +431,7 @@ h4 .footnote-ref {
   font-size: var(--font-size-large-p);   
   line-height: 1.6;
   font-weight: 350;
+  letter-spacing: -0.02em;
 }
 
 .italic {
