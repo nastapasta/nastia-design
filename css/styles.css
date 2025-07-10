@@ -30,13 +30,13 @@ html {
   margin-top: var(--space-lg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1020px) {
   .content-wrapper {
-    padding: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
   }
 
   .note-wrapper {
-    padding: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
   }
 }
 
@@ -350,6 +350,8 @@ figure {
   display: flex;
   flex-direction: column;
   padding-bottom: var(--space-lg);
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 mark {
