@@ -4,8 +4,8 @@
     --white: #ffffff;
     --black: #333333;
     --black-alpha: rgba(51, 51, 51, 0.05);
-    --thin-gray: #f9f9f9;
-    --light-gray: #f2f2f2;
+    --thin-gray: hwb(0 96% 4%);
+    --light-gray: #eeeeee;
     --gray: #888888;
     --dimgray: #696969;
     --teal: #057d7d;
@@ -38,6 +38,8 @@
     /* Border colors */
     --color-border-subtle: var(--light-gray);
     --color-border-thin: var(--thin-gray);
+    --color-border-gray: var(--gray);
+
 
     /* Shadow colors */
     --color-shadow: var(--black-alpha);
@@ -55,7 +57,7 @@
     --font-size-h2: clamp(1.6rem, 4vw, 2rem);
     --font-size-h3: clamp(1.4rem, 3vw, 1.5rem);
     --font-size-h4: clamp(1.2rem, 2.5vw, 1.3rem);
-    --font-size-p: clamp(1rem, 2vw, 1.25rem);
+    --font-size-p: clamp(1rem, 2.2vw, 1.25rem);
     --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
     --font-size-large-p: clamp(1.3rem, 3vw, 1.5rem);
     --font-size-ul: clamp(1.1rem, 2.5vw, 1.3rem);

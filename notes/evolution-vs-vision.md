@@ -4,7 +4,7 @@ tags: note
 date: 2025-04-09
 tended: 2025-04-18
 excerpt: Exploration on how metrics culture is affecting the discource community of designers
-phase: 🌱 Seedling
+phase:  <img src="/images/inline-icons/inline-icon-seedling.svg" class="inline-icon"> Seedling
 layout: note-layout.html
 ---
 <section class="note-section">

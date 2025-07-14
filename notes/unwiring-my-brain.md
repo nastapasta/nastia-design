@@ -3,7 +3,7 @@ title: Unwiring my brain
 tags: note
 date: 2024-08-01
 excerpt: On how to unplug oneself from the networks and not becoming isolated.
-phase:  🌿 Growing
+phase:  <img src="/images/inline-icons/inline-icon-growing.svg" class="inline-icon"> Growing
 layout: note-layout.html
 ---
 
