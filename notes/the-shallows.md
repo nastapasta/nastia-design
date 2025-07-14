@@ -3,7 +3,7 @@ title: The Shallows by Nicholas Carr
 tags: note
 date: 2025-04-24
 excerpt: <em>The Shallows</em> is a 2010 book about how modern media and the internet have changed the way we think. Fifteen years later, the internet has continued to evolve—but the human brain has not.
-phase:  ❇️ Evergreen
+phase:  <img src="/images/inline-icons/inline-icon-evergreen.svg" class="inline-icon"> Evergreen
 layout: note-layout.html
 ---
 

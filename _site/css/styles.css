@@ -206,7 +206,7 @@ font-family: 'Instrument Sans', Helvetica, sans-serif;
 font-weight: 400;
 font-size: var(--font-size-h2);
 margin-top: 0;
-margin-bottom: 1rem;
+margin-bottom: 1.2rem;
 text-decoration-thickness: 50%;
 letter-spacing: -0.02em;
 }
@@ -249,7 +249,7 @@ font-family: "Source Serif 4", serif;
 font-optical-sizing: auto;
 font-size: var(--font-size-p);
 margin-block-start: 0.5em;
-letter-spacing: 0.02em;
+letter-spacing: 0.01em;
 line-height: 1.6;
 }
 
@@ -344,6 +344,14 @@ figcaption a {
 .small-grid-image {
   height: 200px;
   width: auto;
+}
+
+.inline-icon {
+  display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: text-bottom;
+  height: 24px;
 }
 
 /* Links */
@@ -445,11 +453,61 @@ font-weight: 370;
 
 .framed {
   background-color: var(--color-background-framed);
+  border-color: var(--color-border-subtle);
+  border-style: solid;
+  border-width: 0.5px;
   border-radius: 0.5rem;
   color: #1c1c1c;
-  padding: 1.5rem;
+  padding: 1.2rem 1.2rem 1.5rem 1.2rem;
   margin-bottom: 2rem;
+  box-shadow:0px 2px 8px 0 rgba(119, 119, 119, 0.2);
 }
+
+.messages {
+  max-width: 720px;
+}
+
+.message-block-inbound {
+  border-color: var(--color-border-subtle);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+  color: #1c1c1c;
+  padding: 0.7rem 1rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 640px;
+  box-shadow:0px 2px 8px 0 rgba(132, 132, 132, 0.2);
+}
+
+.outbound-div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.message-block-outbound {
+  border-color: var(--color-border-subtle);
+  background-color: var(--color-background-framed);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+  color: #1c1c1c;
+  padding: 0.7rem 1rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 480px;
+  box-shadow:0px 2px 8px 0 rgba(119, 119, 119, 0.2);
+}
+
+
+.message-block-inbound p {
+  margin-bottom: 0;
+}
+
+.message-block-outbound p {
+  margin-bottom: 0;
+}
+
+
 
 .post-note{
 background-color: var(--color-background);
@@ -941,4 +999,24 @@ margin-bottom: 3rem;
   .three-grid {
     grid-template-columns: 1fr;
 }
+}
+
+/* Tables */
+
+table {
+  text-align: left;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+table p {
+}
+
+th, td {
+  font-weight: 400;
+  vertical-align: top;
+  padding: 0 2rem 0 0;
+  border-color: var(--color-border-gray);
+  border-style: solid;
+  border-width: 0.75px 0 0 0;
 }
