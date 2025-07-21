@@ -9,9 +9,10 @@
     --gray: #888888;
     --dimgray: #696969;
     --teal: #057d7d;
+    --blue: #0060BA;
     --teal-light: #e6f2f2;
+    --blue-light: #e3f2ff;
     --darkred: #8b0000; 
-    --blue: #2f2fac;
     --blue-dark: #38237d;
     --yellow: rgb(255, 248, 191);
 
@@ -21,18 +22,18 @@
     --color-text-heading: var(--black);
     --color-text-subtle: var(--gray);
     --color-text-subheading: var(--dimgray);
-    --color-text-accent: var(--teal);
+    --color-text-accent: var(--blue);
     --color-text-negative: var(--darkred);
     --color-link: var(--color-text-accent);
     --color-link-visited: var(--blue-dark);
-    --color-link-hover: var(--teal-light);
+    --color-link-hover: var(--thin-gray);
     --color-blockquote-background: var(--gray);
 
     /* Background colors */
     --color-background: var(--white);
     --color-background-framed: var(--thin-gray);
     --color-background-subtle: var(--light-gray);
-    --color-background-subtle-color: var(--teal-light);
+    --color-background-subtle-color: var(--blue-light);
     --color-background-accent: var(--yellow);
 
     /* Border colors */
@@ -61,7 +62,7 @@
     --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
     --font-size-large-p: clamp(1.3rem, 3vw, 1.5rem);
     --font-size-ul: clamp(1.1rem, 2.5vw, 1.3rem);
-    --font-size-blockquote: clamp(1.2rem, 3vw, 1.4rem);
+    --font-size-blockquote: clamp(1.2rem, 3vw, 1.4em);
   }
   
   /* Spacing Scale */
