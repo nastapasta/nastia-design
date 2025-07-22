@@ -141,7 +141,8 @@ display: none;
   align-items: center;
   width: 100%;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
   padding-inline-start: 0px;
 }
 
@@ -150,6 +151,7 @@ display: none;
   padding-inline-start: 0px;
 }
 }
+
 
 /* On desktop, show links in row and hide burger */
 @media (min-width: 601px) {
