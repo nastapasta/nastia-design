@@ -1,8 +1,8 @@
 ---
-title: Navigating sales success with generative&nbsp;AI
+title: Spokn AI Success Intelligence
 date: 2024-10-01
 tags: case
-excerpt: Spokn AI Success Intelligence service helps call centers improve objection handling
+excerpt: Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ sales agents seats
 layout: case-layout.html
 image: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture.png"
 image-bg: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture-bg.png"
