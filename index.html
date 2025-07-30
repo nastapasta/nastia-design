@@ -5,106 +5,145 @@ layout: layout.html
 <div class="medium-divider"></div>
 
 <hgroup style="padding-top: 4rem;">
-    <h1>Hi, I am <em>Nastia&nbsp;Tulayeva</em>.<br> I design digital things that people interact with.</h1>
-    <p class="subheader">Product designer with <span style="color: var(--color-text); font-weight: 450;">5 years</span> of experience, I worked on products from concept to launch — both in high-paced startups and stable products. I <span style="color: var(--color-text); font-weight: 450;">think deep</span>, <span style="color: var(--color-text); font-weight: 450;">move fast</span> and prefer <span style="color: var(--color-text); font-weight: 450;">building things that last</span> — not breaking them. <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
-</p>
+  <h1>Hi, I am <em>Nastia&nbsp;Tulayeva</em>.<br> I design digital things that people interact with.</h1>
+  <p class="subheader">Product designer with <span style="color: var(--color-text); font-weight: 450;">5 years</span> of
+    experience, I worked on products from concept to launch — both in high-paced startups and stable products. I <span
+      style="color: var(--color-text); font-weight: 450;">think deep</span>, <span
+      style="color: var(--color-text); font-weight: 450;">move fast</span> and prefer <span
+      style="color: var(--color-text); font-weight: 450;">building things that last</span> — not breaking them. <a
+      href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
+  </p>
 </hgroup>
 
 <section>
 
-    <div class="case-grid-horizontal">
-        {% assign recentCases = collections.case | %}
-        {% for case in recentCases %}
-        <a href="{{ case.url }}" class="case-card-link">
-          <div class="case-card-horizontal">
-            <div class="case-card-image">
-              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
-            </div>
-            <div class="case-card-content">
-              <small>{{ case.date | date: "%Y" }} | {{ case.data.type }}</small>
-              <h2 style="margin-top: var(--space-sm);">{{ case.data.title }}</h2>
-              <p class="subheader">{{ case.data.excerpt }}</p>
-            </div>
-          </div>
-        </a>
-        {% endfor %}
-      </div>      
+  <div class="case-grid-horizontal">
+    {% assign recentCases = collections.case | %}
+    {% for case in recentCases %}
+    <a href="{{ case.url }}" class="case-card-link">
+      <div class="case-card-horizontal">
+        <div class="case-card-image">
+          <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+        </div>
+        <div class="case-card-content">
+          <small>{{ case.date | date: "%Y" }} | {{ case.data.type }}</small>
+          <h2 style="margin-top: var(--space-sm);">{{ case.data.title }}</h2>
+          <p class="subheader">{{ case.data.excerpt }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </section>
 
-    <section>
-      <h2>Also I...</h2>
-      <ul>
-          <li>Coded this website.</li>
-          <li>Designed <a href="https://www.coherentsolutions.com/">Coherent Solutions website.</a></li>
-          <li>Illustrated Coherent Solutions <a href="https://dribbble.com/coherentsolutions">Dribbble page</a> header.</li>
-          <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find local events.</li>
-          <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
-          <li>Mentored designers at&nbsp;Women&nbsp;in&nbsp;Tech.</li>
-      </ul>
-  </section>
+<section>
+  <h2>Also I...</h2>
+  <ul>
+    <li>Coded this website.</li>
+    <li>Designed <a href="https://www.coherentsolutions.com/">Coherent Solutions website.</a></li>
+    <li>Illustrated Coherent Solutions <a href="https://dribbble.com/coherentsolutions">Dribbble page</a> header.</li>
+    <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find local events.</li>
+    <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
+    <li>Mentored designers at&nbsp;Women&nbsp;in&nbsp;Tech.</li>
+  </ul>
+</section>
 
 <section>
-    <h2>Are we a match?</h2>
+  <h2>Are we a match?</h2>
 
-  <p style="max-width: 720px;">Currenlty I want to focus on designing products that leverage the best from new technologies, such as LLMs and speech analytics. I am capable of combining product design with product management responsibilities.</p>
-  <p style="max-width: 720px;">As a graduate architect, I will be a useful asset in products dedicated to emerging technologies in <em>civil engineering, architecture and design</em>.</p>
+  <p style="max-width: 720px;">Currenlty I want to focus on designing products that leverage the best from new
+    technologies, such as LLMs and speech analytics. I am capable of combining product design with product management
+    responsibilities.</p>
+  <p style="max-width: 720px;">As a graduate architect, I will be a useful asset in products dedicated to emerging
+    technologies in <em>civil engineering, architecture and design</em>.</p>
   <p style="max-width: 720px;">But I'd love to hear from you if your product is just solving a real problem.</p>
   <p style="max-width: 720px;">I <em>don't work</em> with crypto and iGaming.</p>
 
   <div class="medium-divider"></div>
 
-<!-- Table -->
+  <!-- Table -->
 
-<table>
-  <tr>
-    <th><p>If you are</p></th>
-    <th><p>I can</p></th>
-  </tr>
+  <table>
+    <tr>
+      <th>
+        <p>If you are</p>
+      </th>
+      <th>
+        <p>I can</p>
+      </th>
+    </tr>
 
-  <tr>
-    <td><p>a friendly and serious team building a useful product,</p></td>
-    <td><p>consult you on design-related matters, such as: user research and cust-dev, features prioritization, usability, other things, or even <br><br> join your team. <a href="#contact">Let's talk</a></p></td>
-  </tr>
+    <tr>
+      <td>
+        <p>a friendly remote-first (or Serbia-based) team building a useful product,</p>
+      </td>
+      <td>
+        <p>help you on product-related questions, such as:
+        <ul>
+          <li>who are your users,</li>
+          <li>what are their needs and desires,</li>
+          <li>why they don't use yout product,</li>
+          <li>what you should do first and next,</li>
+          <li>why your app feels off and doesn't pop</li>
+        </ul>
+        and other things, or even
+        <br>
+        <br>
+        join your team. <a href="#contact">Let's talk</a>
+        </p>
+      </td>
+    </tr>
 
-  <tr>
-    <td><p>a hiring manager looking for a middle product designer, and that's why you are actually here,</p></td>
-    <td><p>discuss what we both have to offer. I'm an experienced team player, love developers and QA's, but will love our product even more.</p></td>
-  </tr>
+    <tr>
+      <td>
+        <p>a hiring manager looking for a middle product designer, and that's why you are actually here,</p>
+      </td>
+      <td>
+        <p>discuss what we both have to offer. I'm an experienced team player, love developers and QA's, but will love
+          our product even more.</p>
+      </td>
+    </tr>
 
-  <tr>
-    <td><p>an aspiring designer seeking an advice on something you think I am competent in,</p></td>
-    <td><p>try to help you out. Reach out to me.</p></td>
-  </tr>
-</table> 
+    <tr>
+      <td>
+        <p>an aspiring designer seeking an advice on something you think I am competent in,</p>
+      </td>
+      <td>
+        <p>try to help you out. Reach out to me.</p>
+      </td>
+    </tr>
+  </table>
 </section>
 
 <section style="max-width: 720px;">
   <h2>I know:</h2>
-        <div class="word-tag">
-            <span class="tag">UX/UI and product design</span>
-            <span class="tag">Branding and logos</span>
-            <span class="tag">B2B SaaS and B2C</span>
-            <span class="tag">HTML and CSS</span>
-            <span class="tag">AI-first</span>
-            <span class="tag">Accessibility</span>
-            <span class="tag">Digital illustration</span>
-            <span class="tag">User and market research</span>
-            <span class="tag">UX copy</span>
-            <span class="tag">Product management</span>
-            <span class="tag">Data visualisation</span>       
-        </div>
-                 
-  <p>I design with Figma or HTML/CSS, make pictures in Illustrator or ProCreate. I worked mostly in cross-functional teams, as well as a&nbsp;part of design teams of 10+ people.</p> 
+  <div class="word-tag">
+    <span class="tag">UX/UI and product design</span>
+    <span class="tag">Branding and logos</span>
+    <span class="tag">B2B SaaS and B2C</span>
+    <span class="tag">HTML and CSS</span>
+    <span class="tag">AI-first</span>
+    <span class="tag">Accessibility</span>
+    <span class="tag">Digital illustration</span>
+    <span class="tag">User and market research</span>
+    <span class="tag">UX copy</span>
+    <span class="tag">Product management</span>
+    <span class="tag">Data visualisation</span>
+  </div>
+
+  <p>I design with Figma or HTML/CSS, make pictures in Illustrator or ProCreate. I worked mostly in cross-functional
+    teams, as well as a&nbsp;part of design teams of 10+ people.</p>
   <p>Again, <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">here is my CV.</a></p>
-  </section>
-  
+</section>
+
 
 <section>
-    <div class="framed" id="contact">
+  <div class="framed" id="contact">
     <h2>Contact me</h2>
-    <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a> 
-        | <a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a> 
-        | We can have a coffee in Belgrade, Serbia <img src="/images/inline-icons/inline-icon-belgrade.svg" class="inline-icon"></p>
-    </div>
-    
+    <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a>
+      | <a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a>
+      | We can have a coffee in Belgrade, Serbia <img src="/images/inline-icons/inline-icon-belgrade.svg"
+        class="inline-icon"></p>
+  </div>
+
 </section>
