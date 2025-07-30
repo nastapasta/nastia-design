@@ -980,8 +980,6 @@ table {
   table-layout: fixed;
 }
 
-table p {}
-
 th,
 td {
   font-weight: 400;
