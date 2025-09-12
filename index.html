@@ -6,18 +6,18 @@ layout: layout.html
 
 <hgroup style="padding-top: 4rem;">
   <h1>Hi, I am <em>Nastia&nbsp;Tulayeva</em>.<br> I design digital things that people interact with.</h1>
-  <p class="subheader">Product designer with <span style="color: var(--color-text); font-weight: 450;">5 years</span> of
-    experience, I worked on products from concept to launch — both in high-paced startups and stable products. I <span
-      style="color: var(--color-text); font-weight: 450;">think deep</span>, <span
-      style="color: var(--color-text); font-weight: 450;">move fast</span> and prefer <span
-      style="color: var(--color-text); font-weight: 450;">building things that last</span> — not breaking them. <a
-      href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
+  <p class="subheader">Product designer with 5 years of experience, I work on products from concept to launch.
+    Currently designing products and leading the brand at <a href="https://thenorm.design/">The Norm</a>.
+  </p>
+  <div class="small-divider"></div>
+  <p><a href="#projects">Projects</a> · <a href="#whatelse">What else</a> · <a href="#howiwork">How I work</a> · <a
+      href="#skills">Skillset and CV</a>
   </p>
 </hgroup>
 
 <section>
 
-  <div class="case-grid-horizontal">
+  <div class="case-grid-horizontal" id="projects">
     {% assign recentCases = collections.case | %}
     {% for case in recentCases %}
     <a href="{{ case.url }}" class="case-card-link">
@@ -36,83 +36,71 @@ layout: layout.html
   </div>
 </section>
 
-<section>
+<section id="whatelse">
   <h2>Also I...</h2>
   <ul>
     <li>Coded this website.</li>
+    <li>Leading all things creative at <a href="https://thenorm.design/">The Norm</a>, Coherent Solutions design
+      practice.</li>
     <li>Designed <a href="https://www.coherentsolutions.com/">Coherent Solutions website.</a></li>
-    <li>Illustrated Coherent Solutions <a href="https://dribbble.com/coherentsolutions">Dribbble page</a> header.</li>
+    <li>Designing product at <a href="https://parentmindapp.com/">Parent's Mind app</a> that helps people
+      struggling with parenting.</li>
     <li>Led design of Padzei, a&nbsp;Belarusian startup helping people find local events.</li>
     <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
-    <li>Mentored designers at&nbsp;Women&nbsp;in&nbsp;Tech.</li>
+    <li>Mentor designers at&nbsp;Women&nbsp;in&nbsp;Tech.</li>
   </ul>
 </section>
 
-<section>
-  <h2>Are we a match?</h2>
+<section id="howiwork">
+  <h2>How I work</h2>
+  <table>
+    <tr>
+      <td>
+        <p>Talk to you.</p>
+      </td>
+      <td>
+        <p>I ask silly questions and try to understand what exactly the problem is. I'm trained in product
+          management, so I'll even ask you why you've decided to do all of this.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p>Talk to users.</p>
+      </td>
+      <td>
+        <p>Whenever it's possible, we will go to your users to make sure we do what they actually need (or
+          don't know yet they need it) and to test the solutions.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p>Work with developers.</p>
+      </td>
+      <td>
+        <p>My experience is mostly within cross-functional teams, from wich I learned to validate the
+          solutions with the dev team as early as possible: good design should be implementable.</p>
+      </td>
+    </tr>
+
+  </table>
+
+  <div class="small-divider"></div>
 
   <p style="max-width: 720px;">Currenlty I want to focus on designing products that leverage the best from new
-    technologies, such as LLMs and speech analytics. I am capable of combining product design with product management
+    technologies. I am capable of combining product design with product management
     responsibilities.</p>
-  <p style="max-width: 720px;">As a graduate architect, I will be a useful asset in products dedicated to emerging
+  <p style="max-width: 720px;">As a graduate architect, I am a useful asset in products dedicated to emerging
     technologies in <em>civil engineering, architecture and design</em>.</p>
   <p style="max-width: 720px;">But I'd love to hear from you if your product is just solving a real problem.</p>
   <p style="max-width: 720px;">I <em>don't work</em> with crypto and iGaming.</p>
 
-  <div class="medium-divider"></div>
-
-  <!-- Table -->
-
-  <table>
-    <tr>
-      <th>
-        <p>If you are</p>
-      </th>
-      <th>
-        <p>I can</p>
-      </th>
-    </tr>
-
-    <tr>
-      <td>
-        <p>a friendly remote-first (or Serbia-based) team building a useful product,</p>
-      </td>
-      <td>
-        <p>help you on product-related questions, such as:</p>
-        <ul>
-          <li>who are your users,</li>
-          <li>what are their needs and desires,</li>
-          <li>why they don't use your product,</li>
-          <li>what you should do first and next,</li>
-          <li>why your app feels off and doesn't pop</li>
-        </ul>
-        <p>and other things, or even</p>
-        <p>join your team. <a href="#contact">Let's talk</a></p>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <p>a hiring manager looking for a middle product designer, and that's why you are actually here,</p>
-      </td>
-      <td>
-        <p>discuss what we both have to offer. I'm an experienced team player, love developers and QA's, but will love
-          our product even more.</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <p>an aspiring designer seeking an advice on something you think I am competent in,</p>
-      </td>
-      <td>
-        <p>try to help you out. Reach out to me.</p>
-      </td>
-    </tr>
-  </table>
 </section>
 
-<section style="max-width: 720px;">
+
+<section style="max-width: 720px;" id="skills">
   <h2>I know:</h2>
   <div class="word-tag">
     <span class="tag">UX/UI and product design</span>
@@ -130,7 +118,7 @@ layout: layout.html
 
   <p>I design with Figma or HTML/CSS, make pictures in Illustrator or ProCreate. I worked mostly in cross-functional
     teams, as well as a&nbsp;part of design teams of 10+ people.</p>
-  <p>Again, <a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">here is my CV.</a></p>
+  <p><a href="https://drive.google.com/file/d/1Mub4ZtToF2i_6_yfIBLbHVvuIUBI-IZ5/view">Here is my CV.</a></p>
 </section>
 
 
