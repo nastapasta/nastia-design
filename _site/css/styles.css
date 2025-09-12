@@ -17,6 +17,7 @@ figure {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 120px;
 }
 
 .content-wrapper {
@@ -603,8 +604,13 @@ footer {
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  color: var(--color-text-subheading);
   /* transition: background-color 0.2s; */
   font-size: var(--font-size-small);
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
 }
 
 /* .tag:hover {
