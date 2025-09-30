@@ -40,7 +40,7 @@ Next time I wonder, When should I change them again? I just open the app. It tel
 - **Coming up** (a week before, for example)
 - **Time to do** (once the due date arrives)
 
-If I see *Should be done* – I head to the bathroom and put in a new pack.
+If I see *Time to do* – I head to the bathroom and put in a new pack.
 
 <figure>
 <img src="/images/notes/deed-status.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
