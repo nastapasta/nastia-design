@@ -4,7 +4,7 @@ tags: note
 date: 2025-09-39
 tended: 2025-09-39
 excerpt: Roamings around managing regular chores
-phase:  <img src="/images/inline-icons/inline-icon-seedling.svg" class="inline-icon"> Seedling
+phase:  <img src="/images/inline-icons/inline-icon-growing.svg" class="inline-icon"> Growing
 layout: note-layout.html
 ---
 
@@ -29,12 +29,24 @@ My principles of a not-a-reminder-app would be the following:
 ## How this can work
 Say I open a new pack of contact lenses, which I should wear for 1–1.5 months. I create a task: *Change contact lenses*, set the interval to 1.5 months, mark it as *Done today* and save it. 
 
+<figure>
+<img src="/images/notes/deed-create.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
+<figcaption>pupupu
+</figcaption>
+</figure>
+
 Next time I wonder, When should I change them again? I just open the app. It tells me:
 - **All good**
 - **Coming up** (a week before, for example)
 - **Time to do** (once the due date arrives)
 
 If I see *Should be done* – I head to the bathroom and put in a new pack.
+
+<figure>
+<img src="/images/notes/deed-status.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
+<figcaption>pupupu
+</figcaption>
+</figure>
 
 After the task is overdue, timestamps can be based on weeks and months:
 - It's been a week.
