@@ -27,12 +27,12 @@ My principles of a not-a-reminder-app would be the following:
 **“Should I do it now, or can it wait until Saturday?”**
 
 ## How this can work
-Say I open a new pack of contact lenses, which I should wear for 1–1.5 months. I create a task: *Change contact lenses*, set the interval to 1.5 months, save it and mark it as *Done today*. 
+Say I open a new pack of contact lenses, which I should wear for 1–1.5 months. I create a task: *Change contact lenses*, set the interval to 1.5 months, mark it as *Done today* and save it. 
 
 Next time I wonder, When should I change them again? I just open the app. It tells me:
-- **Nothing to do yet**
-- **"Will be soon"** (a week before, for example)
-- **Should be done** (once the due date arrives)
+- **All good**
+- **"Coming up"** (a week before, for example)
+- **Time to do** (once the due date arrives)
 
 If I see *Should be done* – I head to the bathroom and put in a new pack.
 
