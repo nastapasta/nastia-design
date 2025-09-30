@@ -31,7 +31,7 @@ Say I open a new pack of contact lenses, which I should wear for 1–1.5 months.
 
 Next time I wonder, When should I change them again? I just open the app. It tells me:
 - **All good**
-- **"Coming up"** (a week before, for example)
+- **Coming up** (a week before, for example)
 - **Time to do** (once the due date arrives)
 
 If I see *Should be done* – I head to the bathroom and put in a new pack.
