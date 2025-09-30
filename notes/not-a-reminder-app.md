@@ -31,7 +31,7 @@ Say I open a new pack of contact lenses, which I should wear for 1–1.5 months.
 
 <figure>
 <img src="/images/notes/deed-create.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
-<figcaption>pupupu
+<figcaption>Five facts to add to make it work.
 </figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ If I see *Time to do* – I head to the bathroom and put in a new pack.
 
 <figure>
 <img src="/images/notes/deed-status.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
-<figcaption>pupupu
+<figcaption>Statuses of the cards change, but changes become noticeable when it's needed.
 </figcaption>
 </figure>
 
