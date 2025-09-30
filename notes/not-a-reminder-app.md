@@ -11,7 +11,7 @@ layout: note-layout.html
 <section class="note-section">
  
 ## Simple chores, not simple memory
-I often (always) forget when I did a simple chore and when I should do it next time. Like me, many people struggle with such things: visiting a gynaecologist for a yearly check-up, adding salt to the dishwasher, changing contact lenses, or grooming a dog so he doesn’t look like an old carpet.
+I often (always) forget when I did a simple chore and when I should do it next time. Like me, many people struggle with such things: visiting a gynaecologist for a yearly check-up, adding salt to the dishwasher, having contact lenses replaced, or grooming a dog so he doesn’t look like an old carpet.
 
 I thought, there can be an ideal tool for this special type of task that:
 - Doesn’t have strong deadlines.
@@ -40,7 +40,7 @@ Next time I wonder, When should I change them again? I just open the app. It tel
 - **Coming up** (a week before, for example)
 - **Time to do** (once the due date arrives)
 
-If I see *Time to do* – I head to the bathroom and put in a new pack.
+If I see *Time to do* – I head to the bathroom and take the fresh pack.
 
 <figure>
 <img src="/images/notes/deed-status.png" alt="Fragments of user interface of creating a task called Deed." class="post-image"></img>
