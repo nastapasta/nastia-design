@@ -40,9 +40,9 @@ type: Web Application
 <section class="note-section">
 
 ## About
-<p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href=/cases/spokn-ai-speech-analytics>On how I stopped worrying and emprased generative AI</a>.
+<p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
 
-<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff. I collaborated closely with engineers, analysts, and business stakeholders, and temporarily performed most of the product manager tasks, being the communicator between all the guys above.<p>
+<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff. I collaborated closely with engineers, analysts, and business stakeholders, and temporarily performed most of the product manager tasks, being the communicator between all the guys above.</p>
 </section>
 
 <section class="note-section">

@@ -4,7 +4,6 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("src/images");
 
   // Custom collections
   eleventyConfig.addCollection("now", function (collectionApi) {
@@ -29,9 +28,11 @@ module.exports = function (eleventyConfig) {
       .join(" ") + "…";
   });
 
+  const siteUrl = process.env.URL || "";
   eleventyConfig.addFilter("absoluteUrl", function (url, base) {
+    const b = base || siteUrl;
     try {
-      return new URL(url, base).toString();
+      return b ? new URL(url, b).toString() : url;
     } catch {
       return url;
     }
