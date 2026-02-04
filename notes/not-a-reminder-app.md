@@ -1,8 +1,8 @@
 ---
 title: Not a reminder app
 tags: note
-date: 2025-09-39
-tended: 2025-09-39
+date: 2025-09-29
+tended: 2025-09-29
 excerpt: Roamings around managing regular chores
 phase:  <img src="/images/inline-icons/inline-icon-growing.svg" class="inline-icon"> Growing
 layout: note-layout.html

@@ -18,7 +18,7 @@ layout: layout.html
 <section>
 
   <div class="case-grid-horizontal" id="projects">
-    {% assign recentCases = collections.case | %}
+    {% assign recentCases = collections.case %}
     {% for case in recentCases %}
     <a href="{{ case.url }}" class="case-card-link">
       <div class="case-card-horizontal">
@@ -80,7 +80,7 @@ layout: layout.html
         <p>Work with developers.</p>
       </td>
       <td>
-        <p>My experience is mostly within cross-functional teams, from wich I learned to validate the
+        <p>My experience is mostly within cross-functional teams, from which I learned to validate the
           solutions with the dev team as early as possible: good design should be implementable.</p>
       </td>
     </tr>
@@ -89,7 +89,7 @@ layout: layout.html
 
   <div class="small-divider"></div>
 
-  <p style="max-width: 720px;">Currenlty I want to focus on designing products that leverage the best from new
+  <p style="max-width: 720px;">Currently I want to focus on designing products that leverage the best from new
     technologies. I am capable of combining product design with product management
     responsibilities.</p>
   <p style="max-width: 720px;">As a graduate architect, I am a useful asset in products dedicated to emerging

@@ -33,14 +33,14 @@
 <main class="content-wrapper">
         <hgroup class="case-header">
             <div>
-                <small>{{ year }}</small>
+                <small>{{ date | date: "%Y" }}</small>
                 <h1>{{ title | default: "none" }}</h1>
                 <div class="word-tag">
                     <span class="tag"> {{ type }} </span>
                 </div>
                 <p class="subheader">{{ excerpt | default: "none" }}</p>
             </div>
-            <img class="case-main-image" src="{{ image }}" alt="{{ case.data.title }}">
+            <img class="case-main-image" src="{{ image }}" alt="{{ title | default: 'Case study' }}">
         </hgroup>
         <div class="content-wrapper">
         {{ content }}
