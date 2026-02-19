@@ -1,0 +1,24 @@
+{
+  "name": "nastia-design",
+  "version": "1.0.0",
+  "description": "Source code of my personal website. A little bit a portfolio too. Initial version created thank to \"Why and how to design with code instead of Figma\" course.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastapasta/nastia-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nastapasta/nastia-design/issues"
+  },
+  "homepage": "https://github.com/nastapasta/nastia-design#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

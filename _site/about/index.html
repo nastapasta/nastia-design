@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/favicon.png">
-    <title>About</title>
+    <title>CV</title>
 
     <!-- Open Graph -->
-    <meta property="og:title" content="About">
+    <meta property="og:title" content="CV">
     <meta property="og:description" content="Product & UX designer">
     <meta property="og:type" content="website">
     <meta property="og:url" content="/about/">
@@ -19,7 +19,7 @@
 
     <!-- Optional: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="About">
+    <meta name="twitter:title" content="CV">
     <meta name="twitter:description" content="Product & UX designer">
     <meta name="twitter:image" content="/images/og-image.png">
 
@@ -46,91 +46,297 @@
 
     <main class="content-wrapper">
         
-<hgroup>
-    <h1>What I'm about</h1>
-    <p class="subheader">Biography and fun facts</p>
-</hgroup>
+<style>
+    /* Variables */
+    :root {
+        --white: #ffffff;
+        --black: #333333;
+        --black-alpha: rgba(51, 51, 51, 0.05);
+        --thin-gray: hwb(0 96% 4%);
+        --light-gray: #eeeeee;
+        --gray: #888888;
+        --dimgray: #696969;
+        --teal: #057d7d;
+        --blue: #0060BA;
+        --blue-dark: #38237d;
 
-<div class="now-wrapper">
+        --color-text: var(--black);
+        --color-text-subtle: var(--gray);
+        --color-text-subheading: var(--dimgray);
+        --color-text-accent: var(--blue);
+        --color-link: var(--color-text-accent);
+        --color-background: var(--white);
+        --color-background-subtle: var(--light-gray);
+        --color-border-subtle: var(--light-gray);
 
-    <section>
-        <div class="medium-divider"></div>
-        <p class="big framed">In my work, I try to live by my values — <em>being strong and&nbsp;kind</em> — in ways
-            that are meaningful for people and beneficial to the businesses that serve them.</p>
-        <p> For years, I’ve been creating experiences through space, education, and collaboration. While studying, I
-            organised events for students to meet peers from across Europe and build small projects
-            together. With friends, we hosted a <a href="https://sesam2018.tilda.ws/">10-day architecture workshop</a>
-            in a Belarusian village and left them some useful gifts, like a parametric bus stop.</p>
-        <p> In the beginning of my master's program, I discovered UX&nbsp;design and liked it. I finished my
-            studies, where, as a tutor for a group of students, I explored with the group, how human-centered methods
-            could help us design a park.</p>
-        <p>Currently I'm working as a UX designer in an agency within a software development consultancy. Here I lead
-            the
-            brand and play around in different industries
-            and businesses: from public transportation systems to experimental AI-powered products.</p>
-    </section>
+        --font-size-h1: clamp(2rem, 4.5vw, 2.5rem);
+        --font-size-h2: clamp(1.6rem, 4vw, 2rem);
+        --font-size-h3: clamp(1.4rem, 3vw, 1.5rem);
+        --font-size-p: clamp(1rem, 2.2vw, 1.25rem);
+        --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
 
-    <!-- To do: Make 2 columns layout and add a photo -->
+        --space-md: clamp(1rem, 2vw, 1.5rem);
+        --space-lg: clamp(1.5rem, 3vw, 2rem);
+        --space-sm: clamp(0.75rem, 1.5vw, 1rem);
+    }
 
-    <section>
+    /* Base */
+    * {
+        box-sizing: border-box;
+    }
 
-        <h2>My current loves and interests</h2>
-        <div class="word-tag">
-            <span class="tag">Product design culture</span>
-            <span class="tag">Writing</span>
-            <span class="tag">Personal knowledge management</span>
-            <span class="tag">Coffee</span>
-            <span class="tag">Obsidian</span>
-            <span class="tag">Responsible AI usage</span>
-            <span class="tag">Tieguanyin</span>
-            <span class="tag">Nick Cave and the Bad Seeds</span>
-            <span class="tag">Progressive metal</span>
-            <span class="tag">Walking</span>
-            <span class="tag">Strength training</span>
-            <span class="tag">Cats</span>
-        </div>
+    body {
+        font-family: "Source Serif 4", serif;
+        line-height: clamp(1.66, 2vw, 1.75);
+        margin: auto;
+        color: var(--color-text);
+    }
 
-    </section>
+    /* Override content-wrapper for this page */
+    .content-wrapper {
+        max-width: 100%;
+        padding: 0;
+    }
 
-    <section>
-        <h2>You can also read me here:</h2>
-        <ul>
-            <li><a href="https://t.me/thursday_da">Telegram blog in Russian – diary with random findings and
-                    opinions.</a></li>
-            <li><a href="https://t.me/cometamemes">Telegram channel with memes I find funny.</a></li>
-        </ul>
-    </section>
+    /* Two-column layout */
+    .cv-layout {
+        display: flex;
+        min-height: calc(100vh - 60px);
+    }
 
-    <section>
-        <h2>Speaking</h2>
-        <ul>
-            <li>2025 — <em>How digital gardening advances designer’s self-representation and reflection.</em> Show and
-                Tell at Coherent Solutions.</li>
-            <li>2021 — <em>How to love and un-love human-centered design</em> for Yak Tak school (rus) <a
-                    href="https://www.youtube.com/live/5Hn3mPiTPQ0?si=FnG81T_8IpgKXefL">Youtube</a>.</li>
-        </ul>
-    </section>
+    .cv-image {
+        flex: 0 0 50%;
+        position: sticky;
+        top: 60px;
+        height: calc(100vh - 60px);
+    }
 
-    <section>
-        <h2>Colophon</h2>
-        <p> Right now, I'm developing this site using plain HTML and CSS. It's constantly changing until I get it to a
-            relatively acceptable form, but the overall view and structure are stable. Kind of a <em>Theseus ship</em>.
-        </p>
-        <p>The code is stored in a <a href="https://github.com/nastapasta/nastia-design">public GitHub repository</a>.
-            I'm using a simple open-source static site generator <a href="https://www.11ty.dev/">Eleventy</a> with help
-            of tutorials and ChatGPT to hunt the bugs. Deployment is handled by <a href="https://vercel.com">Vercel</a>.
-        </p>
-        <p> For typography I chose <a href="https://fonts.google.com/specimen/Instrument+Sans">Instrument Sans</a> and
-            <a href="https://fonts.google.com/specimen/Source+Serif+4">Source Serif 4</a>, available on Google Fonts.
-        </p>
-    </section>
+    .cv-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
 
-    <section>
-        <h2>Contact me</h2>
-        <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a>
-            | <a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a>
-        </p>
-    </section>
+    .cv-content {
+        flex: 0 0 50%;
+        padding: 2rem 3rem;
+    }
+
+    /* Typography */
+
+    hgroup {
+        margin: var(--space-lg) 0 var(--space-lg) 0;
+    }
+
+    h1 {
+        font-family: "Source Serif 4", serif;
+        font-weight: 500;
+        font-size: var(--font-size-h1);
+        line-height: 1.4;
+        padding-bottom: 5px;
+        margin: 0 0 1rem 0;
+        letter-spacing: -0.01em;
+    }
+
+    h2 {
+        font-family: 'Instrument Sans', Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: var(--font-size-h3);
+        margin: 0;
+        letter-spacing: -0.02em;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: var(--font-size-h3);
+        margin: 0 0 0.3rem 0;
+    }
+
+    p {
+        font-family: "Source Serif 4", serif;
+        font-optical-sizing: auto;
+        font-size: var(--font-size-p);
+        margin: 0.25rem 0;
+        letter-spacing: 0.01em;
+        line-height: 1.6;
+    }
+
+    .subheader {
+        font-family: "Source Serif 4", serif;
+        font-weight: 400;
+        font-size: var(--font-size-h3);
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: var(--color-text-subheading);
+        line-height: 1.66;
+        letter-spacing: -0.01em;
+    }
+
+    .small {
+        color: var(--color-text-subtle);
+        font-size: var(--font-size-small);
+        font-weight: 400;
+        font-family: 'Instrument Sans', Helvetica, sans-serif;
+        letter-spacing: 0.03em;
+    }
+
+    ul {
+        font-family: "Source Serif 4", serif;
+        font-size: var(--font-size-p);
+        font-weight: 400;
+        margin: 0.25rem 0 2em 0;
+        line-height: 1.6;
+    }
+
+    li {
+        font-size: var(--font-size-p);
+        font-weight: 400;
+    }
+
+    /* Links */
+    a {
+        transition: text-decoration 0.2s;
+        font-weight: 400;
+        text-decoration: underline;
+        color: var(--color-text);
+        text-decoration-color: var(--color-text-subtle);
+        border-radius: 4px;
+    }
+
+    a:hover {
+        color: var(--color-link);
+    }
+
+    /* Sections */
+    section {
+        margin-bottom: 3rem;
+    }
+
+    section:first-child {
+        margin-top: 0;
+    }
+
+    /* Tags */
+    .word-tag {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .tag {
+        background-color: var(--color-background-subtle);
+        color: var(--color-text-subheading);
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-weight: 500;
+        font-size: var(--font-size-small);
+        font-family: 'Instrument Sans', Helvetica, sans-serif;
+    }
+
+    /* Mobile: vertical layout, image on top */
+    @media (max-width: 768px) {
+        .cv-layout {
+            flex-direction: column;
+        }
+
+        .cv-image {
+            flex: none;
+            position: relative;
+            top: auto;
+            height: 60vh;
+            width: 100%;
+        }
+
+        .cv-content {
+            flex: none;
+            padding: 1.5rem var(--space-sm);
+        }
+    }
+</style>
+
+<div class="cv-layout">
+    <div class="cv-image">
+        <img src="/images/portrait.jpg" alt="Nastia Tulayeva">
+    </div>
+
+    <div class="cv-content">
+        <hgroup>
+            <h1>Nastia Tulayeva</h1>
+            <p class="subheader">Product and communication designer.<br>I design interfaces and lead the brand at <a
+                    href="https://thenorm.design">The Norm agency</a>. Studying at <a href="https://bureau.ru">Bureau
+                    School</a>.
+            </p>
+        </hgroup>
+
+        <section>
+            <h2>Designer and Creative Lead @ The Norm by Coherent Solutions</h2>
+            <p class="small">2020 – Present</p>
+            <ul>
+                <li>Leading all brand visuals at <a href="https://thenorm.design">The Norm</a>: website, social media,
+                    illustrations.</li>
+                <li>Delivered 10+ projects in FinTech, Data Governance, Healthcare, Transportation, Logistics,
+                    Fitness and Customer Service.</li>
+                <li>Designing presale phases at Coherent Solutions and The Norm projects.</li>
+                <li>Led the redesign of the <a href="https://www.coherentsolutions.com/">corporate website</a> in 2023.
+                </li>
+            </ul>
+
+            <h2>Freelance Designer</h2>
+            <p class="small">2019 - Present</p>
+            <ul>
+                <li>Designed app for <a href="https://parentmindapp.com/">Parent's Mind app</a> that helps people
+                    struggling with parenting.</li>
+                <li>Was founding designer at Padzei, a&nbsp;Belarusian startup helping people find local events.</li>
+                <li>Led user research for foodtech startup <a href="https://shlp.by/">SHLP</a>.</li>
+            </ul>
+
+            <h2>Dashboard Designer</h2>
+            <p class="small">2019 – 2020</p>
+            <ul>
+                <li>Designed and developed dashboards in Tableau.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="word-tag">
+                <span class="tag">Interface design</span>
+                <span class="tag">Branding and logos</span>
+                <span class="tag">HTML and CSS</span>
+                <span class="tag">Accessibility</span>
+                <span class="tag">Illustration</span>
+                <span class="tag">Product research</span>
+                <span class="tag">UX writing</span>
+                <span class="tag">Data visualisation</span>
+                <span class="tag">Product management</span>
+            </div>
+            <p>I design in Figma or with code — HTML/CSS. I draw in Illustrator and ProCreate.</p>
+        </section>
+
+        <section>
+            <h2>Everything else</h2>
+            <ul>
+                <li>Mentoring designers at Women in Tech.</li>
+                <li>Co-organised a <a href="https://sesam2018.tilda.ws/">10-day architecture workshop</a> in a
+                    Belarusian village.</li>
+                <li>Built <a href="/">this website</a> with HTML, CSS and Eleventy.</li>
+                <li>I play guitar, read books and collect fragrances. Dreaming of learning piano.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a>
+                | <a
+                    href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a>
+            </p>
+        </section>
+    </div>
 </div>
     </main>
 
