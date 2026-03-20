@@ -371,7 +371,7 @@ a {
   transition: text-decoration 0.2s;
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-thickness: 0.5px;
+  text-decoration-thickness: 0.2px;
   color: var(--color-text);
   text-decoration-color: var(--color-text-subtle);
   border-radius: 4px;
@@ -620,8 +620,8 @@ footer {
 /* Notes Grid */
 
 .notes-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -644,12 +644,13 @@ footer {
 
 .note-card div {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
 }
 
 .note-card h3 {
   margin-bottom: 0.5rem;
+  font-size: var(--font-size-h4)
 }
 
 .note-card h3:hover {
