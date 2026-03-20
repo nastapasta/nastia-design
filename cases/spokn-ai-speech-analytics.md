@@ -11,6 +11,13 @@ type: Web Application
 
 <div class="medium-divider"></div>
 
+<section class="note-section">
+
+## About
+<p><b>Client:</b> <a href="https://www.maxcontact.com/">MaxContact</a> is a contact centre software company serving businesses with dozens and hundreds of workers. The company has been ranked one of the <a href="https://www.maxcontact.com/resources/blog-insights/maxcontact-named-as-one-of-the-top-50-companies-at-the-northern-tech-awards-2023/">top 50</a> fastest growing technology companies in the North, consecutively from 2021-2023, and in 2022 received the IT Vendor of the Year Award.</p>
+<p>I worked closely with the team to explore needs, define MVP scope, and design the system from early concepts to developer handoff.</p>
+</section>
+
 <div class="brief">
   <div class="brief-grid">
     <div class="brief-col">
@@ -37,14 +44,6 @@ type: Web Application
     </div>
   </div>
 </div>
-
-<section class="note-section">
-
-## About
-<p><b>Client:</b> <a href="https://www.maxcontact.com/">MaxContact</a> is a contact centre software company serving businesses with dozens and hundreds of workers. The company has been ranked one of the <a href="https://www.maxcontact.com/resources/blog-insights/maxcontact-named-as-one-of-the-top-50-companies-at-the-northern-tech-awards-2023/">top 50</a> fastest growing technology companies in the North, consecutively from 2021-2023, and in 2022 received the IT Vendor of the Year Award.</p>
-<p>I worked closely with the team to explore needs, define MVP scope, and design a usable system from early concepts to developer handoff.</p>
-</section>
-
 
 <section class="note-section">
 
@@ -177,33 +176,29 @@ We paired transcripts with sentiment markers and playback controls. This allowed
 <section class="note-section">
 
 ## The Impact
-- The MVP was shipped and used in real QA workflows
-- Managers reported faster reviews and clearer feedback
-- The team received strong interest from BPOs and customer service leads
+- The MVP was shipped and used in real QA workflows.
+- Managers reported faster reviews and clearer feedback.
+- The team received strong interest from BPOs and customer service leads.
 
 ### Unexpected Use Cases
-While the beta version had limited functionality, some of the users used the transcript feature to gather sets of sample conversations, download the transcript documents and review them with ChatGPT, getting even more actionable insights.
 
+The tool laid the foundation for future AI-assisted coaching and continuous QA improvements.
 
-<blockquote>“Spokn's speech transcription and call summary features are helpful, especially for reducing the need for manual sales documentation.”</blockquote>
+While the beta version had limited functionality, some of the users used the transcript feature to gather sets of sample conversations, download the transcript documents and review them with LLM-based tools.
+
+<blockquote>“Spokn's speech transcription and call summary features are helpful, especially for reducing the need for manual sales documentation.”
+</blockquote>
 
 <blockquote>“These insights would allow us to address issues without extensive manual review, thereby saving time and improving efficiency.”
 
 <em>— Quotes from the pilot launch users.</em>
 </blockquote>
 
-
-The tool laid the foundation for future AI-assisted coaching and continuous QA improvements.
-
 </section>
 
 <section class="note-section">
 
 ## Reflection
-This project came with all the usual startup messiness — shifting requirements, parallel development, and tight deadlines. I learned to defend the scope while staying adaptable, and to make decisions even when I wasn’t 100% sure. When I needed extra eyes, quick hallway tests and input from the client’s UX lead helped move things forward. 
-
-I also saw how even a simple-looking UI can create complex development challenges — our line chart alone took weeks of testing with huge amounts of data. Years later, I see that the solution could be much better – but it worked great in given circumstances.
-
-The key lessons? Involve devs early and always expect the unexpected. And make friends with the testers.
+This project came with all the usual startup messiness — shifting requirements, parallel development, and tight deadlines. I learned to defend the scope while staying adaptable, and to make decisions even when I wasn’t 100% sure.
 
 </section>

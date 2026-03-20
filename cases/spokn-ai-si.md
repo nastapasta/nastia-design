@@ -11,6 +11,14 @@ type: Web Application
 
 <div class="medium-divider"></div>
 
+## About
+<p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
+
+<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborated closely with engineers, analysts, and business stakeholders.</p>
+</section>
+
+<section class="note-section">
+
 <div class="brief">
   <div class="brief-grid">
     <div class="brief-col">
@@ -37,36 +45,33 @@ type: Web Application
   </div>
 </div>
 
-<section class="note-section">
-
-## About
-<p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
-
-<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff. I collaborated closely with engineers, analysts, and business stakeholders, and temporarily performed most of the product manager tasks, being the communicator between all the guys above.</p>
 </section>
 
 <section class="note-section">
 
-## The Challenge and the Pivot
-At first, the goal was to build out speech analytics features with *automatic quality scoring* of the calls. We explored call scoring frameworks, researched industry scorecards, and even began early prototyping. But as we moved deeper, the client reassessed the effort-value ratio – and pivoted.
+## The Challenge
+Success Intelligence is a tool to help managers understand how sales reps handle objections and where they need support.
 
-**The new direction?** Focus on Success Intelligence: a tool to help managers understand how sales reps handle objections and where they need support.
-
-The solution addresses the need for advanced tools to:
+Sales manager's challenges:
 - Understand customer objections and effective handling strategies, 
 - Measure sales agent performance, 
 - Improve training, support, and job satisfaction in contact centres.
 
 </section>
+
 <section class="note-section">
 
 ## The Approach
-The design process was even more chaotic this time, but still - Double Diamond narrative is useful not to lose track of the events and their purpose even when the scope shifts.
-
 After a design sprint involving the whole team, we found the initial solution ideas.
 <figure>
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint.png" alt="FigJam board screenshot" class="post-image"></img>
 <figcaption>Our FigJam Design Sprint activities throughout a week
+</figcaption>
+</figure>
+
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint-sketches.png" alt="Data visualization sketches screenshot" class="post-image"></img>
+<figcaption>My sketches from our Design Sprint: crazy 8's of objection reasons visualizations
 </figcaption>
 </figure>
 
@@ -85,38 +90,35 @@ Based on the insights, we identified the main user problems:
 - Coaching lacks precision—managers don’t know exactly where reps struggle or succeed
 - There’s no overview of objection trends—so training is often reactive, not proactive
 
-As we were developing this iteration in parallel with rolling out <a href="/cases/spokn-ai-speech-analytics.md">Speech&nbsp;Analytics</a>, we had not much opportunity to see how managers' routines shifted, so we had to work with assumptions. Since transcript search wasn’t yet implemented, we imagined how managers might navigate sentiment and conversation flow — without being able to quickly jump to specific content.
-
-</section>
-<section class="note-section">
-
 ### Develop
-To balance usability, data complexity, and tech constraints, we broke the product down into three clear increments:
+We broke the product down into three clear increments:
 - *Objection Mapping* – Define and track common objection themes
 - *Performance Analytics* – Show how agents handle these objections
 - *AI Insights* – Surface patterns and guidance based on deeper transcript analysis
-We focused on delivering value fast, testing each increment for clarity and usability with client feedback as we went.
 
-<figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint-sketches.png" alt="Data visualization sketches screenshot" class="post-image"></img>
-<figcaption>My sketches from our Design Sprint: crazy 8's of objection reasons visualizations
-</figcaption>
-</figure>
-
-The problems we faced:
+### The problems we faced:
 - Some “successful” calls didn’t align with the patterns in transcript data—sales charisma is hard to measure
 - Legal/privacy constraints meant we had to train our own custom LLMs, slowing things down
 - Manual mapping of objections from real transcripts was time-consuming but necessary
 
+</section>
+
+<section class="framed">
 
 ### Deliver
-We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components: **Dashboard** switching focus from agents to objections, **Interaction** details highlighting the objections there, and **Spokn AI Spotlight** – providing AI insights based on the data.
-
+We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components:
+- **Dashboard** switching focus from agents to objections;
+- **Interaction** details highlighting the objections there;
+- and **Spokn AI Spotlight** – providing AI insights based on the data.
 
 </section>
+
 <section class="note-section">
 
 <h2 id="solution">The Solution</h2>
+
+<div class="medium-divider"></div>
+
 
 ### Dashboard: objections frequency vs agent performance
 The dashboard provides two ways of looking at the data depending on the current focus of the manager:
@@ -152,6 +154,7 @@ Objection details overlay provides a view on its frequency and the efforts in ha
 </figure>
 
 </section>
+
 <section class="note-section">
 
 ### Interaction details
@@ -164,6 +167,7 @@ Objections are highlighted in the interaction analysis: the user can jump right 
 </figure>
 
 </section>
+
 <section class="note-section">
 
 ### AI insights — Spokn AI Spotlight
@@ -197,24 +201,7 @@ We shipped the pilot version in 3 months and rolled out the full release in 5. O
 <em>— Call centre manager of one of the customers</em>
 </blockquote>
 
-</section>
-
-<section class="note-section">
-
-While I didn’t stay to see the full evolution of the product, I’m proud of the foundation we built. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.
-When the company had to reduce costs, my role was among those phased out in favor of engineering capacity. It was disappointing, but understandable.
-
-</section>
-<section class="note-section">
-
-## Reflection
-This project pushed me to adapt quickly, navigate ambiguity, and align technical possibilities with real user needs. One of my biggest challenges was accepting a major pivot—letting go of early work and regrouping around a new direction.
-
-The interesting part was bridging the gap between what was technically possible and what users actually needed. Involving engineers early helped align expectations—but with evolving AI tools, surprises were inevitable.
-
-Though I didn’t see the full rollout due to team cuts, I’m proud of what we built—and grateful for the trust and ownership I was given.
-
-And look, what my product manager said!
+While I didn’t stay to support the development stage, I’m proud of the foundation we built. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.
 
 <blockquote>“Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.”
 
@@ -222,5 +209,9 @@ And look, what my product manager said!
 </blockquote>
 
 </section>
+<section class="note-section">
 
-{% include "in-progress.html" %}
+## Reflection
+This project pushed me to adapt quickly, navigate ambiguity, and align technical possibilities with real user needs.
+
+</section>
