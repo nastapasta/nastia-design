@@ -47,51 +47,6 @@
     <main class="content-wrapper">
         
 <style>
-    /* Variables */
-    :root {
-        --white: #ffffff;
-        --black: #333333;
-        --black-alpha: rgba(51, 51, 51, 0.05);
-        --thin-gray: hwb(0 96% 4%);
-        --light-gray: #eeeeee;
-        --gray: #888888;
-        --dimgray: #696969;
-        --teal: #057d7d;
-        --blue: #0060BA;
-        --blue-dark: #38237d;
-
-        --color-text: var(--black);
-        --color-text-subtle: var(--gray);
-        --color-text-subheading: var(--dimgray);
-        --color-text-accent: var(--blue);
-        --color-link: var(--color-text-accent);
-        --color-background: var(--white);
-        --color-background-subtle: var(--light-gray);
-        --color-border-subtle: var(--light-gray);
-
-        --font-size-h1: clamp(2rem, 4.5vw, 2.5rem);
-        --font-size-h2: clamp(1.6rem, 4vw, 2rem);
-        --font-size-h3: clamp(1.4rem, 3vw, 1.5rem);
-        --font-size-p: clamp(1rem, 2.2vw, 1.25rem);
-        --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
-
-        --space-md: clamp(1rem, 2vw, 1.5rem);
-        --space-lg: clamp(1.5rem, 3vw, 2rem);
-        --space-sm: clamp(0.75rem, 1.5vw, 1rem);
-    }
-
-    /* Base */
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: "Source Serif 4", serif;
-        line-height: clamp(1.66, 2vw, 1.75);
-        margin: auto;
-        color: var(--color-text);
-    }
-
     /* Override content-wrapper for this page */
     .content-wrapper {
         max-width: 100%;
@@ -119,58 +74,25 @@
     }
 
     .cv-content {
-        flex: 0 0 50%;
+        flex: 1;
+        max-width: 720px;
         padding: 2rem 3rem;
     }
 
-    /* Typography */
-
-    hgroup {
-        margin: var(--space-lg) 0 var(--space-lg) 0;
-    }
-
-    h1 {
-        font-family: "Source Serif 4", serif;
-        font-weight: 500;
-        font-size: var(--font-size-h1);
-        line-height: 1.4;
-        padding-bottom: 5px;
-        margin: 0 0 1rem 0;
-        letter-spacing: -0.01em;
-    }
-
+    /* h2 is smaller here than global — intentional for CV density */
     h2 {
-        font-family: 'Instrument Sans', Helvetica, sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         font-size: var(--font-size-h3);
         margin: 0;
-        letter-spacing: -0.02em;
     }
 
-    h3 {
-        font-weight: 400;
-        font-size: var(--font-size-h3);
-        margin: 0 0 0.3rem 0;
-    }
-
-    p {
-        font-family: "Source Serif 4", serif;
-        font-optical-sizing: auto;
-        font-size: var(--font-size-p);
+    .cv-content p {
         margin: 0.25rem 0;
-        letter-spacing: 0.01em;
-        line-height: 1.6;
     }
 
+    /* subheader uses serif here, unlike global sans-serif */
     .subheader {
         font-family: "Source Serif 4", serif;
-        font-weight: 400;
-        font-size: var(--font-size-h3);
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        color: var(--color-text-subheading);
-        line-height: 1.66;
-        letter-spacing: -0.01em;
     }
 
     .small {
@@ -182,60 +104,15 @@
     }
 
     ul {
-        font-family: "Source Serif 4", serif;
-        font-size: var(--font-size-p);
-        font-weight: 400;
         margin: 0.25rem 0 2em 0;
-        line-height: 1.6;
     }
 
-    li {
-        font-size: var(--font-size-p);
-        font-weight: 400;
-    }
-
-    /* Links */
-    a {
-        transition: text-decoration 0.2s;
-        font-weight: 400;
-        text-decoration: underline;
-        color: var(--color-text);
-        text-decoration-color: var(--color-text-subtle);
-        border-radius: 4px;
-    }
-
-    a:hover {
-        color: var(--color-link);
-    }
-
-    /* Sections */
     section {
         margin-bottom: 3rem;
     }
 
     section:first-child {
         margin-top: 0;
-    }
-
-    /* Tags */
-    .word-tag {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin: 1rem 0;
-    }
-
-    .tag {
-        background-color: var(--color-background-subtle);
-        color: var(--color-text-subheading);
-        padding: 0.4rem 0.8rem;
-        border-radius: 20px;
-        white-space: nowrap;
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-        font-weight: 500;
-        font-size: var(--font-size-small);
-        font-family: 'Instrument Sans', Helvetica, sans-serif;
     }
 
     /* Mobile: vertical layout, image on top */
@@ -267,9 +144,8 @@
     <div class="cv-content">
         <hgroup>
             <h1>Nastia Tulayeva</h1>
-            <p class="subheader">Product and communication designer.<br>I design interfaces and lead the brand <a
-                    href="https://thenorm.design">at The Norm agency</a>. Studying <a href="https://bureau.ru">at Bureau
-                    School</a>.
+            <p class="subheader">Designer, mentor, and thinker.<br>I design products and lead the
+                brand <a href="https://thenorm.design">at The Norm agency</a>.
             </p>
         </hgroup>
 
@@ -281,9 +157,10 @@
                     illustrations.</li>
                 <li>Delivered 10+ projects in FinTech, Data Governance, Healthcare, Transportation, Logistics,
                     Fitness and Customer Service.</li>
-                <li>Designing presale phases at Coherent Solutions and The Norm projects.</li>
+                <li>Designing presale phases for Coherent Solutions and The Norm projects.</li>
                 <li>Led the redesign of the <a href="https://www.coherentsolutions.com/">corporate website</a> in 2023.
                 </li>
+                <li>Leadind and facilitating UX Lean Coffee events.</li>
             </ul>
 
             <h2>Freelance Designer</h2>

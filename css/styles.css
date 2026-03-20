@@ -246,6 +246,10 @@ h4 {
   /* adjust to your header height */
 }
 
+:is(p, ul, figure) + :is(h2, h3, h4) {
+  margin-top: var(--space-lg);
+}
+
 .home {
   font-family: "Source Serif 4", serif;
   font-weight: 300;
@@ -256,6 +260,7 @@ p {
   font-optical-sizing: auto;
   font-size: var(--font-size-p);
   margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
   letter-spacing: 0.01em;
   line-height: 1.6;
 }
