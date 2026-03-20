@@ -371,7 +371,7 @@ a {
   transition: text-decoration 0.2s;
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-thickness: 0.2px;
+  text-decoration-thickness: 0.3px;
   color: var(--color-text);
   text-decoration-color: var(--color-text-subtle);
   border-radius: 4px;
@@ -645,7 +645,6 @@ footer {
 .note-card div {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2rem;
 }
 
 .note-card h3 {
