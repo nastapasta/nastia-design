@@ -246,7 +246,7 @@ h4 {
   /* adjust to your header height */
 }
 
-:is(p, ul, figure) + :is(h2, h3, h4) {
+:is(p, ul, figure)+ :is(h2, h3, h4) {
   margin-top: var(--space-lg);
 }
 
@@ -371,6 +371,7 @@ a {
   transition: text-decoration 0.2s;
   font-weight: 400;
   text-decoration: underline;
+  text-decoration-thickness: 0.5px;
   color: var(--color-text);
   text-decoration-color: var(--color-text-subtle);
   border-radius: 4px;
