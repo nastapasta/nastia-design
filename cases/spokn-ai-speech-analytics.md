@@ -18,32 +18,23 @@ type: Web Application
 <p>I worked closely with the team to explore needs, define MVP scope, and design the system from early concepts to developer handoff.</p>
 </section>
 
+<section class="note-section">
 <div class="brief">
-  <div class="brief-grid">
+<div class="brief-grid">
     <div class="brief-col">
       <h3>Timeline</h3>
       <p>7 months</p>
-      <h3>My Role</h3>
-      <p>Product designer</p>
     </div>
-    <div class="brief-col">
-      <h3>Team</h3>
-        <ul>
-        <li>1 designer</li>
-        <li>Product owner</li>
-        <li>Development team</li>
+    <div class="brief-col" style="grid-column: span 2">
+      <h3>Results:</h3>
+       <ul>
+        <li>Increased Quality Assessment manager’s performance.</li>
+        <li>MVP of AI-powered solution from scratch in 7 months.</li>
+        <li>Secured in a new customer with 200+ seats.</li>
       </ul>
     </div>
-    <div class="brief-col">
-      <h3>Results</h3>
-      <ul>
-        <li>• Increased Quality Assessment manager’s performance</li>
-        <li>• MVP of AI-powered solution from scratch in 7 months</li>
-        <li>• Secured in a new customer with 200+ seats</li>
-      </ul>
-    </div>
-  </div>
 </div>
+</section>
 
 <section class="note-section">
 

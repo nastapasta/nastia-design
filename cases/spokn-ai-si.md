@@ -18,33 +18,20 @@ type: Web Application
 </section>
 
 <section class="note-section">
-
 <div class="brief">
-  <div class="brief-grid">
+<div class="brief-grid">
     <div class="brief-col">
       <h3>Timeline</h3>
       <p>5 months</p>
-      <h3>My Role</h3>
-      <p>Product designer</p>
     </div>
-    <div class="brief-col">
-      <h3>Team</h3>
-        <ul>
-        <li>1 designer</li>
-        <li>Product owner</li>
-        <li>Development team</li>
-      </ul>
-    </div>
-    <div class="brief-col">
-      <h3>Results</h3>
+    <div class="brief-col" style="grid-column: span 2">
+      <h3>Results:</h3>
       <ul>
-        <li>• 1st iteration finished in 3 months, released in production in 5 months</li>
-        <li>• 100+ licences signed up</li>
+        <li>1st iteration finished in 3 months, released in production in 5 months;</li>
+        <li>100+ licences signed up.</li>
       </ul>
     </div>
-  </div>
 </div>
-
 </section>
 
 <section class="note-section">

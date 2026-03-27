@@ -884,7 +884,8 @@ footer {
   .case-body .note-section>ol,
   .case-body .note-section>blockquote,
   .case-body .disclaimer>h2,
-  .case-body .disclaimer>p {
+  .case-body .disclaimer>p,
+  .case-body .brief {
     max-width: 70%;
   }
 }
