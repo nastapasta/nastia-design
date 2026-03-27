@@ -304,8 +304,7 @@ ul {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-top: 0.9rem;
-  margin-top: calc(0.9rem - var(--space-md));
+  margin-top: calc(1rem - var(--space-md));
   line-height: 1.6;
   list-style: none;
 }
@@ -318,21 +317,14 @@ ol {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-top: calc(0.9rem - var(--space-md));
-  margin-bottom: 2.1rem;
+  margin-top: calc(1rem - var(--space-md));
   line-height: 1.6;
-}
-
-.nobullet-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 li {
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   line-height: 1.4;
 
 }
