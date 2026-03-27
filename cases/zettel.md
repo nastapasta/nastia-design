@@ -9,35 +9,6 @@ image-bg: "/images/case-studies/zettel/zettel-main-picture-bg.png"
 type: Mobile Application
 ---
 
-<div class="medium-divider"></div>
-
-<div class="brief">
-  <div class="brief-grid">
-    <div class="brief-col">
-      <h3>Timeline</h3>
-      <p>4 months</p>
-      <h3>My Role</h3>
-      <p>Founder</p>
-    </div>
-    <div class="brief-col">
-      <h3>Team</h3>
-        <ul>
-        <li>Me, me and me</li>
-        <li>Design mentor Roma</li>
-      </ul>
-    </div>
-    <div class="brief-col">
-      <h3>Activities</h3>
-      <ul>
-        <li>• 0→1 startup development</li>
-        <li>• Research</li>
-        <li>• UX, UI, Illustration</li>
-        <li>• Pitching</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 <!-- <div class="disclaimer">
     <small>Disclaimer:</small>
     <h2>It was long ago, and I was wrong</h2> 
@@ -48,6 +19,21 @@ type: Mobile Application
 Zettel is a note-taking app that helps people connect their thoughts using natural language processing. Designed for knowledge lovers, thinkers, and researchers, it encourages flow without forcing structure upfront.
 
 This was a personal solo project from 0→1: research, UX, UI, illustration, pitching — all done by me.
+
+<section class="note-section">
+<div class="brief">
+<div class="brief-grid">
+    <div class="brief-col">
+      <h3>Timeline</h3>
+      <p>4 months</p>
+    </div>
+    <div class="brief-col" style="grid-column: span 2">
+      <h3>Results:</h3>
+      <p>Zero-to-one startup development, research, design, illustration, pitching.
+      </p>
+    </div>
+</div>
+</section>
 
 <section class="note-section">
 
@@ -84,17 +70,17 @@ During the interviews, *three main user types* emerged in my sight:
 <div class=three-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-user-curious.png">
-        <h4>The Curious</h4>
+        <h3>The Curious</h3>
         <p>Has a reading addiction.<br>Wants to formulate an opinion. <br>Answers the questions.<br>Has no specific goal</p>
     </div>
     <div>
     <img class=small-grid-image src="/images/case-studies/zettel/grid-user-write.png">
-        <h4>The Writer</h4>
+        <h3>The Writer</h3>
         <p>Prone to ADHD.<br>Uses a lot of sources simultaneously.<br>Creative, not always systematic</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-user-researcher.png">
-        <h4>The Researcher</h4>
+        <h3>The Researcher</h3>
         <p>Thorough.<br>Requires a solid system of sources.<br>Operates hundreds of files: books, pictures, links, maps.</p>
     </div>
 </div>
@@ -122,22 +108,22 @@ From the interviews, four core problem areas stood out:
 <div class=two-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-recalling.png">
-        <h4>Issues with recalling</h4>
+        <h3>Issues with recalling</h3>
         <p>“Where did I read that again?”</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-connectivity.png">
-        <h4>Disconnected thoughts</h4>
+        <h3>Disconnected thoughts</h3>
         <p>“How does this tie into what I wrote last week?”</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-planning.png">
-        <h4>Planning struggles</h4>
+        <h3>Planning struggles</h3>
         <p> “What should I read or revisit next? How will I find this reference?”</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-structure.png">
-        <h4>Fear of a clean slate</h4>
+        <h3>Fear of a clean slate</h3>
         <p>“Do I need to figure out my whole system before I even start?”</p>
     </div>
 </div>
@@ -157,22 +143,22 @@ How might we…
 <div class=two-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-recalling-help.png">
-        <h4>Assisted structuring</h4>
+        <h3>Assisted structuring</h3>
         <p>Automated tagging and structuring suggestions.</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-connectivity-help.png">
-        <h4>Assisted linking</h4>
+        <h3>Assisted linking</h3>
         <p>Create linked records right away.</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-planning-help.png">
-        <h4>Fast referencing</h4>
+        <h3>Fast referencing</h3>
         <p>“How can this idea be connected to all the others?”</p>
     </div>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-structure-help.png">
-        <h4>Easy input</h4>
+        <h3>Easy input</h3>
         <p>Initially 'flat' structure. No need to bother where to create a new file.</p>
     </div>
 </div>
