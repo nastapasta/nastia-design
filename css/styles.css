@@ -876,15 +876,15 @@ footer {
   .case-body>ul,
   .case-body>ol,
   .case-body>blockquote,
-  .note-section>h2,
-  .note-section>h3,
-  .note-section>h4,
-  .note-section>p,
-  .note-section>ul,
-  .note-section>ol,
-  .note-section>blockquote,
-  .disclaimer>h2,
-  .disclaimer>p {
+  .case-body .note-section>h2,
+  .case-body .note-section>h3,
+  .case-body .note-section>h4,
+  .case-body .note-section>p,
+  .case-body .note-section>ul,
+  .case-body .note-section>ol,
+  .case-body .note-section>blockquote,
+  .case-body .disclaimer>h2,
+  .case-body .disclaimer>p {
     max-width: 70%;
   }
 }

@@ -40,7 +40,7 @@ In 2025, it's not enough, because most of the sites work badly. Let me introduce
 
 <section>
 
-## What are bad products?
+What are bad products?
 
 - Products parasiting on the problems caused by other products. 
 - Products based on misconception that they are the most important app on my phone. 
