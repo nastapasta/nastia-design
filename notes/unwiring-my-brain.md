@@ -18,7 +18,7 @@ This issue has been bothering me for a long time, the very fact that people who 
 <section class="note-section">
 
 ## Plan 1 - Quit the game
-
+Quite a radical way to get out:
 - You delete all your social media accounts, untag your phone.
 - Change your iPhone to a push-button phone.
 - And the macbook to a lenovo with linux.
@@ -31,6 +31,7 @@ This plan is not very viable if you depend on modern media in some way, for exam
 There are variations here depending on your self-control skills.
 
 ### Social media
+Limit social media exposure:
 - Screen time limiters. The Opal app even in the free version works quite well. Or you can use system applications.
 - Remove apps from your phone's home screen.
 - Remove dangerous apps from your phone. Using instagram from the desktop is inconvenient, and also there it does not know how to show adverts yet. It may not work with Twitter, although it is enough to read the content itself or remember that Ilon Musk owns it.
