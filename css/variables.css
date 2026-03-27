@@ -2,18 +2,18 @@
 
 :root {
   --white: #ffffff;
-  --black: #333333;
+  --black: #1d1d1d;
   --black-alpha: rgba(51, 51, 51, 0.05);
   --thin-gray: hwb(0 96% 4%);
   --light-gray: #eeeeee;
   --gray: #888888;
   --dimgray: #696969;
   --teal: #057d7d;
-  --blue: #0060BA;
+  --blue: #370281;
   --teal-light: #e6f2f2;
   --blue-light: #e3f2ff;
   --darkred: #8b0000;
-  --blue-dark: #38237d;
+  --blue-dark: #1c113f;
   --yellow: #fff8bf;
 
 
@@ -24,7 +24,7 @@
   --color-text-subheading: var(--dimgray);
   --color-text-accent: var(--blue);
   --color-text-negative: var(--darkred);
-  --color-link: var(--color-text-accent);
+  --color-link: var(--blue);
   --color-link-visited: var(--blue-dark);
   --color-link-hover: var(--thin-gray);
 

@@ -38,11 +38,11 @@ type: Mobile Application
   </div>
 </div>
 
-<div class="disclaimer">
+<!-- <div class="disclaimer">
     <small>Disclaimer:</small>
     <h2>It was long ago, and I was wrong</h2> 
     <p>This concept explores the idea of outsourcing the “connecting the dots” to the machine. While I believe that piles of notes <em>can</em> be sorted and cleaned up, I also believe apophenia — that rare spark of unexpected meaning — is something we should reserve for ourselves.</p>
-</div>
+</div> -->
 
 ## About
 Zettel is a note-taking app that helps people connect their thoughts using natural language processing. Designed for knowledge lovers, thinkers, and researchers, it encourages flow without forcing structure upfront.
@@ -296,10 +296,10 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
 ## Reflection
 
-### What I learned:
-- Software is secondary (although the medium is always the message). What matters is learning to actually think (surprise!).
-- Community matters. I didn’t fully believe in the idea until I saw others resonate with it.
-- It’s not just a product. It’s a question about how we relate to knowledge, memory, and attention.
+What I learned:
+1. Software is secondary (although the medium is always the message). What matters is learning to actually think (surprise!).
+2. Community matters. I didn’t fully believe in the idea until I saw others resonate with it.
+3. It’s not just a product. It’s a question about how we relate to knowledge, memory, and attention.
 
 ### What's next
 I’m continuing to explore how people manage personal knowledge — either by developing this idea further or studying it from a more anthropological perspective.

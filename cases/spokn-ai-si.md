@@ -80,9 +80,9 @@ After a design sprint involving the whole team, we found the initial solution id
 In the tight timeline, we used findings from prior custdev interviews and client feedback on the first release of Spokn AI.
 
 What stood out:
-- *Outbound sales drive revenue* — making them the key focus in performance optimization.
-- *Objection handling is a blind spot* — managers knew it mattered, but lacked tools to track and coach it effectively.
-- *Agents often get blamed for low success rates*, without enough context to understand systemic issues like pricing, targeting, or product-market fit.
+1. Outbound sales drive revenue — making them the key focus in optimization.
+2. Objection handling is a blind spot — managers knew it mattered, but lacked tools to track and coach it effectively.
+3. Agents often get blamed for low success rates, without enough context to understand systemic issues like pricing, targeting, or product-market fit.
 
 ### Define
 Based on the insights, we identified the main user problems:
@@ -92,14 +92,14 @@ Based on the insights, we identified the main user problems:
 
 ### Develop
 We broke the product down into three clear increments:
-- *Objection Mapping* – Define and track common objection themes
-- *Performance Analytics* – Show how agents handle these objections
-- *AI Insights* – Surface patterns and guidance based on deeper transcript analysis
+- *Objection Mapping* to help define and track common objection themes
+- *Performance Analytics* to show how agents handle these objections
+- *AI Insights* to surface patterns and guidance based on deeper transcript analysis
 
-### The problems we faced:
-- Some “successful” calls didn’t align with the patterns in transcript data—sales charisma is hard to measure
-- Legal/privacy constraints meant we had to train our own custom LLMs, slowing things down
-- Manual mapping of objections from real transcripts was time-consuming but necessary
+The problems we faced:
+- some “successful” calls didn’t align with the patterns in transcript data—sales charisma is hard to measure;
+- legal/privacy constraints meant we had to train our own custom LLMs, slowing things down;
+- manual mapping of objections from real transcripts was time-consuming but necessary.
 
 </section>
 
@@ -107,8 +107,8 @@ We broke the product down into three clear increments:
 
 ### Deliver
 We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components:
-- **Dashboard** switching focus from agents to objections;
-- **Interaction** details highlighting the objections there;
+- **dashboard** switching focus from agents to objections;
+- **interaction** details highlighting the objections there;
 - and **Spokn AI Spotlight** – providing AI insights based on the data.
 
 </section>
