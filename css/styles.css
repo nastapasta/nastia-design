@@ -263,7 +263,7 @@ p {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   letter-spacing: 0.01em;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .large-p {
@@ -301,18 +301,22 @@ ul {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-top: calc(0.6em - var(--space-md));
-  margin-bottom: 2em;
+  margin-top: 0.9rem;
+  margin-top: calc(0.9rem - var(--space-md));
   line-height: 1.6;
   list-style: none;
+}
+
+.list-short {
+  margin-bottom: 0;
 }
 
 ol {
   font-family: "Source Serif 4", serif;
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-top: calc(0.6em - var(--space-md));
-  margin-bottom: 2em;
+  margin-top: calc(0.9rem - var(--space-md));
+  margin-bottom: 2.1rem;
   line-height: 1.6;
 }
 
@@ -325,7 +329,9 @@ ol {
 li {
   font-size: var(--font-size-p);
   font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+
 }
 
 /* Images */
@@ -518,10 +524,9 @@ h4 .footnote-ref {
 
 blockquote {
   font-family: "Source Serif 4", serif;
-  font-size: var(--font-size-blockquote);
+  font-size: var(--font-size-p);
   padding-left: var(--space-sm);
   border-left: 3px solid var(--color-border-subtle);
-  color: var(--color-text-subheading);
   margin-bottom: 2rem;
 }
 
@@ -918,6 +923,16 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.case-ui-video-frame h3 {
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: var(--font-size-h2);
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  text-decoration-thickness: 50%;
+  letter-spacing: -0.02em;
 }
 
 .case-ui-video-box {

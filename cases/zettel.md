@@ -16,6 +16,7 @@ type: Mobile Application
 </div> -->
 
 ## About
+
 Zettel is a note-taking app that helps people connect their thoughts using natural language processing. Designed for knowledge lovers, thinkers, and researchers, it encourages flow without forcing structure upfront.
 
 This was a personal solo project from 0→1: research, UX, UI, illustration, pitching — all done by me.
@@ -38,7 +39,9 @@ This was a personal solo project from 0→1: research, UX, UI, illustration, pit
 <section class="note-section">
 
 ## The Problem
+
 ### Attention spans are shrinking, information keeps growing, and everything is falling apart
+
 Gloria Mark, a professor of information science at the University of California, Irvine, and the author of <a href="https://www.goodreads.com/book/show/60795084-attention-span">"Attention Span"</a>, has studied how we interact with digital information since 2004. At the time, people could stay focused on a single screen for about 2.5 minutes. By 2012, that number had dropped to 75 seconds. Today, it's closer to 47.
 
 As our attention fragments, the amount of information we consume keeps growing. In response, we’ve come up with personal knowledge management systems to manage the overflow: sticky notes, voice memos, messages to ourselves, Roam graphs, oldschool  Zettelkastens, or Tiago Forte’s PARA method.
@@ -86,6 +89,7 @@ During the interviews, *three main user types* emerged in my sight:
 </div>
 
 What they all shared:
+
 - A desire to make connections.
 - Difficulty remembering where they read or heard something.
 - A patchwork of tools, rituals, and frustration.
@@ -96,12 +100,10 @@ What they all shared:
 
 ## Defining the Needs
 
-
 <blockquote>“I sit down every other Saturday to paste all my notes into my kumu graph. It’s calming… but overwhelming.”
 
 <em>– One of the interview participants</em>
 </blockquote>
-
 
 From the interviews, four core problem areas stood out:
 
@@ -128,8 +130,8 @@ From the interviews, four core problem areas stood out:
     </div>
 </div>
 
-
 How might we…
+
 - Suggest connections across scattered thoughts?
 - Make structuring optional and gentle?
 - Let users capture quickly, connect gradually?
@@ -138,7 +140,7 @@ How might we…
 
 <section class="note-section">
 
-### Zettel offers a more intuitive, assisted way of connecting thoughts:
+## Zettel offers a more intuitive, assisted way of connecting thoughts
 
 <div class=two-grid>
     <div>
@@ -168,6 +170,7 @@ How might we…
 <section class="note-section">
 
 ## Design Process
+
 As a sole member of the team, I had to use my subtle abilities to create a prototype. I had no technical ability, only Figma. Fortunately, design thinking is not something I had to be taught of.
 
 I'll omit the artefacts on purpose: we all have seen thousands of notes, storymaps, sketches, and wireframes.
@@ -197,7 +200,8 @@ Piles of sketches and wireframes slowly turned into prototypes:
 
 <div class="large-divider"></div>
 
-## The Solution
+## Solution
+
 I focused on mobile-first interactions, imagining real-life use: walking, listening to a podcast, or quickly capturing a thought in a café. So, the journey resulted in a Figma prototype of a solution as simple as your "Saved messages" inbox in messenger, with some twists.
 
 </section>
@@ -258,13 +262,13 @@ I focused on mobile-first interactions, imagining real-life use: walking, listen
 <section class="note-section">
 
 ## Outcome
+
 Time to pitch! The finale of the sandbox was the public presentation and pitching, demonstrating the whole work: target auditory research, market research, business model (all of them I omitted in this publication) and a prototype.
 
-<blockquote>“I wish I had this during my PhD.”
+<blockquote>I wish I had this during my PhD.
 
 <em>– Max Sandu, Head of Jury</em>
 </blockquote>
-
 
 The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
@@ -283,11 +287,13 @@ The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 ## Reflection
 
 What I learned:
+
 1. Software is secondary (although the medium is always the message). What matters is learning to actually think (surprise!).
 2. Community matters. I didn’t fully believe in the idea until I saw others resonate with it.
 3. It’s not just a product. It’s a question about how we relate to knowledge, memory, and attention.
 
 ### What's next
+
 I’m continuing to explore how people manage personal knowledge — either by developing this idea further or studying it from a more anthropological perspective.
 If this resonates with you or you want to collaborate — drop me a message. I'd love to chat.
 

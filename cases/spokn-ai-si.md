@@ -12,6 +12,7 @@ type: Web Application
 <div class="medium-divider"></div>
 
 ## About
+
 <p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
 
 <p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborated closely with engineers, analysts, and business stakeholders.</p>
@@ -36,19 +37,22 @@ type: Web Application
 
 <section class="note-section">
 
-## The Challenge
+## Challenge
+
 Success Intelligence is a tool to help managers understand how sales reps handle objections and where they need support.
 
 Sales manager's challenges:
-- Understand customer objections and effective handling strategies, 
-- Measure sales agent performance, 
-- Improve training, support, and job satisfaction in contact centres.
+
+- understand customer objections and effective handling strategies,
+- measure sales agent performance,
+- improve training, support, and job satisfaction in contact centres.
 
 </section>
 
 <section class="note-section">
 
-## The Approach
+## Approach
+
 After a design sprint involving the whole team, we found the initial solution ideas.
 <figure>
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint.png" alt="FigJam board screenshot" class="post-image"></img>
@@ -62,38 +66,42 @@ After a design sprint involving the whole team, we found the initial solution id
 </figcaption>
 </figure>
 
-
 ### Discover
+
 In the tight timeline, we used findings from prior custdev interviews and client feedback on the first release of Spokn AI.
 
 What stood out:
+
 1. Outbound sales drive revenue — making them the key focus in optimization.
 2. Objection handling is a blind spot — managers knew it mattered, but lacked tools to track and coach it effectively.
 3. Agents often get blamed for low success rates, without enough context to understand systemic issues like pricing, targeting, or product-market fit.
 
 ### Define
+
 Based on the insights, we identified the main user problems:
+
 - It’s hard to locate the most important parts of a call.
 - Coaching lacks precision—managers don’t know exactly where reps struggle or succeed
 - There’s no overview of objection trends—so training is often reactive, not proactive
 
 ### Develop
+
 We broke the product down into three clear increments:
+
 - *Objection Mapping* to help define and track common objection themes
 - *Performance Analytics* to show how agents handle these objections
 - *AI Insights* to surface patterns and guidance based on deeper transcript analysis
 
 The problems we faced:
+
 - some “successful” calls didn’t align with the patterns in transcript data—sales charisma is hard to measure;
 - legal/privacy constraints meant we had to train our own custom LLMs, slowing things down;
 - manual mapping of objections from real transcripts was time-consuming but necessary.
 
-</section>
-
-<section class="framed">
-
 ### Deliver
+
 We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components:
+
 - **dashboard** switching focus from agents to objections;
 - **interaction** details highlighting the objections there;
 - and **Spokn AI Spotlight** – providing AI insights based on the data.
@@ -102,24 +110,25 @@ We designed a toolset that helps contact center managers understand what’s goi
 
 <section class="note-section">
 
-<h2 id="solution">The Solution</h2>
-
-<div class="medium-divider"></div>
-
+## Solution
 
 ### Dashboard: objections frequency vs agent performance
-The dashboard provides two ways of looking at the data depending on the current focus of the manager:
+
+The dashboard provides two ways of looking at the data depending on the current focus of the manager.
+
+The Objections tab shows their frequency among the selected conversations. This helps see the signals from the environment.
 
 <figure>
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-obj.png" alt="Objections Dashboard with metrics ribbon and tables" class="no-bg-image" style="margin-bottom: 1rem;"></img>
-<figcaption><em>What’s happening?</em> The Objections tab shows their frequency among the selected conversations. This helps see the signals from the environment.
+<figcaption><em>What’s happening?</em> Objections tab
 </figcaption>
 </figure>
 
+The Performance tab emphasizes the success rate of the teams, campaigns and separate agents. Thanks to this, the manager can provide training and coaching to the ones who need it the most, and connect the strongest members of the teams with the ones needing support.
 
 <figure>
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-perf.png" alt="Objections Dashboard with metrics ribbon and tables" class="no-bg-image" style="margin-bottom: 1rem;"></img>
-<figcaption><em>Who’s responsible?</em> The Performance tab emphasizes the success rate of the teams, campaigns and separate agents. Thanks to this, the manager can provide training and coaching to the ones who need it the most, and connect the strongest members of the teams with the ones needing support.
+<figcaption><em>Who’s responsible?</em> Performance tab
 </figcaption>
 </figure>
 
@@ -132,6 +141,7 @@ Equal attention to agents, teams, campaigns and objections themselves lead to ho
 </figure>
 
 ### Objections details
+
 Objection details overlay provides a view on its frequency and the efforts in handling them.
 
 <figure>
@@ -145,6 +155,7 @@ Objection details overlay provides a view on its frequency and the efforts in ha
 <section class="note-section">
 
 ### Interaction details
+
 Objections are highlighted in the interaction analysis: the user can jump right to them, find them in the transcript and examine its details.
 
 <figure>
@@ -179,18 +190,18 @@ This is what we wanted to look like in the end: general insights combined with o
 
 <section class="note-section">
 
-## The Impact
+## Impact
+
 We shipped the pilot version in 3 months and rolled out the full release in 5. Over 100 licenses were signed early on, and the customers reported immediate value from the transcription and summarization features—even before full-scale rollout of the Success Intelligence modules.
 
-
-<blockquote>“As a business, we are very committed to Al and the value it brings. We've found a lot of use in Spokn Al, the speech transcription and summarisation feature has been a massive help.”
+<blockquote>As a business, we are very committed to Al and the value it brings. We've found a lot of use in Spokn Al, the speech transcription and summarisation feature has been a massive help.
 
 <em>— Call centre manager of one of the customers</em>
 </blockquote>
 
 While I didn’t stay to support the development stage, I’m proud of the foundation we built. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.
 
-<blockquote>“Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.”
+<blockquote>Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.
 
 <em>— Drew Naylor, Product Manager at MaxContact</em>
 </blockquote>
@@ -199,6 +210,7 @@ While I didn’t stay to support the development stage, I’m proud of the found
 <section class="note-section">
 
 ## Reflection
+
 This project pushed me to adapt quickly, navigate ambiguity, and align technical possibilities with real user needs.
 
 </section>
