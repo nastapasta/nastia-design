@@ -4,7 +4,7 @@ tags: note
 date: 2025-07-20
 tended: 2025-07-20
 excerpt: Meditations on the digital products we use or are forced to use
-phase:  <img src="/images/inline-icons/inline-icon-growing.svg" class="inline-icon"> Growing
+phase: Growing
 layout: note-layout.html
 ---
 

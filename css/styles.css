@@ -340,10 +340,9 @@ img {
 
 figcaption {
   color: var(--color-text-subtle);
-  margin: auto;
-  text-align: center;
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  text-align: left;
   font-size: var(--font-size-small);
-  font-style: italic;
   margin-top: 0.5rem;
 }
 
@@ -631,8 +630,8 @@ footer {
 /* Notes Grid */
 
 .notes-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -659,15 +658,10 @@ footer {
 }
 
 .note-card h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   font-size: var(--font-size-h4)
 }
 
-.note-card h3:hover {
-  color: var(--color-text);
-  text-decoration: underline;
-  text-decoration-color: var(--color-text-subtle);
-}
 
 .note-card small {
   font-size: var(--font-size-small);
@@ -678,9 +672,10 @@ footer {
   text-decoration: none;
 }
 
-/* .note-card a:hover {
-text-decoration: underline;
-} */
+.note-card a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.05rem;
+}
 
 /* Essays Grid */
 
@@ -981,21 +976,21 @@ text-decoration: underline;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .three-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .four-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
