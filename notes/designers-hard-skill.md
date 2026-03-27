@@ -1,5 +1,5 @@
 ---
-title: Designer's main hard skill is lived experience
+title: Designer's main hard skill
 tags: note
 date: 2025-12-29
 tended: 2025-12-29

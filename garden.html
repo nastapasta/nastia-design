@@ -30,7 +30,7 @@ title: The Garden
   <h2>Notes</h2>
   <!-- <p class="subheader-small">Raw searches and braindump around any topic.</p> -->
   <div class="notes-grid">
-    {% for note in collections.note %}
+    {% for note in collections.note | reverse %}
     <div class="note-card">
       <h3 class="note-card"><a href="{{ note.url }}">{{ note.data.title }}</a></h3>
       <small>{{ note.data.phase }} | {{ note.date | date: "%B %d, %Y" }}</small>
@@ -48,7 +48,6 @@ title: The Garden
 <div class="two-grid">
   <div>
     <h2>Library</h2>
-    <p class="subheader-small">Books I've read and found important.</p>
     <p>Zen and the Art of Motorcycle Maintenance <small>Robert Pirsig</small>
     <p>Careless People <small>Sarah Wynn-Williams</small>
     <p>The Form of the Book <small>Jan Tschichold</small></p>
@@ -58,8 +57,7 @@ title: The Garden
   </div>
 
   <div>
-    <h2>Antilibrary</h2>
-    <p class="subheader-small">Books in my to-read list. (In fact, it's much longer)</p>
+    <h2>To-read</h2>
     <p>V. <small>Thomas Pynchon</small></p>
     <p>Women, Fire and Dangerous Things <small>George Lacoff</small></p>
     <p>A Philosophy of Walking <small>Frederic Gros</small></p>
