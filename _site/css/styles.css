@@ -74,7 +74,7 @@ hr.solid {
   top: 0;
   z-index: 3;
   position: sticky;
-  border-bottom: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid var(--color-border-thin);
 }
 
 .nav-container {
@@ -106,10 +106,13 @@ hr.solid {
   font-size: var(--font-size-p);
   color: inherit;
   border-radius: 12px;
+  transition: color 1s ease, background-color 1s ease;
+
 }
 
 .nav-links li a:hover {
   background: var(--color-background-subtle);
+  transition: none;
 }
 
 .nav-icon {
@@ -395,6 +398,7 @@ a {
 
 a:hover {
   color: var(--color-text);
+  transition: none;
 }
 
 figure {
@@ -615,22 +619,23 @@ footer {
 
 .tag {
   background-color: var(--color-background-subtle);
-  color: var(--color-text);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   white-space: nowrap;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-weight: 500;
-  color: var(--color-text-subheading);
-  /* transition: background-color 0.2s; */
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+  color: var(--color-text);
+  transition: color 1s ease, background-color 1s ease;
   font-size: var(--font-size-small);
   font-family: 'Instrument Sans', Helvetica, sans-serif;
 }
 
-/* .tag:hover {
-  background-color: #d0dcdc;
-} */
+.tag:hover {
+  background-color: #e3e3ff;
+  color: var(--color-text-accent);
+  transition: none;
+}
 
 /* Notes Grid */
 
@@ -899,7 +904,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 1rem;
+  gap: 0rem;
   margin-bottom: 3rem;
 }
 
@@ -907,6 +912,7 @@ footer {
   font-size: var(--font-size-h1);
   font-family: 'Instrument Sans', Helvetica, sans-serif;
   font-weight: 400;
+  line-height: 1.2;
 }
 
 .case-main-image {
@@ -916,6 +922,12 @@ footer {
 
 .case-header .subheader {
   font-size: var(--font-size-h4);
+  line-height: 1.4;
+  margin-top: 2rem;
+}
+
+.case-header .tag {
+  pointer-events: none;
 }
 
 .case-ui-video-frame {
