@@ -222,7 +222,7 @@ h2 {
   font-weight: 400;
   font-size: var(--font-size-h4);
   color: var(--color-text-subheading);
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -884,8 +884,7 @@ footer {
   .case-body .note-section>ol,
   .case-body .note-section>blockquote,
   .case-body .disclaimer>h2,
-  .case-body .disclaimer>p,
-  .case-body .brief {
+  .case-body .disclaimer>p {
     max-width: 70%;
   }
 }

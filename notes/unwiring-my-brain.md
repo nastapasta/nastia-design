@@ -7,15 +7,9 @@ phase: Growing
 layout: note-layout.html
 ---
 
-<section class="note-section">
-
 Recently started reading Nicholas Carr's The Shallows (haven't finished it yet) about how modern media and the internet have changed the way we think. The book is from 2011, and things have only gotten worse and more sophisticated.
 
 This issue has been bothering me for a long time, the very fact that people who are paid to do this are hacking my brain to profit someone other than me. Immediately I started taking notes and mapping out escape routes. 
-
-</section>
-
-<section class="note-section">
 
 ## Plan 1 - Quit the game
 Quite a radical way to get out:
@@ -27,7 +21,6 @@ Quite a radical way to get out:
 This plan is not very viable if you depend on modern media in some way, for example, if you are in those industries and work as a marketer, designer or frontender, and not as a devops or security guy. To be visible on the labour market without being a brilliant specialist who only needs word of mouth, you need accounts at least on hh and Linkedin.
 
 ## Plan 2 - Write your own rules
-
 There are variations here depending on your self-control skills.
 
 ### Social media
