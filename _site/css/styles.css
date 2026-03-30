@@ -263,7 +263,7 @@ p {
   font-family: "Source Serif 4", serif;
   font-optical-sizing: auto;
   font-size: var(--font-size-p);
-  margin-block-start: 0.5em;
+  margin-block-start: 1em;
   margin-block-end: 0.5em;
   letter-spacing: 0.01em;
   line-height: 1.4;
