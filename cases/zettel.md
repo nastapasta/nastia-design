@@ -2,7 +2,7 @@
 title: Zettel, AI-powered fast note-taking
 date: 2023-12-21
 tags: case
-excerpt: Little LLM helper to systematise your messy sporadic notes. 🏆 Winner of Innovation Sandbox 2023 Little LLM helper to systematise your messy sporadic notes. 🏆 Winner of Innovation Sandbox 2023 
+excerpt: Little LLM helper to systematise your messy sporadic notes. 🏆 Winner of Innovation Sandbox 2023
 layout: case-layout.html
 image: "/images/case-studies/zettel/zettel-main-picture.png"
 image-bg: "/images/case-studies/zettel/zettel-main-picture-bg.png"
@@ -48,8 +48,7 @@ Gloria Mark, a professor of information science at the University of California,
 As our attention fragments, the amount of information we consume keeps growing. In response, we’ve come up with personal knowledge management systems to manage the overflow: sticky notes, voice memos, messages to ourselves, Roam graphs, oldschool  Zettelkastens, or Tiago Forte’s PARA method.
 
 <figure>
-<img src="/images/case-studies/zettel/all-tools.png" alt="Books, notebooks, files and computers flying in the air" style="margin-bottom: 1rem;"></img>
-<figcaption>Sometimes it feels like this.
+<img src="/images/case-studies/zettel/all-tools.png" alt="Books, notebooks, files and computers flying in the air" style="margin-bottom: 1rem;"><figcaption>Sometimes it feels like this.
 </figcaption>
 </figure>
 
@@ -179,24 +178,21 @@ I'll omit the artefacts on purpose: we all have seen thousands of notes, storyma
 <!-- Story Mapping led to designing main user flow and features.
 
 <figure>
-<img src="/images/case-studies/zettel/story-map.png" alt="Story map screenshot" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Story map
+<img src="/images/case-studies/zettel/story-map.png" alt="Story map screenshot" class="post-image" style="margin-bottom: 1rem;"><figcaption>Story map
 </figcaption>
 </figure>
 
 ILo-fi Sketches helped to visualise flow and screen types
 
 <figure>
-<img src="/images/case-studies/zettel/sketches.png" alt="User flow sketches in the notebook" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>User flow sketches
+<img src="/images/case-studies/zettel/sketches.png" alt="User flow sketches in the notebook" class="post-image" style="margin-bottom: 1rem;"><figcaption>User flow sketches
 </figcaption>
 </figure> -->
 
 Piles of sketches and wireframes slowly turned into prototypes:
 
 <figure>
-<img src="/images/case-studies/zettel/prototype.png" alt="Prototype screenshot with screens and arrow connections between them" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Prototype screenshot for the first presentation</figcaption>
+<img src="/images/case-studies/zettel/prototype.png" alt="Prototype screenshot with screens and arrow connections between them" class="post-image" style="margin-bottom: 1rem;"><figcaption>Prototype screenshot for the first presentation</figcaption>
 </figure>
 
 <div class="large-divider"></div>
@@ -274,13 +270,11 @@ Time to pitch! The finale of the sandbox was the public presentation and pitchin
 The project won 1st Prize in Coherent Solutions Innovation Sandbox (Autumn 2023)
 
 <figure>
-<img src="/images/case-studies/zettel/presentation.png" alt="Screenshot of the presentation recording" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Screenshot from the presentation
+<img src="/images/case-studies/zettel/presentation.png" alt="Screenshot of the presentation recording" class="post-image" style="margin-bottom: 1rem;"><figcaption>Screenshot from the presentation
 </figcaption>
 </figure>
 
-<img src="/images/case-studies/zettel/presentation-slides.png" alt="Several slides from the pitch deck" style="margin-bottom: 1rem; width: 100%"></img>
-
+<img src="/images/case-studies/zettel/presentation-slides.png" alt="Several slides from the pitch deck" style="margin-bottom: 1rem; width: 100%">
 </section>
 
 <section class="note-section">

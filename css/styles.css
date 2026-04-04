@@ -671,7 +671,7 @@ footer {
 
 .note-card h3 {
   margin-bottom: 0.2rem;
-  font-size: var(--font-size-h4)
+  font-size: var(--font-size-h4);
 }
 
 
@@ -1041,7 +1041,23 @@ footer {
   margin: 0;
 }
 
-.brief ul li {}
+
+/* 2-col image grid */
+.masonry-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.masonry-2 figure {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .masonry-2 {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Grids */
 .two-grid {

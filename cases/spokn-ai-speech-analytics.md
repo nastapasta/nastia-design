@@ -72,8 +72,7 @@ What stood out:
 - She cares deeply about quality, improvement, and team development.
 
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-persona.png" alt="User persona layout" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Our persona - Hanna
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-persona.png" alt="User persona layout" class="post-image" style="margin-bottom: 1rem;"><figcaption>Our persona - Hanna
 </figcaption>
 </figure>
 
@@ -105,14 +104,12 @@ To balance user needs, data, and technical constraints, we needed to:
 Using story maps and prioritization sessions, I sketched early flows to explore how high-level KPIs and detailed visualizations could guide call selection. This led to a lo-fi prototype focused on clarity and scanability.
 
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-storymap.png" alt="Storymap screenshot" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Story map
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-storymap.png" alt="Storymap screenshot" class="post-image" style="margin-bottom: 1rem;"><figcaption>Story map
 </figcaption>
 </figure>
 
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-screenflows.png" alt="UI screens initial sketches" class="post-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Screenflow Searches
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-screenflows.png" alt="UI screens initial sketches" class="post-image" style="margin-bottom: 1rem;"><figcaption>Screenflow Searches
 </figcaption>
 </figure>
 
@@ -156,8 +153,7 @@ We focused on the core tasks: finding the right calls and listening efficiently.
 The dashboard helps managers start with the most relevant calls — surfaced by AI, filtered by agent, team, length and sentiment. No more random sampling.
 
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-dashboard.png" alt="UI screens initial sketches" class="no-bg-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Dashboard
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-dashboard.png" alt="UI screens initial sketches" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Dashboard
 </figcaption>
 </figure>
 
@@ -165,8 +161,7 @@ The dashboard helps managers start with the most relevant calls — surfaced by 
 
 Playback is a collection of individual interactions. It inherits the working process in Manager Portal, containing all the calls analysed by Spokn AI.
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-playback.png" alt="Playback page with a table of interaction recordings" class="no-bg-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Screenflow Searches
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-playback.png" alt="Playback page with a table of interaction recordings" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Screenflow Searches
 </figcaption>
 </figure>
 
@@ -174,8 +169,7 @@ Playback is a collection of individual interactions. It inherits the working pro
 
 We paired transcripts with sentiment markers and playback controls. This allowed managers to scan for moments worth hearing, not listen start to finish.
 <figure>
-<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-player.png" alt="Player page, showing the recording visualisation and conversation transcript" class="no-bg-image" style="margin-bottom: 1rem;"></img>
-<figcaption>Interaction Player
+<img src="/images/case-studies/spokn-ai-speech-an/spokn-ai-speech-an-player.png" alt="Player page, showing the recording visualisation and conversation transcript" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Interaction Player
 </figcaption>
 </figure>
 

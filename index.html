@@ -23,7 +23,7 @@ layout: layout.html
     <a href="{{ case.url }}" class="case-card-link">
       {% assign mod = forloop.index0 | modulo: 2 %}
       <div class="case-card-small{% if mod == 1 %} label-bottom{% endif %}">
-        <div class="case-card-small-image">
+        <div class="case-card-small-image"{% if case.data.scrub-images %} data-scrub-images="{{ case.data.scrub-images | join: ',' }}"{% endif %}>
           <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
         </div>
         <div class="case-card-small-content">
@@ -127,3 +127,30 @@ layout: layout.html
   </div>
 
 </section>
+
+<script>
+  document.querySelectorAll('[data-scrub-images]').forEach(el => {
+    const images = el.dataset.scrubImages.split(',');
+    const img = el.querySelector('img');
+    const original = img.getAttribute('src');
+    let preloaded = false;
+
+    el.addEventListener('mouseenter', () => {
+      if (!preloaded) {
+        images.forEach(src => { const i = new Image(); i.src = src; });
+        preloaded = true;
+      }
+    });
+
+    el.addEventListener('mousemove', e => {
+      const rect = el.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const idx = Math.min(Math.floor((x / rect.width) * images.length), images.length - 1);
+      img.src = images[idx];
+    });
+
+    el.addEventListener('mouseleave', () => {
+      img.src = original;
+    });
+  });
+</script>
