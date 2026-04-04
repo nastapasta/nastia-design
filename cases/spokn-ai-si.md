@@ -7,6 +7,7 @@ layout: case-layout.html
 image: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture.png"
 image-bg: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture-bg.png"
 type: Web Application
+size: large
 ---
 
 <div class="medium-divider"></div>

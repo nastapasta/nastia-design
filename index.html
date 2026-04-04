@@ -18,18 +18,42 @@ layout: layout.html
   <div class="case-grid-horizontal" id="projects">
     {% assign recentCases = collections.case %}
     {% for case in recentCases %}
+
+    {% if case.data.size == "small" %}
     <a href="{{ case.url }}" class="case-card-link">
-      <div class="case-card-horizontal">
-        <div class="case-card-image">
+      {% assign mod = forloop.index0 | modulo: 2 %}
+      <div class="case-card-small{% if mod == 1 %} label-bottom{% endif %}">
+        <div class="case-card-small-image">
           <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
         </div>
-        <div class="case-card-content">
-          <small>{{ case.date | date: "%Y" }} | {{ case.data.type }}</small>
-          <h2 style="margin-top: var(--space-sm);">{{ case.data.title }}</h2>
-          <p class="subheader">{{ case.data.excerpt }}</p>
+        <div class="case-card-small-content">
+          <h2>{{ case.data.title }}</h2>
+          <div class="case-card-meta">
+            <span class="tag">{{ case.data.type }}</span>
+            <small>{{ case.date | date: "%Y" }}</small>
+          </div>
         </div>
       </div>
     </a>
+
+    {% else %}
+    <a href="{{ case.url }}" class="case-card-link">
+      <div class="case-card-large">
+        <div class="case-card-large-image">
+          <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+        </div>
+        <div class="case-card-large-content">
+          <h2>{{ case.data.title }}</h2>
+          <p>{{ case.data.excerpt }}</p>
+          <div class="case-card-meta">
+            <span class="tag">{{ case.data.type }}</span>
+            <small>{{ case.date | date: "%Y" }}</small>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endif %}
+
     {% endfor %}
   </div>
 </section>

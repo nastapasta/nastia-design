@@ -363,6 +363,16 @@ figcaption a {
   max-width: 100%;
 }
 
+.figure-half {
+  max-width: 50%;
+}
+
+@media (max-width: 600px) {
+  .figure-half {
+    max-width: 100%;
+  }
+}
+
 .small-grid-image {
   height: 200px;
   width: auto;
@@ -784,10 +794,17 @@ footer {
   text-decoration: underline;
 }
 
+.case-card p {
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  margin-top: 3rem;
+  line-height: 1.3;
+}
 
 .case-card-link {
   text-decoration: none;
   display: block;
+  break-inside: avoid;
+  margin-bottom: calc(var(--space-lg) * 1.5);
 }
 
 
@@ -804,67 +821,102 @@ footer {
   transform: scale(1.03);
 }
 
-/* Horizontal Case Grid */
+/* Case Grid — masonry tile layout */
 .case-grid-horizontal {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 4rem;
+  column-count: 2;
+  column-gap: var(--space-lg);
   margin-bottom: 3rem;
 }
 
-/* Horizontal Case Card */
-.case-card-horizontal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
+@media (max-width: 600px) {
+  .case-grid-horizontal {
+    column-count: 1;
+  }
+}
+
+/* Large card — image on top, content below */
+.case-card-large {
   color: var(--color-text);
 }
 
-.case-card-image {
-  display: block;
-  /* prevents spacing bugs */
-  border-radius: 0.5rem;
-  /* Optional: adds a soft edge/frame feel */
-  flex: 1;
-  min-width: 40%;
+.case-card-large-image {
   overflow: hidden;
-  /* Hides the zoom overflow */
+  border-radius: 0.5rem;
 }
 
-.case-card-image img {
+.case-card-large-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.2s ease-in;
 }
 
-.case-card-horizontal:hover .case-card-image img {
+.case-card-link:hover .case-card-large-image img {
   transform: scale(1.03);
 }
 
-.case-card-content {
+.case-card-large-content {
+  padding-top: var(--space-sm);
+}
+
+.case-card-large-content h2 {
+  margin-bottom: 0.25rem;
+}
+
+.case-card-large-content p {
+  font-family: 'Instrument Sans', Helvetica, sans-serif;
+  margin-block-start: 0.5em;
+}
+
+/* Small card — image left, text right */
+.case-card-small {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--color-text);
+}
+
+.case-card-small-image {
+  flex: 0 0 58%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  aspect-ratio: 1 / 1;
+}
+
+.case-card-small-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in;
+}
+
+.case-card-link:hover .case-card-small-image img {
+  transform: scale(1.03);
+}
+
+.case-card-small-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Maintain hover effects same as original cards */
-.case-card-horizontal a:hover,
-.case-card-horizontal a:focus,
-.case-card-horizontal a:visited,
-.case-card-horizontal a:active {
-  color: inherit;
-  text-decoration: none;
-  background: none;
+.case-card-small.label-bottom .case-card-small-content {
+  justify-content: space-between;
 }
 
-/* Responsive behavior - revert to vertical layout on mobile */
-@media (max-width: 720px) {
-  .case-card-horizontal {
-    flex-direction: column;
-    gap: 1rem;
-  }
+.case-card-small-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
 
-  .case-card-image,
-  .case-card-content {
-    width: 100%;
-  }
+/* Meta row: tag + year */
+.case-card-meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 /* Case studies */
