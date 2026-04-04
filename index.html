@@ -15,46 +15,99 @@ layout: layout.html
 
 <section>
 
-  <div class="case-grid-horizontal" id="projects">
+  <div class="case-columns" id="projects">
     {% assign recentCases = collections.case %}
-    {% for case in recentCases %}
 
-    {% if case.data.size == "small" %}
-    <a href="{{ case.url }}" class="case-card-link">
+    <div class="case-col">
+      {% for case in recentCases %}
       {% assign mod = forloop.index0 | modulo: 2 %}
-      <div class="case-card-small{% if mod == 1 %} label-bottom{% endif %}">
-        <div class="case-card-small-image"{% if case.data.scrub-images %} data-scrub-images="{{ case.data.scrub-images | join: ',' }}"{% endif %}>
-          <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
-        </div>
-        <div class="case-card-small-content">
-          <h2>{{ case.data.title }}</h2>
-          <div class="case-card-meta">
-            <span class="tag">{{ case.data.type }}</span>
-            <small>{{ case.date | date: "%Y" }}</small>
-          </div>
-        </div>
-      </div>
-    </a>
+      {% if mod == 0 %}
 
-    {% else %}
-    <a href="{{ case.url }}" class="case-card-link">
-      <div class="case-card-large">
-        <div class="case-card-large-image">
-          <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
-        </div>
-        <div class="case-card-large-content">
-          <h2>{{ case.data.title }}</h2>
-          <p>{{ case.data.excerpt }}</p>
-          <div class="case-card-meta">
-            <span class="tag">{{ case.data.type }}</span>
-            <small>{{ case.date | date: "%Y" }}</small>
+      {% if case.data.size == "small" %}
+      {% if case.data.status == "in-progress" %}<div class="case-card-static">{% else %}<a href="{{ case.url }}"
+          class="case-card-link">{% endif %}
+          <div class="case-card-small">
+            <div class="case-card-small-image" {% if case.data.scrub-images %}
+              data-scrub-images="{{ case.data.scrub-images | join: ',' }}" {% endif %}>
+              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+            </div>
+            <div class="case-card-small-content">
+              <h2>{{ case.data.title }}</h2>
+              <div class="case-card-meta">
+                <span class="tag">{{ case.data.type }}</span>
+                <small>{{ case.date | date: "%Y" }}</small>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </a>
-    {% endif %}
+          {% if case.data.status == "in-progress" %}</div>{% else %}</a>{% endif %}
+      {% else %}
+      {% if case.data.status == "in-progress" %}<div class="case-card-static">{% else %}<a href="{{ case.url }}"
+          class="case-card-link">{% endif %}
+          <div class="case-card-large">
+            <div class="case-card-large-image">
+              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+            </div>
+            <div class="case-card-large-content">
+              <h2>{{ case.data.title }}</h2>
+              <p>{{ case.data.excerpt }}</p>
+              <div class="case-card-meta">
+                <span class="tag">{{ case.data.type }}</span>
+                <small>{{ case.date | date: "%Y" }}</small>
+              </div>
+            </div>
+          </div>
+          {% if case.data.status == "in-progress" %}</div>{% else %}</a>{% endif %}
+      {% endif %}
 
-    {% endfor %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="case-col">
+      {% for case in recentCases %}
+      {% assign mod = forloop.index0 | modulo: 2 %}
+      {% if mod == 1 %}
+
+      {% if case.data.size == "small" %}
+      {% if case.data.status == "in-progress" %}<div class="case-card-static">{% else %}<a href="{{ case.url }}"
+          class="case-card-link">{% endif %}
+          <div class="case-card-small label-bottom">
+            <div class="case-card-small-image" {% if case.data.scrub-images %}
+              data-scrub-images="{{ case.data.scrub-images | join: ',' }}" {% endif %}>
+              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+            </div>
+            <div class="case-card-small-content">
+              <h2>{{ case.data.title }}</h2>
+              <div class="case-card-meta">
+                <span class="tag">{{ case.data.type }}</span>
+                <small>{{ case.date | date: "%Y" }}</small>
+              </div>
+            </div>
+          </div>
+          {% if case.data.status == "in-progress" %}</div>{% else %}</a>{% endif %}
+      {% else %}
+      {% if case.data.status == "in-progress" %}<div class="case-card-static">{% else %}<a href="{{ case.url }}"
+          class="case-card-link">{% endif %}
+          <div class="case-card-large">
+            <div class="case-card-large-image">
+              <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
+            </div>
+            <div class="case-card-large-content">
+              <h2>{{ case.data.title }}</h2>
+              <p>{{ case.data.excerpt }}</p>
+              <div class="case-card-meta">
+                <span class="tag">{{ case.data.type }}</span>
+                <small>{{ case.date | date: "%Y" }}</small>
+              </div>
+            </div>
+          </div>
+          {% if case.data.status == "in-progress" %}</div>{% else %}</a>{% endif %}
+      {% endif %}
+
+      {% endif %}
+      {% endfor %}
+    </div>
+
   </div>
 </section>
 
@@ -118,7 +171,7 @@ layout: layout.html
 </section>
 
 <section>
-  <div class="framed" id="contact">
+  <div id="contact">
     <h2>Contact me</h2>
     <p><a href="https://www.linkedin.com/in/nastia-tulayeva/">LinkedIn</a>
       | <a href="mailto:nasta.tulayeva@gmail.com?subject=Hey!%20Reaching%20Out%20from%20Your%20Website">Email</a>

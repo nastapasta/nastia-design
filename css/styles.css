@@ -803,8 +803,15 @@ footer {
 .case-card-link {
   text-decoration: none;
   display: block;
-  break-inside: avoid;
-  margin-bottom: calc(var(--space-lg) * 1.5);
+}
+
+.case-card-static {
+  display: block;
+  cursor: default;
+}
+
+.case-col {
+  gap: calc(var(--space-lg) * 1.5);
 }
 
 
@@ -821,16 +828,23 @@ footer {
   transform: scale(1.03);
 }
 
-/* Case Grid — masonry tile layout */
-.case-grid-horizontal {
-  column-count: 2;
-  column-gap: var(--space-lg);
+/* Case Grid — two independent columns */
+.case-columns {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: flex-start;
   margin-bottom: 3rem;
 }
 
+.case-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 600px) {
-  .case-grid-horizontal {
-    column-count: 1;
+  .case-columns {
+    flex-direction: column;
   }
 }
 
