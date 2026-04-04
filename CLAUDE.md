@@ -27,15 +27,27 @@ The grid (`#projects` in `index.html`) uses two explicit flex columns (`.case-co
 Controlled by `size` in each case's front matter:
 
 - **`size: large`** — image on top (4:3), title + excerpt + tag + year below
-- **`size: small`** — image on left (1:1, 58% width), title + tag + year on right. Right column small cards get the `label-bottom` class (meta pushed to bottom of text block).
+- **`size: small`** — image on left (1:1, 58% width), title + tag + year on right (meta always directly below title).
 
 ### Hover scrubbing
 
 Small cards can cycle through images as the user moves the cursor left→right. Add `scrub-images` to front matter with a list of image paths. The card image div gets a `data-scrub-images` attribute; a script at the bottom of `index.html` handles the interaction (preloads on mouseenter, swaps src on mousemove, resets on mouseleave).
 
+### In-progress cards
+
+Add `status: in-progress` to a case's front matter to render it as a non-interactive tile — no link, no hover, no image zoom. Uses a `<div class="case-card-static">` wrapper instead of `<a>`.
+
+## Layout
+
+- Content max-width: `1280px` (`.content-wrapper`, `.nav-container`)
+- Home intro hgroup is narrowed to 70% on desktop via `.home-intro` class — scoped only to `index.html`, does not affect case or note headers
+- Hgroup classes: `.case-header` (case layout), `.note-header` (note layout), `.home-intro` (index only)
+
 ## Case files
 
 Located in `cases/`. Required front matter fields: `title`, `date`, `tags: case`, `layout: case-layout.html`, `image`, `image-bg`, `type`, `size`.
+
+Optional fields: `status: in-progress`, `scrub-images` (list of image paths).
 
 ## Utility CSS classes
 
