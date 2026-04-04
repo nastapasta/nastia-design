@@ -21,7 +21,7 @@ html {
 }
 
 .content-wrapper {
-  max-width: 1020px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -37,7 +37,7 @@ html {
   margin-top: var(--space-lg);
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1280px) {
   .content-wrapper {
     padding: 0 var(--space-sm) var(--space-sm) var(--space-sm);
   }
@@ -78,7 +78,7 @@ hr.solid {
 }
 
 .nav-container {
-  max-width: 1020px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -196,6 +196,12 @@ body {
 
 hgroup {
   margin: var(--space-lg) 0 var(--space-lg) 0;
+}
+
+@media (min-width: 1024px) {
+  .home-intro {
+    max-width: 70%;
+  }
 }
 
 h1 {
@@ -912,10 +918,6 @@ footer {
   flex: 1;
   display: flex;
   flex-direction: column;
-}
-
-.case-card-small.label-bottom .case-card-small-content {
-  justify-content: space-between;
 }
 
 .case-card-small-content h2 {

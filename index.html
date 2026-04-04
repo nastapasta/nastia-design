@@ -4,9 +4,9 @@ layout: layout.html
 
 <div class="medium-divider"></div>
 
-<hgroup style="padding-top: 4rem;">
+<hgroup class="home-intro" style="padding-top: 4rem;">
   <h1>Hi, I am <em>Nastia&nbsp;Tulayeva</em>.<br> I design digital things that people interact with.</h1>
-  <p class="subheader">Product designer with 5 years of experience, I work on products from concept to launch.
+  <p class="subheader">Product designer with 5 years of experience, I work on products from concept to launch.
     I design products and lead the brand at <a href="https://thenorm.design/">The Norm</a>.
   </p>
   <div class="large-divider"></div>
@@ -71,7 +71,7 @@ layout: layout.html
       {% if case.data.size == "small" %}
       {% if case.data.status == "in-progress" %}<div class="case-card-static">{% else %}<a href="{{ case.url }}"
           class="case-card-link">{% endif %}
-          <div class="case-card-small label-bottom">
+          <div class="case-card-small">
             <div class="case-card-small-image" {% if case.data.scrub-images %}
               data-scrub-images="{{ case.data.scrub-images | join: ',' }}" {% endif %}>
               <img src="{{ case.data.image-bg }}" alt="{{ case.data.title }}">
