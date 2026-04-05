@@ -5,9 +5,13 @@ tags: case
 excerpt: T-shirts for Coherent Solutions mobile practice. Each platform deserves their own tee.
 layout: case-layout.html
 image: "/images/case-studies/mobile-merch/mobile-merch-main-image.png"
-image-bg: "/images/case-studies/mobile-merch/mobile-merch-main-image-bg.png"
+image-bg: "/images/case-studies/mobile-merch/mobile-merch-main-image-bg-1.png"
 type: Graphic Design
 size: small
+scrub-images:
+  - "/images/case-studies/mobile-merch/mobile-merch-main-image-bg-1.png"
+  - "/images/case-studies/mobile-merch/mobile-merch-main-image-bg-2.png"
+  - "/images/case-studies/mobile-merch/mobile-merch-main-image-bg-3.png"
 ---
 Mobile dev practice lead and I decided that developers for each platform deserved their own T-shirt design.
 

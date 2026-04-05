@@ -863,6 +863,7 @@ footer {
 /* Case study body */
 
 @media (min-width: 821px) {
+
   .case-body>h2,
   .case-body>h3,
   .case-body>h4,
@@ -939,15 +940,16 @@ footer {
 
 .case-ui-video-box {
   margin: auto;
+  height: 100%;
 }
 
 .case-ui-video {
   border-radius: 36px;
-  max-height: 480px;
+  max-height: 600px;
 }
 
 .case-ui-copy {
-  width: 50%;
+  width: 30%;
   border-radius: 40px;
 }
 
