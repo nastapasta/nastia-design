@@ -34,7 +34,7 @@
     <!-- The checkbox comes before the icon and menu -->
     <input type="checkbox" id="nav-toggle" class="nav-toggle" />
     <label for="nav-toggle" class="nav-icon">&#9776;</label>
-    <ul class="nav-links" style="margin: 1.5rem 0 1.5rem 0;">
+    <ul class="nav-links" style="margin: 1.2rem 0 1.2rem 0;">
       <li><a href="/#projects">Design</a></li>
       <li><a href="/garden/">The Garden</a></li>
       <li><a href="/now/">Now</a></li>
@@ -109,6 +109,12 @@
         margin-top: 0;
     }
 
+    @media (min-width: 769px) {
+        .cv-content {
+            max-width: 480px;
+        }
+    }
+
     /* Mobile: vertical layout, image on top */
     @media (max-width: 768px) {
         .cv-layout {
@@ -132,7 +138,7 @@
 
 <div class="cv-layout">
     <div class="cv-image">
-        <img src="/images/portrait.jpg" alt="Nastia Tulayeva">
+        <img src="/images/portrait.png" alt="Nastia Tulayeva">
     </div>
 
     <div class="cv-content">
