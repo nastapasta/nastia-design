@@ -2,21 +2,9 @@
 
 Personal website and portfolio of Nastia Tulayeva — product designer with a background in architecture. Built with Eleventy (11ty), deployed from the `main` branch.
 
-## Current work in progress
-
-Redesigning the case studies section in `index.html` to better suit a crossdisciplinary portfolio. This work lives on the `redesign/case-studies` branch.
-
 ## Branch workflow
 
-- `main` — stable, deployable. Use for minor fixes, copy changes, style tweaks.
-- `redesign/case-studies` — active redesign of the projects section. Do all redesign work here.
-
-**Important:** When switching to a minor/unrelated task, switch to `main` first, make the fix there, then switch back to `redesign/case-studies`. Don't commit minor changes on the redesign branch.
-
-```bash
-git checkout main        # for minor fixes
-git checkout redesign/case-studies  # back to redesign work
-```
+- `main` — stable, deployable. All work goes here now that the case studies redesign is merged.
 
 ## Case grid
 
@@ -48,6 +36,14 @@ Add `status: in-progress` to a case's front matter to render it as a non-interac
 Located in `cases/`. Required front matter fields: `title`, `date`, `tags: case`, `layout: case-layout.html`, `image`, `image-bg`, `type`, `size`.
 
 Optional fields: `status: in-progress`, `scrub-images` (list of image paths).
+
+## Garden / Notes grid
+
+`garden.html` lists notes in a 3-column CSS columns layout (2 on tablet, 1 on mobile). Items flow top-to-bottom within each column, left column first — newest note at top-left. Each `.note-card` wrapper uses `break-inside: avoid` and `margin-bottom: 1.5rem`. Note: the `<h3>` inside each card also carries the `note-card` class (legacy), so use `.notes-grid > .note-card` (direct child selector) when adding column-level styles to avoid accidentally targeting the h3.
+
+## About page
+
+Two-column layout: photo left (50%, sticky), text right (50% flex basis, `max-width: 480px` on desktop). Mobile stacks vertically with photo on top at 60vh.
 
 ## Utility CSS classes
 

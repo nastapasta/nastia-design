@@ -494,10 +494,9 @@ h4 .footnote-ref {
   border-radius: 0.75rem;
   border: 1px solid var(--color-border-subtle);
   color: var(--color-text);
-  margin: 2rem auto;
-  width: 75%;
+  margin: auto;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.5rem 0 3rem 0;
   box-shadow: 0 2px 8px var(--color-shadow);
 }
 
@@ -631,22 +630,26 @@ footer {
 /* Notes Grid */
 
 .notes-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  columns: 3;
   gap: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
+.notes-grid>.note-card {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 1024px) {
   .notes-grid {
-    grid-template-columns: repeat(2, 1fr);
+    columns: 2;
   }
 }
 
 @media (max-width: 600px) {
   .notes-grid {
-    grid-template-columns: 1fr;
+    columns: 1;
   }
 }
 
