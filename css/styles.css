@@ -300,7 +300,13 @@ ul {
   font-weight: 400;
   margin-top: calc(1rem - var(--space-md));
   line-height: 1.6;
-  list-style: none;
+  list-style: disc outside;
+  padding-inline-start: 1.5em;
+}
+
+ul li::marker {
+  font-size: 0.6em;
+  color: var(--color-text-subtle);
 }
 
 .list-short {
@@ -313,7 +319,10 @@ ol {
   font-weight: 400;
   margin-top: calc(1rem - var(--space-md));
   line-height: 1.6;
+  list-style-position: outside;
+  padding-inline-start: 1.5em;
 }
+
 
 li {
   font-size: var(--font-size-p);
