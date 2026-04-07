@@ -48,7 +48,7 @@ Gloria Mark, a professor of information science at the University of California,
 As our attention fragments, the amount of information we consume keeps growing. In response, we’ve come up with personal knowledge management systems to manage the overflow: sticky notes, voice memos, messages to ourselves, Roam graphs, oldschool  Zettelkastens, or Tiago Forte’s PARA method.
 
 <figure>
-<img src="/images/case-studies/zettel/all-tools.png" alt="Books, notebooks, files and computers flying in the air" style="margin-bottom: 1rem;"><figcaption>Sometimes it feels like this.
+<img src="/images/case-studies/zettel/all-tools.png" alt="Books, notebooks, files and computers flying in the air" style="margin-bottom: 1rem; max-width: 800px";;"><figcaption>Sometimes it feels like this.
 </figcaption>
 </figure>
 
@@ -70,6 +70,10 @@ To understand how people manage their note taking processes, especially during r
 
 During the interviews, *three main user types* emerged in my sight:
 
+<figure>
+<img src="/images/case-studies/zettel/personas.png" style="margin-bottom: 1rem; max-width: 800px";>
+</figure>
+<!-- 
 <div class=three-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-user-curious.png">
@@ -86,7 +90,7 @@ During the interviews, *three main user types* emerged in my sight:
         <h3>The Researcher</h3>
         <p>Thorough.<br>Requires a solid system of sources.<br>Operates hundreds of files: books, pictures, links, maps.</p>
     </div>
-</div>
+</div> -->
 
 What they all shared:
 
@@ -105,9 +109,11 @@ What they all shared:
 <em>– One of the interview participants</em>
 </blockquote>
 
-From the interviews, four core problem areas stood out:
+<figure>
+<img src="/images/case-studies/zettel/problem-areas.png" style="margin-bottom: 1rem; max-width: 800px";>
+</figure>
 
-<div class=two-grid>
+<!-- <div class=two-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-recalling.png">
         <h3>Issues with recalling</h3>
@@ -128,7 +134,7 @@ From the interviews, four core problem areas stood out:
         <h3>Fear of a clean slate</h3>
         <p>“Do I need to figure out my whole system before I even start?”</p>
     </div>
-</div>
+</div> -->
 
 How might we…
 
@@ -142,7 +148,11 @@ How might we…
 
 ## Zettel offers a more intuitive, assisted way of connecting thoughts
 
-<div class=two-grid>
+<figure>
+<img src="/images/case-studies/zettel/solutions.png" style="margin-bottom: 1rem; max-width: 800px";>
+</figure>
+
+<!-- <div class=two-grid>
     <div>
         <img class=small-grid-image src="/images/case-studies/zettel/grid-recalling-help.png">
         <h3>Assisted structuring</h3>
@@ -163,7 +173,7 @@ How might we…
         <h3>Easy input</h3>
         <p>Initially 'flat' structure. No need to bother where to create a new file.</p>
     </div>
-</div>
+</div> -->
 
 </section>
 
