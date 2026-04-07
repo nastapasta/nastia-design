@@ -12,7 +12,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Spokn AI Success Intelligence">
-    <meta property="og:description" content="Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ sales agents seats">
+    <meta property="og:description" content="Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ agent licenses">
     <meta property="og:type" content="website">
     <meta property="og:url" content="/cases/spokn-ai-si/">
     <meta property="og:image" content="/images/og-image.png">
@@ -20,7 +20,7 @@
     <!-- Optional: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Spokn AI Success Intelligence">
-    <meta name="twitter:description" content="Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ sales agents seats">
+    <meta name="twitter:description" content="Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ agent licenses">
     <meta name="twitter:image" content="/images/og-image.png">
 </head>
 
@@ -52,7 +52,7 @@
                 <div class="word-tag">
                     <span class="tag"> Web Application </span>
                 </div>
-                <p class="subheader">Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ sales agents seats</p>
+                <p class="subheader">Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ agent licenses</p>
             </div>
             <img class="case-main-image" src="/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture.png" alt="Spokn AI Success Intelligence">
         </hgroup>
@@ -60,7 +60,7 @@
         <div class="medium-divider"></div>
 <h2>About</h2>
 <p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
-<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborated closely with engineers, analysts, and business stakeholders.</p>
+<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborating closely with engineers, analysts, and business stakeholders.</p>
 <section class="note-section">
 <div class="brief">
 <div class="brief-grid">
@@ -79,60 +79,49 @@
 </section>
 <section class="note-section">
 <h2>Challenge</h2>
-<p>Success Intelligence is a tool to help managers understand how sales reps handle objections and where they need support.</p>
-<p>Sales manager's challenges:</p>
-<ul>
-<li>understand customer objections and effective handling strategies,</li>
-<li>measure sales agent performance,</li>
-<li>improve training, support, and job satisfaction in contact centres.</li>
-</ul>
+<p class="large-p framed"> Sales rep performance is the primary revenue driver for contact center businesses — yet managers had almost no systematic way to understand what was working and what wasn't.</p>
+<p>The default workflow: listen to a handful of calls manually, try to spot patterns, and coach based on instinct. With hundreds of interactions happening daily, this meant problems compounded in silence. By the time an issue became visible — a drop in conversion, a rep struggling — it was already late.</p>
+<p>Three things were going wrong:</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-problems.png" alt="Three problem cards: no visibility into trends, coaching was guesswork, time went to the wrong place" style="margin-bottom: 1rem; max-width: 800px";"><figcaption>Three core problems driving the design
+</figcaption>
+</figure>
+<!-- - **No visibility into trends.** Managers saw individual calls, not patterns. Objection themes, recurring failure points, and team-wide blind spots were invisible.
+- **Coaching was guesswork.** Without data, managers couldn't pinpoint where a rep needed help — or what "good" looked like in practice.
+- **Time went to the wrong place.** Hours spent on manual call sampling rarely turned into actionable insight. -->
 </section>
 <section class="note-section">
 <h2>Approach</h2>
-<p>After a design sprint involving the whole team, we found the initial solution ideas.</p>
-<figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint.png" alt="FigJam board screenshot" class="post-image"><figcaption>Our FigJam Design Sprint activities throughout a week
-</figcaption>
-</figure>
-<figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-design-sprint-sketches.png" alt="Data visualization sketches screenshot" class="post-image"><figcaption>My sketches from our Design Sprint: crazy 8's of objection reasons visualizations
-</figcaption>
-</figure>
-<h3>Discover</h3>
-<p>In the tight timeline, we used findings from prior custdev interviews and client feedback on the first release of Spokn AI.</p>
-<p>What stood out:</p>
-<ol>
-<li>Outbound sales drive revenue — making them the key focus in optimization.</li>
-<li>Objection handling is a blind spot — managers knew it mattered, but lacked tools to track and coach it effectively.</li>
-<li>Agents often get blamed for low success rates, without enough context to understand systemic issues like pricing, targeting, or product-market fit.</li>
-</ol>
-<h3>Define</h3>
-<p>Based on the insights, we identified the main user problems:</p>
+<h3>Research &amp; framing</h3>
+<p>Working from prior custdev interviews and client feedback on the first Spokn AI release, two things stood out:</p>
 <ul>
-<li>It’s hard to locate the most important parts of a call.</li>
-<li>Coaching lacks precision—managers don’t know exactly where reps struggle or succeed</li>
-<li>There’s no overview of objection trends—so training is often reactive, not proactive</li>
+<li>Objection handling was a known blind spot with no tooling around it.</li>
+<li>Agents were often blamed for systemic issues — pricing, targeting, product-market fit — that were outside their control.</li>
 </ul>
+<p>After a design sprint involving the whole team, we were looking for the initial solution ideas.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-sprint.png" alt="FigJam board with design sprint activities: HMW notes, voting dots, and sketches across multiple frames"><figcaption>A week-long design sprint — from problem framing to early solution concepts
+</figcaption>
+</figure>
+<p>Research pointed to three core design problems we found ourselves solving:</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-solutions.png" alt="Diagram mapping three user problems to three product solution areas" style="margin-bottom: 1rem; max-width: 600px";><figcaption>From problems to product increments: Objection Mapping, Performance Analytics, AI Insights
+</figcaption>
+</figure>
 <h3>Develop</h3>
-<p>We broke the product down into three clear increments:</p>
-<ul>
-<li><em>Objection Mapping</em> to help define and track common objection themes</li>
-<li><em>Performance Analytics</em> to show how agents handle these objections</li>
-<li><em>AI Insights</em> to surface patterns and guidance based on deeper transcript analysis</li>
-</ul>
-<p>The problems we faced:</p>
-<ul>
-<li>some “successful” calls didn’t align with the patterns in transcript data—sales charisma is hard to measure;</li>
-<li>legal/privacy constraints meant we had to train our own custom LLMs, slowing things down;</li>
-<li>manual mapping of objections from real transcripts was time-consuming but necessary.</li>
-</ul>
-<h3>Deliver</h3>
-<p>We designed a toolset that helps contact center managers understand what’s going wrong, who needs support and why. The solution had four main components:</p>
-<ul>
-<li><strong>dashboard</strong> switching focus from agents to objections;</li>
-<li><strong>interaction</strong> details highlighting the objections there;</li>
-<li>and <strong>Spokn AI Spotlight</strong> – providing AI insights based on the data.</li>
-</ul>
+<p>We broke the product into three increments: <em>Objection Mapping</em>, <em>Performance Analytics</em>, and <em>AI Insights</em> — building from structured data toward deeper intelligence. The key design decision came early: the dashboard.</p>
+<p>One early concept visualized agent performance across each objection type as a scatterplot grid — volume of calls vs. conversion rate, per objection. It showed at a glance who was handling &quot;Too Expensive&quot; well and who wasn't.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-scatterplot.png" alt="Scatterplot grid showing agent performance per objection type — volume of calls vs. conversion rate for each objection" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Explored concept: each objection as a scatterplot of agent volume vs. conversion rate
+</figcaption>
+</figure>
+<p>The PM flagged it as too complex for the target users, and we moved toward simpler tabular views.</p>
+<p>We split the dashboard into two tabs — same underlying data, two lenses. The Objections tab to surface environmental patterns; the Performance tab to zoom in on people. That framing also shaped how managers would actually use it: diagnose the trend first, then find who needs support.</p>
+<figure>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-ai-progress.png" alt="FigJam board showing design iterations and progression toward the final dashboard layout"><figcaption>Design iterations across the three product increments
+</figcaption>
+</figure>
+<p>One constraint that shaped the timeline: legal and privacy requirements meant we couldn’t use off-the-shelf LLMs — we had to train custom models on our own data, which slowed the AI Insights phase considerably.</p>
 </section>
 <section class="note-section">
 <h2>Solution</h2>
@@ -145,18 +134,17 @@
 </figure>
 <p>The Performance tab emphasizes the success rate of the teams, campaigns and separate agents. Thanks to this, the manager can provide training and coaching to the ones who need it the most, and connect the strongest members of the teams with the ones needing support.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-perf.png" alt="Objections Dashboard with metrics ribbon and tables" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption><em>Who’s responsible?</em> Performance tab
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-perf.png" alt="Performance tab showing success rate metrics for teams, campaigns, and individual agents" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption><em>Who’s responsible?</em> Performance tab
 </figcaption>
 </figure>
-<p>Equal attention to agents, teams, campaigns and objections themselves lead to horizontal information structure with access to details overlay for each entity.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-details.png" alt="Objections details table" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-details.png" alt="Dashboard showing detail rows for agents, teams, and campaigns with sortable columns" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Horizontal information structure — same layout for agents, teams, and campaigns
 </figcaption>
 </figure>
 <h3>Objections details</h3>
 <p>Objection details overlay provides a view on its frequency and the efforts in handling them.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-objection.png" alt="Objections details table" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-objection.png" alt="Objection details overlay showing frequency trend and handling efforts breakdown" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Objection details overlay — frequency over time and how agents are handling it
 </figcaption>
 </figure>
 </section>
@@ -164,7 +152,7 @@
 <h3>Interaction details</h3>
 <p>Objections are highlighted in the interaction analysis: the user can jump right to them, find them in the transcript and examine its details.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-objection-player.png" alt="Objections shown on the interaction timeline" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-objection-player.png" alt="Call player interface with objections marked on the audio timeline and highlighted in the transcript" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Objections surfaced in context — jump to the moment in the call, read it in the transcript
 </figcaption>
 </figure>
 </section>
@@ -172,12 +160,12 @@
 <h3>AI insights — Spokn AI Spotlight</h3>
 <p>The final, and the most fun part of the service was supposed to be AI insights page based on patterns the model finds in the conversations data.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-ai-current.png" alt="Objections shown on the interaction timeline" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-ai-current.png" alt="AI Insights page showing auto-generated summaries and pattern cards from conversation data" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Spokn AI Spotlight — shipped version: automated insight cards from conversation patterns
 </figcaption>
 </figure>
 <p>This is what we wanted to look like in the end: general insights combined with on-demand analysis of very detailed requests and questions based on analytics of backend data and transcripts content.</p>
 <figure>
-<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-to-be.png" alt="Objections shown on the interaction timeline" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>
+<img src="/images/case-studies/spokn-ai-si/spokn-ai-si-to-be.png" alt="Vision concept for AI Insights with a conversational query interface alongside automated pattern analysis" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Target vision: on-demand analysis via natural language, grounded in call data and transcripts
 </figcaption>
 </figure>
 </section>
@@ -187,14 +175,15 @@
 <blockquote>As a business, we are very committed to Al and the value it brings. We've found a lot of use in Spokn Al, the speech transcription and summarisation feature has been a massive help.
 <p><em>— Call centre manager of one of the customers</em></p>
 </blockquote>
-<p>While I didn’t stay to support the development stage, I’m proud of the foundation we built. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.</p>
+<p>I handed off production-ready mockups before my engagement ended — our part of the team was let go due to budget cuts. The early impact validated our shift in direction—from raw transcript analytics to targeted sales support.</p>
 <blockquote>Nastya's ability to balance creativity with practical constraints, along with her proactive engagement across teams, was instrumental in the project's success. (...) I highly recommend Nastya for any team looking to advance their product offerings. Her expertise, initiative, and collaborative spirit make her an asset in any fast-paced environment.
 <p><em>— Drew Naylor, Product Manager at MaxContact</em></p>
 </blockquote>
 </section>
 <section class="note-section">
 <h2>Reflection</h2>
-<p>This project pushed me to adapt quickly, navigate ambiguity, and align technical possibilities with real user needs.</p>
+<p>Honestly, this was a tough one. I was the only designer on the project, with no mentor, navigating a strong PM, a tight timeline, and research I hadn't run myself. Not the most comfortable conditions to do your best work.</p>
+<p>But it was also the first time a client team gave me this level of trust and ownership — and that meant a lot. Looking back, I can see where my visual design skills have grown since. Still, when the devs mentioned it was one of the nicest UIs they'd worked with, I held onto that.</p>
 </section>
 
         </div>

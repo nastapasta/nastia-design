@@ -2,7 +2,7 @@
 title: Spokn AI Success Intelligence
 date: 2024-10-01
 tags: case
-excerpt: Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ sales agents seats
+excerpt: Solution for deeper understanding of sales rep's successes and failures, delivered in 5 months and securing 100+ agent licenses
 layout: case-layout.html
 image: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture.png"
 image-bg: "/images/case-studies/spokn-ai-si/spokn-ai-si-main-picture-bg.png"
@@ -16,7 +16,7 @@ size: large
 
 <p><b>Client:</b> MaxContact, a contact center software company serving businesses with contact center teams. Previous episode: <a href="/cases/spokn-ai-speech-analytics/">On how I stopped worrying and embraced generative AI</a>.</p>
 
-<p>Success Intelligence is a tool to help managers understand how sales reps handle objections and where they need support. I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborated closely with engineers, analysts, and business stakeholders.</p>
+<p>I led UX strategy, research synthesis, and design execution, from early concepts to developer handoff, collaborating closely with engineers, analysts, and business stakeholders.</p>
 
 <section class="note-section">
 <div class="brief">
@@ -125,8 +125,6 @@ The Performance tab emphasizes the success rate of the teams, campaigns and sepa
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-perf.png" alt="Performance tab showing success rate metrics for teams, campaigns, and individual agents" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption><em>Who’s responsible?</em> Performance tab
 </figcaption>
 </figure>
-
-Equal attention to agents, teams, campaigns and objections themselves lead to horizontal information structure with access to details overlay for each entity.
 
 <figure>
 <img src="/images/case-studies/spokn-ai-si/spokn-ai-si-dashboard-details.png" alt="Dashboard showing detail rows for agents, teams, and campaigns with sortable columns" class="no-bg-image" style="margin-bottom: 1rem;"><figcaption>Horizontal information structure — same layout for agents, teams, and campaigns

@@ -30,7 +30,7 @@
 
   /* Background colors */
   --color-background: var(--white);
-  --color-background-framed: var(--thin-gray);
+  --color-background-framed: var(--white);
   --color-background-subtle: var(--thin-gray);
   --color-background-accent: var(--yellow);
 
