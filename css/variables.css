@@ -8,25 +8,18 @@
   --light-gray: #ced2d3;
   --gray: #7d8082;
   --dimgray: #b6babc;
-  --teal: #057d7d;
   --blue: #370281;
-  --teal-light: #e6f2f2;
-  --blue-light: #e3f2ff;
   --darkred: #8b0000;
-  --blue-dark: #1c113f;
   --yellow: #fff8bf;
 
 
   /* Text colors */
   --color-text: var(--black);
-  --color-text-heading: var(--black);
   --color-text-subtle: var(--gray);
   --color-text-subheading: var(--dimgray);
   --color-text-accent: var(--blue);
   --color-text-negative: var(--darkred);
   --color-link: var(--blue);
-  --color-link-visited: var(--blue-dark);
-  --color-link-hover: var(--thin-gray);
 
   /* Background colors */
   --color-background: var(--white);
@@ -57,7 +50,6 @@
   --font-size-p: clamp(1rem, 2.2vw, 1.25rem);
   --font-size-small: clamp(0.9rem, 1.5vw, 1rem);
   --font-size-large-p: clamp(1.3rem, 3vw, 1.5rem);
-  --font-size-blockquote: clamp(1.2rem, 3vw, 1.4em);
 }
 
 /* Spacing Scale */

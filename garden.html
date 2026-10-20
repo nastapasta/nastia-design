@@ -14,20 +14,6 @@ title: The Garden
 
   <div class="large-divider"></div>
 
-  <div style="display: none;">
-    <h2>Essays</h2>
-    <p>Opinionated thoughts and narratives.</p>
-    <div class="essays-grid">
-      {% for essay in collections.essay %}
-      <div class="essay-card">
-        <h3><a href="{{ essay.url }}">{{ essay.data.title }}</a></h3>
-        <p>{{ essay.data.excerpt }}</p>
-        <small>Published on {{ essay.date | date: "%B %d, %Y" }}</small>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-
   <div>
     <h2>Notes</h2>
     <!-- <p class="subheader-small">Raw searches and braindump around any topic.</p> -->

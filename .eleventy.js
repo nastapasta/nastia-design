@@ -1,6 +1,10 @@
 const path = require("path");
 
 module.exports = function (eleventyConfig) {
+  // Repo docs, not site pages
+  eleventyConfig.ignores.add("CLAUDE.md");
+  eleventyConfig.ignores.add("README.md");
+
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
