@@ -16,7 +16,7 @@
   /* Text colors */
   --color-text: var(--black);
   --color-text-subtle: var(--gray);
-  --color-text-subheading: var(--dimgray);
+  --color-text-subheading: var(--gray);
   --color-text-accent: var(--blue);
   --color-text-negative: var(--darkred);
   --color-link: var(--blue);

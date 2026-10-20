@@ -74,8 +74,12 @@ hr.solid {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 1rem;
   font-family: sans-serif;
+}
+
+.nav-logo {
+  flex-shrink: 0;
 }
 
 .nav-logo a {
@@ -87,76 +91,54 @@ hr.solid {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 0;
+  /* Last item's side border would otherwise push the links inward */
+  margin: 0 -0.5rem 0 0;
+  padding: 0;
+  min-width: 0;
+  /* Scrolls sideways on very narrow screens instead of wrapping */
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-links li {
+  margin-bottom: 0;
 }
 
 .nav-links li a {
+  display: block;
   text-decoration: none;
   padding: 0.4rem;
+  /* Transparent border widens the tap area to the full menu height and
+     closes the gaps between items; the hover background stays the old pill */
+  border: solid transparent;
+  border-width: 1.1rem 0.5rem;
+  background-clip: padding-box;
+  /* Matches the old inline link, so the hover pill keeps its height */
+  line-height: 1.3;
   font-weight: 400;
   font-size: var(--font-size-p);
   color: inherit;
-  border-radius: 12px;
+  /* 12px visible radius on the padding box, plus the border widths */
+  border-radius: calc(12px + 0.5rem) / calc(12px + 1.1rem);
   transition: color 1s ease, background-color 1s ease;
 }
 
+.nav-links li a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.05rem;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: color-mix(in srgb, currentColor 20%, transparent);
+}
+
 .nav-links li a:hover {
-  background: var(--color-background-subtle);
+  background-color: var(--color-background-subtle);
   transition: none;
-}
-
-.nav-icon {
-  display: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-@media (max-width: 600px) {
-
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
-  .nav-icon {
-    display: block;
-  }
-
-  .nav-toggle:checked+.nav-icon+.nav-links {
-    display: flex;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    margin-top: 0.2rem;
-    margin-bottom: 2rem;
-    padding-inline-start: 0;
-  }
-
-  .nav-links li {
-    text-align: center;
-    padding-inline-start: 0;
-  }
-}
-
-@media (min-width: 601px) {
-  .nav-links {
-    display: flex !important;
-    flex-direction: row;
-    text-align: center;
-    padding-inline-start: 0;
-  }
-
-  .nav-icon {
-    display: none;
-  }
 }
 
 /* Section Styles */
@@ -375,6 +357,8 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 0.05rem;
   text-underline-offset: 0.2rem;
+  /* Underline is the link colour at 20% opacity */
+  text-decoration-color: color-mix(in srgb, currentColor 20%, transparent);
   color: var(--color-link);
   border-radius: 4px;
 }
@@ -643,6 +627,7 @@ footer {
 .note-card a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.05rem;
+  text-decoration-color: color-mix(in srgb, currentColor 20%, transparent);
 }
 
 /* Note subheader */
