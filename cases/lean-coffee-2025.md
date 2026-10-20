@@ -2,6 +2,7 @@
 title: UX Lean Coffee Season 2025
 date: 2025-11-20
 tags: case
+permalink: /cases/lean-coffee-2025/
 excerpt: Designs for Lean Coffee announcements I made for every event I facilitated
 layout: case-layout.html
 image: "/images/case-studies/lean-coffee-2025/lean-coffee-2025-main-picture.png"

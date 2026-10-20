@@ -31,6 +31,12 @@ Add `status: in-progress` to a case's front matter to render it as a non-interac
 - Home intro hgroup is narrowed to 70% on desktop via `.home-intro` class — scoped only to `index.html`, does not affect case or note headers
 - Hgroup classes: `.case-header` (case layout), `.note-header` (note layout), `.home-intro` (index only)
 
+## Cases are currently hidden
+
+The case pages are not built: `cases/cases.json` has `"permalink": false`, and the projects grid in `index.html` is wrapped in `{% comment %}…{% endcomment %}`. The case files and images are still in the repo.
+
+To restore: remove the `"permalink": false` line from `cases/cases.json`, and delete the `{% comment %}` / `{% endcomment %}` tags around the `<section>` containing `#projects` in `index.html`. Re-add the "Projects" nav link in the home intro if wanted. Note that `images/` is passthrough-copied, so case images remain reachable by direct URL while hidden.
+
 ## Case files
 
 Located in `cases/`. Required front matter fields: `title`, `date`, `tags: case`, `layout: case-layout.html`, `image`, `image-bg`, `type`, `size`.

@@ -1,4 +1,5 @@
 {
     "layout": "case-layout.html",
-    "tags": "case"
+    "tags": "case",
+    "permalink": false
 }

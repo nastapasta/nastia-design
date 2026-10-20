@@ -171,8 +171,8 @@ hr.solid {
 /* Section Styles */
 
 section {
-  margin-top: 4rem;
-  margin-bottom: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .note-section {
@@ -493,7 +493,7 @@ h4 .footnote-ref {
   border-width: 0.5px;
   border-radius: 0.5rem;
   color: var(--color-text);
-  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  padding: 1.2rem 1.6rem 1.6rem 1.2rem;
   margin-bottom: 2rem;
   box-shadow: 0px 2px 8px 0 rgba(119, 119, 119, 0.2);
 }
@@ -1061,4 +1061,9 @@ td {
   border-color: var(--color-border-gray);
   border-style: solid;
   border-width: 0.75px 0 0 0;
+}
+
+.list-plain {
+  list-style: none;
+  padding-inline-start: 1.5em;
 }
