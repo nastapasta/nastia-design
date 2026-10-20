@@ -28,7 +28,8 @@
 
 {% include "header.html" %}
 
-<main class="note-wrapper">
+<main class="note-wrapper grid-12">
+  <div class="col-text">
   <hgroup>
     <small><a href="/now/">← Now</a></small>
     <h1>{{ title | default: "Untitled" }}</h1>
@@ -43,7 +44,8 @@
       </div>
     </div>
   </hgroup>
-  {{ content }} 
+  {{ content }}
+  </div>
 </main>
 
 

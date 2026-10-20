@@ -28,7 +28,7 @@ Add `status: in-progress` to a case's front matter to render it as a non-interac
 ## Layout
 
 - Content max-width: `1280px` (`.content-wrapper`, `.nav-container`)
-- Home intro hgroup is narrowed to 70% on desktop via `.home-intro` class — scoped only to `index.html`, does not affect case or note headers
+- Home intro hgroup (`.home-intro`) is a subgrid of the 12-column `.grid-12`: photo in column 2, h1 and subheader in columns 3–10 — scoped only to `index.html`, does not affect case or note headers
 - Hgroup classes: `.case-header` (case layout), `.note-header` (note layout), `.home-intro` (index only)
 
 ## Cases are currently hidden
@@ -46,10 +46,6 @@ Optional fields: `status: in-progress`, `scrub-images` (list of image paths).
 ## Garden / Notes grid
 
 `garden.html` lists notes in a 3-column CSS columns layout (2 on tablet, 1 on mobile). Items flow top-to-bottom within each column, left column first — newest note at top-left. Each `.note-card` wrapper uses `break-inside: avoid` and `margin-bottom: 1.5rem`. Note: the `<h3>` inside each card also carries the `note-card` class (legacy), so use `.notes-grid > .note-card` (direct child selector) when adding column-level styles to avoid accidentally targeting the h3.
-
-## About page
-
-Two-column layout: photo left (50%, sticky), text right (50% flex basis, `max-width: 480px` on desktop). Mobile stacks vertically with photo on top at 60vh.
 
 ## Utility CSS classes
 
