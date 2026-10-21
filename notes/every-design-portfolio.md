@@ -8,17 +8,12 @@ phase: Seedling
 layout: note-layout.html
 ---
 
-<section>
-
 Every design portfolio says something like this:
 <ul class="list-plain">
   <li>“I became a designer because I love turning ambiguity into focus.”</li>
   <li>“I’m a designer because I want to make people’s lives easier.”</li>
   <li>“My purpose is to sweat over details.”</li>
 </ul>
-
-</section>
-<section>
 
 I want to see portfolios with truth. My option for my updated portfolio:
 
@@ -30,4 +25,3 @@ I want to see portfolios with truth. My option for my updated portfolio:
 </ul>
 
 Why are you who you are?
-</section>
