@@ -53,7 +53,7 @@ html {
 }
 
 hr.solid {
-  border: 1px solid var(--color-border-subtle);
+  border: 1px solid var(--color-border-thin);
 }
 
 /* Navigation */
@@ -810,7 +810,7 @@ footer {
   line-height: 1.2;
 }
 
-.case-header > div {
+.case-header>div {
   grid-column: span 4;
 }
 
@@ -834,7 +834,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .case-header > div,
+  .case-header>div,
   .case-main-image {
     grid-column: 1;
   }
